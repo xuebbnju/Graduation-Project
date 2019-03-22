@@ -1,0 +1,102 @@
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,14,0,3,2,1,0.16,1,54,2,,isFilterEnabled getBooleanProperty get , archaiusPropertyFactory getBooleanProperty ,boolean ,matchesFilter ,ConfigurableCodaHaleMetricFilter,com netflix hystrix contrib codahalemetricspublisher,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,8,0,2,2,1,0.09,1,69,3,,getBooleanProperty get ,archaiusPropertyFactory getBooleanProperty ,boolean ,filterEnabled ,ConfigurableCodaHaleMetricFilter,com netflix hystrix contrib codahalemetricspublisher,debug
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,147,2,NoSuchFieldError,,,,,HystrixCodaHaleMetricsPublisherCollapser,com netflix hystrix contrib codahalemetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,147,2,NoSuchFieldError,,,,,HystrixCodaHaleMetricsPublisherCollapser,com netflix hystrix contrib codahalemetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,147,2,NoSuchFieldError,,,,,HystrixCodaHaleMetricsPublisherCommand,com netflix hystrix contrib codahalemetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,147,2,NoSuchFieldError,,,,,HystrixCodaHaleMetricsPublisherCommand,com netflix hystrix contrib codahalemetricspublisher,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,NoSuchFieldError,,,,,HystrixCodaHaleMetricsPublisherThreadPool,com netflix hystrix contrib codahalemetricspublisher,error
+Exception,CatchBlock, ,0,0,0,0,0,1,0,5,0,1,1,0,0,0,0,0,Throwable,unwrapCause , ,,,BatchHystrixCommand,com netflix hystrix contrib javanica command,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,10,0,4,2,0,0.11,1,83,1,,getExecutionType getCommandAction execute process ,  getCommandAction  ,,,GenericCommand,com netflix hystrix contrib javanica command,debug
+Exception,CatchBlock,debug,0,0,0,0,0,1,0,5,0,1,1,0,0.06,1,59,2,Throwable,unwrapCause , ,,,GenericCommand,com netflix hystrix contrib javanica command,error
+Exception,CatchBlock, ,0,0,0,0,0,1,0,5,0,2,0,0,0,0,0,0,Exception,getFallbackAction getCause ,commandActions e ,,,GenericObservableCommand,com netflix hystrix contrib javanica command,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,1,1,2,0,0,0,0,,add ,users ,List<User> String ,users id ,BasicCollapserTest,com netflix hystrix contrib javanica test common collapser,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,10,1,5,8,0,0.02,7,82,1,,compareAndSet error printStackTrace set scheduleWithFixedDelay ,running logger ex running executor ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,5,0,2,1,0,0.01,7,79,1,Throwable,printStackTrace set ,ex running ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,3,4,0,0.01,7,81,1,,compareAndSet debug cancel ,running logger scheduledTask ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,3,4,0,0.01,7,81,1,,compareAndSet debug cancel ,running logger scheduledTask ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,8,1,4,3,0,0.02,7,70,1,,isShutdown getSimpleName error shutdown ,executor HystrixMetricsPollerclass logger  ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,76,1,Exception,,,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,6,0,1,0,0,0.01,7,81,1,Exception,pause , ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,1,2,0,0.01,7,66,1,NoSuchFieldError,writeNumberField ,json ,,,HystrixMetricsPoller,com netflix hystrix contrib metrics eventstream,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,5,0,1,1,0,0,0,0,0,,set ,moreDataWillBeSent ,,,HystrixSampleSseServlet,com netflix hystrix contrib sample stream,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,5,0,1,1,0,0,0,0,0,,set ,moreDataWillBeSent ,,,HystrixStreamingOutputProvider,com netflix hystrix contrib metrics,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.03,1,102,3,Exception,,,,,HystrixRequestLogViaLoggerServletFilter,com netflix hystrix contrib requestservlet,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,2,0,1,0.04,1,52,2,,isCurrentThreadInitialized getCurrentRequest ,HystrixRequestContext HystrixRequestLog ,HystrixRequestLog ,log ,HystrixRequestLogViaLoggerServletFilter,com netflix hystrix contrib requestservlet,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,HystrixRequestLogViaResponseHeaderServletFilter,com netflix hystrix contrib requestservlet,warn
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherCollapser,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherCollapser,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherCommand,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherCommand,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherThreadPool,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,144,2,NoSuchFieldError,,,,,HystrixServoMetricsPublisherThreadPool,com netflix hystrix contrib servopublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,145,2,NoSuchFieldError,,,,,HystrixYammerMetricsPublisherCollapser,com netflix hystrix contrib yammermetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,145,2,NoSuchFieldError,,,,,HystrixYammerMetricsPublisherCollapser,com netflix hystrix contrib yammermetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,145,2,NoSuchFieldError,,,,,HystrixYammerMetricsPublisherCommand,com netflix hystrix contrib yammermetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,145,2,NoSuchFieldError,,,,,HystrixYammerMetricsPublisherCommand,com netflix hystrix contrib yammermetricspublisher,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,NoSuchFieldError,,,,,HystrixYammerMetricsPublisherThreadPool,com netflix hystrix contrib yammermetricspublisher,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.00,28,79,1,,isRecoverableError , ,,,AbstractCommand,com netflix hystrix,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,13,1,9,10,0,0.01,28,79,1,,markEvent addEvent getClass getLogMessagePrefix debug markEvent addEvent getClass getLogMessagePrefix ,eventNotifier executionResult cmd  logger eventNotifier executionResult cmd  ,,,AbstractCommand,com netflix hystrix,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,13,1,10,10,0,0.01,28,81,1,,name debug markEvent addEvent getClass getLogMessagePrefix markEvent addEvent getClass getLogMessagePrefix ,failureType logger eventNotifier executionResult cmd  eventNotifier executionResult cmd  ,,,AbstractCommand,com netflix hystrix,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,117,3,54,48,14,0.05,28,78,1,,isUnrecoverable isRecoverableError warn fallbackEnabled get handleFallbackDisabledByEmittingError setRequestContextIfNeeded shouldOutputOnNextEvents addEvent markEvent currentTimeMillis getStartTimestamp markEvent addEvent wrapWithOnErrorHook getExceptionFromThrowable currentTimeMillis getStartTimestamp name debug markEvent addEvent getClass getLogMessagePrefix debug markEvent addEvent getClass getLogMessagePrefix shouldNotBeWrapped error error getFallbackSemaphore compareAndSet release tryAcquire handleFallbackRejectionByEmittingError error isFallbackUserDefined getFallbackObservable onFallbackStart getFallbackObservable doOnEach lift lift doOnNext doOnCompleted onErrorResumeNext doOnTerminate doOnUnsubscribe wrapWithOnErrorHook getClass getLogMessagePrefix error ,  logger properties fallbackEnabled    executionResult eventNotifier System executionResult eventNotifier executionResult   System executionResult failureType logger eventNotifier executionResult cmd  logger eventNotifier executionResult cmd   Observable Observable  semaphoreHasBeenReleased fallbackSemaphore fallbackSemaphore  Observable   executionHook  fallbackExecutionChain doOnEach lift lift doOnNext doOnCompleted onErrorResumeNext doOnTerminate  this  Observable ,Action1<Notification< super R>> Action1<R> long Action0 Exception Exception long Exception Func1<Throwable Observable<R>> TryableSemaphore AtomicBoolean Action0 Observable<R> Exception ,setRequestContext markFallbackEmit latency markFallbackCompleted e fe latency toEmit handleFallbackError fallbackSemaphore semaphoreHasBeenReleased singleSemaphoreRelease fallbackExecutionChain e ,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,9,0,3,8,1,0.00,28,80,1,,setExecutionException markEvent getFallbackOrThrowException ,executionResult eventNotifier  ,Exception ,semaphoreRejectionException ,AbstractCommand,com netflix hystrix,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Exception,,,,,AbstractCommand,com netflix hystrix,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.00,28,77,1,,,,,,AbstractCommand,com netflix hystrix,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,13,0,3,8,0,0.01,28,79,1,,markEvent setException getFallbackOrThrowException ,eventNotifier executionResult  ,,,AbstractCommand,com netflix hystrix,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,8,0,7,5,1,0.00,28,81,1,,currentTimeMillis getStartTimestamp markEvent addEvent getClass getLogMessagePrefix error ,System executionResult eventNotifier executionResult this  Observable ,long ,latencyWithFallback ,AbstractCommand,com netflix hystrix,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,9,0,5,5,1,0.00,28,79,1,,markEvent wrapWithOnErrorHook getClass getLogMessagePrefix error ,eventNotifier  this  Observable ,Exception ,wrapped ,AbstractCommand,com netflix hystrix,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,79,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,28,80,1,Throwable,onError ,subscriber ,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,28,80,1,Throwable,onNext ,subscriber ,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,28,80,1,Throwable,onNext ,subscriber ,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,28,80,1,Throwable,,,,,AbstractCommand,com netflix hystrix,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,35,0,18,4,1,0.02,28,82,1,,getCause shouldNotBeWrapped getCause getCause getCause getCause shouldNotBeWrapped getCause getCause getCause getCause getCause shouldNotBeWrapped getCause shouldNotBeWrapped getCause getLogMessagePrefix getClass ,e  e e e getCause  e getCause e e e  e  e  this ,String ,message ,AbstractCommand,com netflix hystrix,debug
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,41,2,Exception,,,,,Hystrix,com netflix hystrix,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.02,2,45,2,NoSuchElementException,,,,,Hystrix,com netflix hystrix,debug
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,47,2,Exception,,,,,Hystrix,com netflix hystrix,warn
+Exception,CatchBlock, ,0,0,0,0,0,1,0,14,0,4,0,1,0,0,0,0,Throwable,getCause getCause getClass getSimpleName ,e e  getClass ,String ,message ,HystrixCollapser,com netflix hystrix,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Exception,,,,,HystrixCommandProperties,com netflix hystrix,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,7,0,3,3,0,0.01,1,72,2,,call emitResponse add ,mapBatchTypeToResponseType requestForResponse seenKeys ,,,HystrixObservableCollapser,com netflix hystrix,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,1,1,0,0.01,2,117,1,,offer ,allExecutedCommands ,,,HystrixRequestLog,com netflix hystrix,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,1,1,0,0.01,2,117,1,,offer ,executedCommands ,,,HystrixRequestLog,com netflix hystrix,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.02,2,158,1,Exception,,,,,HystrixRequestLog,com netflix hystrix,error
+Exception,CatchBlock,debug,0,0,0,1,0,0,0,11,1,3,3,1,0.04,9,110,2,Exception,debug setException values ,logger request argumentMap ,CollapsedRequest<ResponseType RequestArgumentType> ,request ,RequestBatch,com netflix hystrix collapser,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,9,108,2,IllegalStateException,,,,,RequestBatch,com netflix hystrix collapser,debug
+Exception,CatchBlock,debug,0,0,0,1,0,0,0,11,1,2,3,1,0.04,9,107,2,Exception,debug setException ,logger request ,CollapsedRequest<ResponseType RequestArgumentType> ,request ,RequestBatch,com netflix hystrix collapser,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,9,108,2,IllegalStateException,,,,,RequestBatch,com netflix hystrix collapser,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,9,99,2,IllegalStateException,,,,,RequestBatch,com netflix hystrix collapser,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,22,1,3,3,2,0.08,9,109,2,,error setExceptionIfResponseNotReceived values ,logger CollapsedRequestSubject<ResponseType RequestArgumentType> request argumentMap ,Exception CollapsedRequest<ResponseType RequestArgumentType> ,ee request ,RequestBatch,com netflix hystrix collapser,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,6,0,0,0,0,0.02,9,101,2,IllegalStateException,,,,,RequestBatch,com netflix hystrix collapser,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,22,2,6,5,1,0.08,9,99,2,,size debug setExceptionIfResponseNotReceived getArgument warn values ,argumentMap logger CollapsedRequestSubject<ResponseType RequestArgumentType> request request logger argumentMap ,CollapsedRequest<ResponseType RequestArgumentType> ,request ,RequestBatch,com netflix hystrix collapser,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,9,107,2,Exception,,,,,RequestBatch,com netflix hystrix collapser,debug
+LoopCheck,ForBlock,debug,0,0,0,1,0,0,0,11,1,3,3,1,0.04,9,94,2,,debug setExceptionIfResponseNotReceived values ,logger CollapsedRequestSubject<ResponseType RequestArgumentType> request argumentMap ,CollapsedRequest<ResponseType RequestArgumentType> ,request ,RequestBatch,com netflix hystrix collapser,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,0,0,0.03,1,93,2,Throwable,printStackTrace ,t ,,,RequestCollapser,com netflix hystrix collapser,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.02,1,62,2,Exception,printStackTrace ,e ,,,RequestCollapser,com netflix hystrix collapser,error
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,6,0,5,3,0,0,0,0,0,,getScope name valueOf getCollapserForUserRequest getCollapserForGlobalScope , getScope Scopes   ,,,RequestCollapserFactory,com netflix hystrix collapser,warn
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,7,0,2,0,0,0.02,3,135,2,,getClass getCanonicalName ,hp getClass ,,,HystrixPlugins,com netflix hystrix strategy,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,6,0,2,0,0,0.01,3,156,2,,getClass getCanonicalName ,hp getClass ,,,HystrixPlugins,com netflix hystrix strategy,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,5,0,2,0,0,0.01,3,168,2,,getClass getCanonicalName ,hp getClass ,,,HystrixPlugins,com netflix hystrix strategy,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,28,3,19,10,1,0.07,3,162,2,,getInstance getPluginImplementationViaProperties getClass getCanonicalName getLogger debug findService getClass getCanonicalName getLogger debug createArchaiusDynamicProperties getClass getCanonicalName getLogger debug getInstance getClass getCanonicalName ,HystrixDynamicPropertiesSystemProperties  hp getClass logSupplier getLogger  hp getClass logSupplier getLogger HystrixArchaiusHelper hp getClass logSupplier getLogger HystrixDynamicPropertiesSystemProperties hp getClass ,HystrixDynamicProperties ,hp ,HystrixPlugins,com netflix hystrix strategy,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Throwable,,,,,HystrixRequestContext,com netflix hystrix strategy concurrency,error
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,,size ,requestVariableInstance ,,,HystrixRequestVariableHolder,com netflix hystrix strategy concurrency,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,5,0,0.02,4,71,3,,isValueAcceptable set getName getValue debug set ,this pReference   logger pReference ,,,HystrixPropertiesChainedArchaiusProperty,com netflix hystrix strategy properties,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,0,0,0.01,4,75,3,,checkAndFlip , ,,,HystrixPropertiesChainedArchaiusProperty,com netflix hystrix strategy properties,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,0,0,0.01,4,75,3,,checkAndFlip , ,,,HystrixPropertiesChainedArchaiusProperty,com netflix hystrix strategy properties,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,0,0,0.01,4,75,3,,checkAndFlip , ,,,HystrixPropertiesChainedArchaiusProperty,com netflix hystrix strategy properties,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,5,0,0.03,2,77,3,,isValueAcceptable set getName getValue debug set ,this pReference   logger pReference ,,,HystrixPropertiesChainedProperty,com netflix hystrix strategy properties,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,0,0,0.02,2,84,3,,checkAndFlip , ,,,HystrixPropertiesChainedProperty,com netflix hystrix strategy properties,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,HystrixRollingPercentile,com netflix hystrix util,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,HystrixTimer,com netflix hystrix util,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,1,2,0,0,0,0,0,NoSuchFieldError,writeNumberField ,json ,,,SerialHystrixDashboardData,com netflix hystrix serial,error

@@ -1,0 +1,5 @@
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.03,1,67,1,,debug ,logger ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,23,0,,isDebugEnabled ,logger ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,23,0,,isDebugEnabled ,logger ,,,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,5,6,1,0,0,0,0,,writeString flush toString parse assertEquals ,writer writer thisbaos JSON Assert ,String ,result ,info
+CriticalMethodCheck,MethodBlock, ,1,0,0,0,0,0,0,8,0,7,4,1,0,0,0,0,,parse getData getName equals getData getString equals ,JSON testBean testBean tester testBean getData value ,TestBean ,testBean ,info

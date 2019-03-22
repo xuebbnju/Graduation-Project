@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+
+\bibitem{DBLP:journals/computer/EgyedZHD18}
+Alexander Egyed, Klaus Zeman, Peter Hehenberger, and Andreas Demuth.
+\newblock Maintaining consistency across engineering artifacts.
+\newblock {\em {IEEE} Computer}, 51(2):28--35, 2018.
+
+\bibitem{GanttSystem}
+{GanttProject System}.
+\newblock \url{http://www.ganttproject.biz}.
+
+\end{thebibliography}

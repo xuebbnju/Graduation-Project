@@ -1,0 +1,211 @@
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.09,3,33,1,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.09,3,31,1,jadx arg valid except, , , , ,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,42,2, ,error current thread interrupt arg set root dir save executor shutdown task count complet task count set progress sleep termin close info class,thread current thread decompil arg decompil ex ex ex progress monitor thread ex progress monitor decompil class,thread pool executor,ex total,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,2,1,0,0.13,3,38,2, ,info print error report,jadx, , ,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,3,4,1,0,0,0,0, ,overrid provid assert,jadx arg,boolean,re,info
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,39,2, ,debug,, , ,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,2,32,1, ,debug enabl,, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,16,0,5,4,5,0.15,2,31,1, ,input file name index substr,arg input file file name name,file string file string int,dir dir name file name po,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,16,0,10,4,0,0.05,5,48,2, ,reset valid init input file load file load init class path resourc load resourc init visitor,jadx arg valid arg root root root, , ,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,4,0,2,0,0,0.05,3,37,1,interrupt except,current thread interrupt,thread current thread, , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,6,5,0.08,5,42,2, ,thread count info fix thread pool export gradl project dir src dir re dir init src dir re dir append resourc save append sourc save,arg executor arg arg arg arg export export export,int executor servic file file export gradl project,thread count executor sourc dir re dir export,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,7,5,0.08,5,47,2, ,thread count debug fix thread pool export gradl project dir src dir re dir init src dir re dir append resourc save append sourc save,arg executor arg arg arg arg export export export,int executor servic file file export gradl project,thread count executor sourc dir re dir export,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,41,1,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,38,1,except, , , , ,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,7,0,10,6,1,0.04,1,55,2,jadx except,type string lower add add caus stack trace start line name singl file,rf type string cw add util cw rf re contain,code writer,cw,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,2,0,0.02,1,28,2,except,add resourc file,, , ,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,39,2, , , , , ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,25,1,except, , , , ,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,14,2,4,3,3,0.10,2,21,1, ,size debug enabl sort debug,miss class collect,int list< string> string,count cl name cl,warn
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.02,2,38,1, , , ,string,cl,debug
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,1,0,0.01,1,45,2, ,contain kei,name, , ,debug
+Exception,TryBlock,debug,0,0,0,0,0,0,0,17,0,9,7,5,0.07,1,42,2, ,write byte write byte write int name write string parent write byte id write int,cl cl parent,data output stream class class class class,cl parent parent cl,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,4,38,2, , , , , ,info
+LoopCheck,ForBlock,info,0,0,0,0,0,0,0,3,0,0,0,1,0.04,4,45,1, , , ,input file,input file,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,29,2,11,11,7,0.40,4,48,1, ,usag exit directori add file add file directori file info load load save info,system input file input file root set set,file list< input file> file int input file root node cl set,output input file input file root set,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,4,40,1,except, , , , ,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,31,2, , , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,22,1,except, , , , ,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.01,1,86,4, ,replac arg,inl copi, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,10,1,2,6,1,0.01,1,82,4, ,replac arg warn,inl copi,insn arg,repl,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,4,2,0,0.03,3,68,1, ,size size size sub list,arg arg arg arg, , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,6,5,1,0.03,3,82,1, ,arrai type type arrai element type add,type arg class gen type class gen arg code,arg type,el type,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,5,0,2,1,0,0.02,3,90,1,decod except,messag start line,code, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.02,3,88,1,codegen except,start line,code, , ,error
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , , , , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0, ,string,, , ,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,32,1,16,19,5,0.19,2,114,2, ,exist absolut path error read line trim empti start split trim start start start start add packag preset,deobf map file deobf map file file util mth preset map fld preset map cl preset map deobfusc,list< string> string string string string,line va orig name alia,info
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,107,2,except, , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.04,2,83,2, ,absolut path dump map,deobf map file, , ,warn
+LogicBranch,IfBlock,info,0,0,0,1,0,0,0,7,1,6,6,0,0.01,1,87,3, ,class name name equal name class name info,cl name cl, , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,3,2,0,0.01,1,63,2, ,class name name equal,cl name, , ,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,illeg argument except, , , , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,53,3,except, , , , ,error
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,99,4,jadx runtim except, , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,11,0,10,9,0,0.02,1,54,3, ,constructor parent class access flag enum add add add,mth info parent class access flag mth arg arg type mth arg arg type mth arg arg type, , ,warn
+Exception,TryBlock,error,0,0,0,0,0,1,0,7,0,2,1,1,0.03,2,39,1, ,size add,dex node dex node,dex node,dex node,debug
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,37,2, , , , , ,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,32,1,jadx except, , , , ,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,72,3,except, , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,4,1,0,0.02,1,66,3, ,object arrai root element object equal,el type arrai root element object, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0, ,empti map,collect, , ,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0, , , , , ,warn
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,80,1,26,20,10,1.00,1,92,3, ,messag format msg error unload insn arr debug info offset dex check offset process debug info instruct process set method sourc line return type equal set line return insn offset arg arg type name merg debug info sourc line set sourc line exit block sourc line set sourc line,error counter mth mth mth dex mth debug info parser mth return type block util ret ret ret arg arg arg ret ret mth insn mth,int insn node debug info parser insn node insn node regist arg regist arg block node int insn node,debug offset insn arr debug info parser ret ret arg arg exit line insn,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,47,1,except, , , , ,error
+LogicBranch,IfBlock, ,0,0,0,0,0,1,0,7,0,3,0,0,0,0,0,0, ,type type select,el type insn element type el type, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0, ,type,, , ,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,8,7,0,0.02,2,71,4, ,arg liter arg liter op arg arg chang condit,insn arg insn liter arg insnget arg1 insn wi wi insn, , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,50,3,except, , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,51,3,except, , , , ,debug
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,18,1,7,6,2,0.02,3,75,3,except,error unload load root arg pass list visit,mth mth mth root jadx depth travers,list< dex tree visitor> dex tree visitor,pass visitor,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,75,3,except, , , , ,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,20,0,6,6,3,0.02,3,75,3, ,empti check block out size merg return,block block remov info out,block node block remov info set< block pair>,start block remov info out,debug
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,0,0,0.00,3,57,2, ,predecessor size,rem block predecessor, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,7,0,6,8,1,0.01,1,56,3, ,insn insert start insn,predecessor insn predecessor,list< insn node>,insn,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,9,0,7,3,1,0.02,1,78,3, ,predecessor empti successor empti try block remov block,block predecessor block successor block catch attr try block,catch attr,catch attr,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,3,0,0.07,1,20,0, ,debug enabl contain contain contain instruct empti,block block block block instruct, , ,debug
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,3,2,0,0.01,3,81,3, ,parent insn parent insn replac arg,wrap arg wrap arg parent insn, , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,24,0,12,13,2,0.06,3,81,3, ,parent insn parent insn type result fix iter type search wrap insn parent parent insn add parent insn replac arg fix iter type replac arg,wrap arg wrap arg parent insn parent insn block util cast arg skip cast arg parent insn parent insn,insn node insn arg,parent insn cast arg,warn
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,25,0,11,8,3,0.07,3,84,3, ,gener gener type equal gener type set type dex instanc wildcard type wildcard bound dex instanc,iter type iter type type type iter var mth arg type type type mth arg type,arg type arg type arg type,gener type type wildcard type,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,81,3, , , , , ,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0, ,handler count,tb, , ,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,15,0,20,12,2,0.01,6,71,1, ,cardin set bit id set bit id dom frontier id dom frontier size id set size id set,df df basic block df basic block dom frontier dom frontier fall df df fall df df,block node block node,,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,1,6,9,0,0.01,6,71,1, ,empti bad re switch bad error add,fall mth, , ,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,2,3,0,0.00,6,71,1, ,bad add,mth, , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,6,70,1, ,cardin,out, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,3,2,0,0.01,6,69,2, ,add predecessor add,block handler block splitter, , ,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,1,0,0,0.00,6,68,2, ,empti,, , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,2,1,0,0.00,6,72,2, ,handler region add attr,handler handler region, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,1,0,0.03,1,95,3, ,add break contain,, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,1,0,0.02,1,90,4, ,arg,synch insn arg, , ,warn
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,45,2, , , , , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,50,2, , , , , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2, , , , , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2, , , , , ,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,5,0,2,0,0,0,0, ,instruct iter remov,block instruct,iterator< insn node> insn node,insn,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,2,2,0,0,0,0,0, ,contain add,cl, , ,debug
+CriticalClassesCheck,ClassBlock,debug,0,0,0,1,0,1,0,196,6,64,66,28,1.00,6,53,3, ,dump dump save dump raw save dump region save equal add travers debug print region print region debug region print region attribut string debug attribut string debug print insn print region sub block debug fallback method gen insn length string substr attribut string debug instruct result result check var check var argument instruct basic block check var parent insn contain arg list type add arg count block bind size arg count block arg argument instruct list empti contain contain empti basic block phi parent insn list var,dot graph visitor dump dot graph visitor dump raw dot graph visitor dump region block region depth region travers mth region contain region method gen ig code writer code string insn block insn insn insn block mth reg arg parent insn var insn phi phi phi block bind phi phi insn block block phi list attr phi list phi phi list phi mth ssa var arg ssa var mth,file set< region> block contain method gen insn gen code writer string insn node insn arg insn node block node var insn node regist arg list< phi insn> phi insn block node insn arg insn node phi list attr list< phi insn> block node phi insn boolean insn node regist arg var,region block contain mg ig code insn str insn arg insn block var parent insn arg phi phi arg insn phi list attr phi list block phi found parent insn arg ssa var,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,12,0,3,4,1,0.06,6,50,3, ,equal add travers,block region depth region travers,set< region>,region,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,2,4,0,0.02,6,57,3, ,region print region,mth, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,15,1,5,11,2,0.08,6,49,2, ,attribut string debug print insn print region sub block,contain region,block contain,block contain,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,9,0,2,7,1,0.05,6,48,2, ,print insn print region,,block,block,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,6,54,3,codegen except, , , , ,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,10,1,6,7,4,0.05,6,49,2, ,debug fallback method gen insn length string substr,method gen ig code writer code string,method gen insn gen code writer string,mg ig code insn str,debug
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,110,7,47,41,6,1.00,7,36,2, ,add format msg error messag messag error error add attr remov add add attr contain add format msg warn dex root error counter add error dex root error counter add warn root error counter add error root error counter add warn type name dex dex file name error count error count error size class simpl name replac add sort error warn count warn count size warn,error node node node warn node node node node cl dex root error counter cl dex root error counter mth root error counter mth root error counter node node dex dex file error node node class simpl name error collect warn node,string string list< string> string attribut node string,msg msg error node name node err,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,3,3,0,0.06,7,40,1, ,messag messag error,, , ,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,2,2,0,0.06,7,35,1, ,error messag,, , ,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,2,4,5,0,0.08,7,40,2, ,error messag messag error,, , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,13,0,5,7,1,0.12,7,40,2, ,add add attr contain add format msg,warn node node node node,string,msg,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,8,6,4,0.11,7,32,1, ,error count size class simpl name replac add sort error,error node node class simpl name error collect,list< string> string attribut node string,error node name node err,error
+LoopCheck,ForBlock,error,0,0,0,0,0,0,0,3,0,0,0,1,0.03,7,39,1, , , ,string,err,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.03,7,32,1, ,warn count,, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,70,2, ,app packag search class name add resourc field search class short name size add resourc field empti info info class add resourc field,root root root candid candid candid,string string class node list< class node>,app packag name re cl candid,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,0,0,0.03,2,70,2, ,empti,candid, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,62,2, ,app packag search class name add resourc field info search class short name size add resourc field empti info class add resourc field,root root root candid candid candid,string string class node list< class node>,app packag name re cl candid,info
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,76,2,except, , , , ,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,except, , , , ,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,69,2,except, , , , ,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,3,1,0.03,5,70,2, ,creat file exist absolut path debug,check upper check low test dir,boolean,sensit,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,2,1,0.03,5,63,2, ,creat file absolut path debug exist,check upper check upper check low,boolean,sensit,debug
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,50,2,except, , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.01,2,66,3, ,error,j2d, , ,warn
+Exception,TryBlock,warn,0,0,0,1,1,1,0,14,1,6,3,1,0.07,2,61,3, ,messag error dx error warn absolut path convert,j2d j2d jar file j2d,byte,ba,info
+Exception,TryBlock,error,0,0,0,1,1,0,0,12,1,4,4,2,0.16,1,144,4, ,error canon file canon file sub directori intern,file file,file file,current path canon,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,5,0,1,0,0,0.07,1,72,2, ,name,entri, , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,54,2,except, , , , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,4,4,0,0.03,2,47,2, ,load pars load pars,, , ,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,57,2,format except, , , , ,debug
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,82,3,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,66,3,except, , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,76,2,except, , , , ,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2, ,sub directori path,zip secur file, , ,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2, ,sub directori file name,zip secur rc, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,73,2,except, , , , ,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,0,0,22,1,8,7,3,0.20,4,74,2, ,content save binari name warn dir file close copi,rc cw rc rc file util binari util,code writer input stream file output stream,cw binari binari file stream,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0, , , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,75,3,except, , , , ,error
+LogicBranch,SwitchBlock,error,0,0,0,0,1,0,0,3,0,1,1,0,0.01,1,54,2, ,hex string,integ, , ,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,7,6,0,0.10,1,105,4, ,arg file set dir file set dir src file set dir re,arg arg arg, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,13,13,0,0.10,1,69,4, ,valid dir file assert dir src file assert dir re file assert,jadx arg valid arg arg arg, , ,debug
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,33,1,11,9,3,0.22,2,34,2, ,load name matcher match method visit visit code info print method check code,class node mth mth pattern matcher class node depth travers code gen class node,boolean method node dex tree visitor,decompil mth visitor,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.03,2,50,2, ,print method,, , ,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,15,0,8,7,5,0.10,2,59,2, ,name matcher match decompil line append append count match count match,mth mth pattern matcher mth mth code append string util string util,int string builder int string int,decompil line mth code bracket line,info
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.04,1,80,2, , , ,string,str,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,1,14,1, , , , , ,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,2,75,1,except, , , , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.02,2,66,2, , , , , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,13,0,11,13,2,0.27,2,57,2, ,class node code string contain assert contain assert contain assert contain assert,cl code,class node string,cl code,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.08,1,53,3,except,exit,system, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,1,41,3,except, , , , ,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,3,34,1,except, , , , ,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,29,2, ,error current thread interrupt arg set root dir save executor shutdown task count complet task count set progress sleep termin close class info,thread current thread decompil arg decompil ex ex ex progress monitor thread ex progress monitor decompil class,thread pool executor,ex total,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,1,47,2,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,51,2,except, , , , ,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,7,0,2,1,0,0.07,7,65,2, ,cancel,, , ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,64,2,except, , , , ,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,61,2, ,error gc decompil job run job memori info debug index job run job memori info debug gc memori info debug text index skip count skip count memori info warn,system cach util cach util system util cach search index search index util,text search index,search index,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2, ,error gc memori info debug decompil job run job index job run job memori info debug gc memori info debug text index skip count skip count memori info warn,system util cach cach util system util cach search index search index util,text search index,search index,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2, ,error gc memori info debug decompil job run job memori info debug index job run job gc memori info debug text index skip count skip count memori info warn,system util cach util cach system util cach search index search index util,text search index,search index,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,63,2, ,error gc memori info debug decompil job run job memori info debug index job run job memori info debug gc text index skip count skip count memori info warn,system util cach util cach util system cach search index search index util,text search index,search index,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,4,0,3,0,0,0.04,7,54,1, ,skip count skip count memori info,search index search index util, , ,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,65,2,except, , , , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,32,0,16,11,0,0,0,0,0, ,set deobfusc min length set deobfusc sourc name alia set deobfusc forc save set thread count set replac const set skip resourc set auto start job default theme path set editor theme path deobfusc min length set deobfusc min length default local set lang local set import sync,editor theme default theme, , ,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.04,5,38,1,except, , , , ,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,2,0,0,0.07,5,38,1, ,fix load default,set jadx set, , ,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,5,34,1, ,debug enabl,, , ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,5,37,1,except, , , , ,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,8,1,4,5,1,0.09,5,35,1, ,error string sync,,string,json set,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,7,0,4,2,1,0,0,0,0, ,select font set font updat font load set,font chooser set main window main window,font,font,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,except,messag,, , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,1,4,4,0,0.01,3,80,2, ,displai result start displai result result count format,result model result model result model string, , ,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,9,1,5,2,1,0.02,3,38,1, ,str displai result start displai result result count set text,result model result model result model result info label,string,statu text,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,76,2,except, , , , ,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,81,2,except, , , , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,58,1,except, , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,58,2, , , , , ,error
+Exception,CatchBlock,error,0,0,0,1,0,0,0,8,1,2,3,0,0.01,3,46,1,except,error load,theme, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,48,1,except, , , , ,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,4,1,5,3,0,0.01,5,190,1, ,singl length filter subscrib,schedul text search event filter subscrib, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,8,1,8,4,0,0.03,5,171,1, ,singl prepar search subscrib list flowabl debug singl length,schedul prepar search subscrib list schedul text, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,9,1,9,4,0,0.03,5,152,1, ,edt singl prepar search subscrib list flowabl debug singl length,swing schedul schedul prepar search subscrib list schedul text, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,10,1,9,4,0,0.03,5,145,1, ,edt singl prepar search subscrib list flowabl debug singl length,swing schedul schedul prepar search subscrib list schedul text, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,16,1,12,7,2,0.06,5,138,1, ,text field chang flowabl merg edt singl prepar search subscrib list flowabl debug singl length,search emitt flowabl swing schedul schedul prepar search subscrib list schedul text,flowable< string> flowable< string>,text chang search event,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,15,0,7,4,1,0.05,5,187,1, ,text contain set search set search option add perform search,search field option cach cach result model result model super,string,text,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,2,0,0,0,0,0,0,bad locat except,node line,po node, , ,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,2,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,48,3,bad locat except, , , , ,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,49,2,bad locat except, , , , ,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,except, , , , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0, ,debug enabl,, , ,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,bad locat except, , , , ,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,2,51,1,except, , , , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,1,0,0.04,2,39,2, ,contain,version, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,29,1,17,10,5,0.27,2,45,1, ,version contain debug name equal ignor pre releas remov iter empti sort size name check compar,jadx decompil version releas name releas list list collect list list version compar,string list< release> releas iterator< release> releas,version list releas,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,43,2,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,except, , , , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,debug
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,54,2,except, , , , ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,52,2,except, , , , ,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,8,1,4,5,2,0.05,2,56,3, ,error default toolkit system clipboard set content,toolkit default toolkit clipboard,clipboard transfer,clipboard transfer,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,11,13,2,0.23,2,67,2, ,size match cancel debug memori info debug complet creat,kei valu emitt emitt util emitt flowabl,int int,size,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.06,2,68,2, ,cancel,emitt, , ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,10,12,2,0.23,2,49,2, ,size debug match cancel debug complet creat,kei valu emitt emitt emitt flowabl,int int,size,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,69,2,except, , , , ,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,24,0,18,25,2,0.15,5,67,2, ,contain empti contain search concat contain search concat contain search concat contain size search concat empti search skip class concat,option flowabl option cl name index flowabl option mth name index flowabl option fld name index flowabl option code index code index flowabl skip class flowabl,boolean flowable< node>,ignor result,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,12,15,3,0.13,5,66,2, ,code search cancel debug free memori avail memori info warn complet memori info debug complet creat,java class emitt util util emitt util emitt flowabl,string int java class,code po java class,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.02,5,67,2, ,cancel,emitt, , ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,5,0,2,0,0,0.03,5,62,2, ,free memori avail complet,util emitt, , ,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,11,14,3,0.13,5,59,2, ,debug code search cancel debug free memori avail memori info warn complet complet creat,java class emitt util util emitt emitt flowabl,string int java class,code po java class,debug

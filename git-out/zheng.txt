@@ -1,0 +1,67 @@
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+Exception,TryBlock, ,0,0,0,0,0,0,0,5,0,1,0,0,0,0,0,0,,printStackTrace ,e ,,,info
+Exception,TryBlock, ,0,0,0,0,0,0,0,5,0,1,0,0,0,0,0,0,,printStackTrace ,e ,,,info
+Exception,TryBlock, ,0,0,0,0,0,0,0,6,0,2,0,1,0,0,0,0,,printStackTrace getText ,e textMessage ,String ,text ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.11,2,54,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.11,2,59,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.11,2,61,1,,,,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,0,0,0.05,2,54,2,,currentTimeMillis ,System ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.04,2,54,2,,,,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,12,0,8,1,4,0.24,2,37,1,,proceed getContext isConsumerSide getContext getRemoteHost getContext getUrl getParameter ,pjp RpcContext getContext RpcContext getContext RpcContext getContext getUrl ,Object boolean String String ,result consumerSide ip rpcUrl ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,17,0,5,7,0,0,0,0,0,,setAttribute getHeader getHeader equalsIgnoreCase setAttribute ,request request request XMLHttpRequest request ,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,1,0,1,0,0,0,0,,getDataSource , ,String ,dataSource ,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,29,4,24,14,6,0.53,4,55,2,,getApplicationContext getParent getApplicationContext getBeansWithAnnotation getClass getName debug error printStackTrace getClass getMethod invoke values getApplicationContext getBeansOfType getClass getName debug error printStackTrace getClass getMethod invoke values ,contextRefreshedEvent getApplicationContext contextRefreshedEvent getApplicationContext service getClass LOGGER LOGGER e service getClass initMapper baseServices contextRefreshedEvent getApplicationContext service getClass LOGGER LOGGER e service getClass init baseInterfaceBeans ,Map<String Object> Method Object Map<String BaseInterface> Method Object ,baseServices initMapper service baseInterfaceBeans init service ,debug
+LoopCheck,ForBlock,error,0,0,0,1,0,0,0,10,1,6,4,2,0.18,4,48,1,,error printStackTrace getClass getMethod invoke values ,LOGGER e service getClass initMapper baseServices ,Method Object ,initMapper service ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,1,0,0,0.07,4,52,1,Exception,printStackTrace ,e ,,,error
+LoopCheck,ForBlock,error,0,0,0,1,0,0,0,10,1,6,4,2,0.18,4,49,1,,error printStackTrace getClass getMethod invoke values ,LOGGER e service getClass init baseInterfaceBeans ,Method Object ,init service ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,1,0,0,0.07,4,53,1,Exception,printStackTrace ,e ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,36,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,38,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,39,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,38,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,38,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,39,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,39,1,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,12,4,9,13,3,0.33,4,46,1,,getInstance get info getRealPath info getRealPath info decompress info ,PropertiesFileUtil getInstance LOGGER servletContext LOGGER servletContext LOGGER JarUtil LOGGER ,String String String ,version jarPath resources ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,12,4,9,12,3,0.33,4,45,1,,info getInstance get getRealPath info getRealPath info decompress info ,LOGGER PropertiesFileUtil getInstance servletContext LOGGER servletContext LOGGER JarUtil LOGGER ,String String String ,version jarPath resources ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,12,4,9,12,3,0.33,4,44,1,,info getInstance get info getRealPath getRealPath info decompress info ,LOGGER PropertiesFileUtil getInstance LOGGER servletContext servletContext LOGGER JarUtil LOGGER ,String String String ,version jarPath resources ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,12,4,9,12,3,0.33,4,44,1,,info getInstance get info getRealPath info getRealPath decompress info ,LOGGER PropertiesFileUtil getInstance LOGGER servletContext LOGGER servletContext JarUtil LOGGER ,String String String ,version jarPath resources ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,12,4,9,13,3,0.33,4,46,1,,info getInstance get info getRealPath info getRealPath info decompress ,LOGGER PropertiesFileUtil getInstance LOGGER servletContext LOGGER servletContext LOGGER JarUtil ,String String String ,version jarPath resources ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,7,0,3,3,1,0,0,0,0,,policy addAttribute thymeleaf ,aliyunOssService model  ,JSONObject ,policy ,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,45,0,42,27,11,0.44,2,37,1,,getRequestAttributes getRequest proceed getSignature getMethod isAnnotationPresent getAnnotation value setDescription isAnnotationPresent getAnnotation value setPermissions currentTimeMillis getBasePath setBasePath getIpAddr setIp getMethod setMethod getMethod equalsIgnoreCase getParameterMap toString setParameter getQueryString setParameter toJSONString setResult setSpendTime setStartTime getRequestURI setUri getRequestURL toString setUrl getHeader setUserAgent getUserPrincipal toString setUsername insertUpmsLogSelective ,RequestContextHolder servletRequestAttributes pjp pjp methodSignature method method log upmsLog method method requiresPermissions upmsLog System RequestUtil upmsLog RequestUtil upmsLog request upmsLog request GET request ObjectUtils upmsLog request upmsLog JSON upmsLog upmsLog upmsLog request upmsLog request ObjectUtils upmsLog request upmsLog request ObjectUtils upmsLog upmsApiService ,RequestAttributes ServletRequestAttributes HttpServletRequest UpmsLog Object Signature MethodSignature Method ApiOperation RequiresPermissions String ,requestAttributes servletRequestAttributes request upmsLog result signature methodSignature method log requiresPermissions permissions ,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,4,55,2,IOException,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,4,58,2,IOException,,,,,error
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,22,2,16,21,3,0.13,4,56,2,,getIntValue getString equals set sadd getJedis scard debug toHttp getParameterWithOutCode error getParameter login toHttp toString sendRedirect ,result result getString RedisUtil RedisUtil RedisUtil getJedis LOGGER WebUtils RequestParameterUtil LOGGER request subject WebUtils backUrl httpServletResponse ,String String HttpServletResponse ,backUrl username httpServletResponse ,warn
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,22,2,15,19,3,0.13,4,36,1,,getIntValue getString equals getString warn set sadd toHttp getParameterWithOutCode error getParameter login toHttp toString sendRedirect ,result result getString result LOGGER RedisUtil RedisUtil WebUtils RequestParameterUtil LOGGER request subject WebUtils backUrl httpServletResponse ,String String HttpServletResponse ,backUrl username httpServletResponse ,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,4,55,2,IOException,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.13,2,39,1,,,,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.13,2,39,1,,,,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.13,2,39,1,,,,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,8,0,5,7,1,0.05,4,68,2,,generateSessionId assignSessionId serialize getTimeout set ,  SerializableUtil session RedisUtil ,Serializable ,sessionId ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,6,0,2,2,1,0.04,4,67,2,,get deserialize ,RedisUtil SerializableUtil ,String ,session ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,17,0,11,9,2,0.10,4,67,2,,isValid getId doReadSession getStatus setStatus getAttribute setAttribute getId serialize getTimeout set ,ValidatingSession session session  cacheUpmsSession upmsSession cacheUpmsSession upmsSession session SerializableUtil session RedisUtil ,UpmsSession UpmsSession ,upmsSession cacheUpmsSession ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,19,0,10,11,4,0.11,4,56,2,,equals get remove remove getJedis smembers del srem close lrem ,server RedisUtil RedisUtil RedisUtil RedisUtil jedis jedis jedis jedis RedisUtil ,String Jedis Set<String> String ,code jedis clientSessionIds clientSessionId ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,35,1,23,23,8,0.21,4,68,2,,getId toString getAttribute toString equals get getJedis del srem close equals get remove remove getJedis smembers del srem scard debug close lrem remove ,session getId session ObjectUtils client RedisUtil RedisUtil jedis jedis jedis server RedisUtil RedisUtil RedisUtil RedisUtil jedis jedis jedis jedis LOGGER jedis RedisUtil RedisUtil ,String String String Jedis String Jedis Set<String> String ,sessionId upmsType code jedis code jedis clientSessionIds clientSessionId ,debug
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,66,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,65,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,67,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,66,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,66,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,66,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,67,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,66,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,67,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.06,9,68,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.16,1,59,1,,,,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.16,1,59,1,,,,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,info
+LogicBranch,IfBlock,info,0,0,0,0,1,0,0,4,0,1,0,0,0.02,1,69,2,,getLocked ,upmsUser ,,,info
+LogicBranch,IfBlock,info,0,0,0,0,1,0,0,4,0,1,0,0,0.02,1,75,2,,getLocked ,upmsUser ,,,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,,,,,,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,16,0,5,4,2,0,0,0,0,,isNotBlank getParameter getPrincipal isBlank contains ,StringUtils request subject StringUtils backurl ,String String ,backurl username ,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,26,0,23,14,3,0,0,0,0,,toComplex getRealname getPassword getUsername checkAll on on on doValidate result isSuccess getErrors currentTimeMillis randomUUID toString replaceAll setSalt getPassword getSalt md5 setPassword setCtime createUser ,ResultCollectors upmsUser upmsUser upmsUser FluentValidator checkAll on on on doValidate result result System UUID randomUUID toString upmsUser upmsUser upmsUser MD5Util upmsUser upmsUser upmsUserService ,ComplexResult long String ,result time salt ,info

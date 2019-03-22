@@ -1,0 +1,18 @@
+//plugins {
+//    id 'java'
+//}
+
+version '1.0-SNAPSHOT'
+apply plugin: 'java' //指定java插件
+apply plugin: 'scala' //指定scala插件
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.12.5'
+    compile 'com.github.javaparser:javaparser-core:3.5.19'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

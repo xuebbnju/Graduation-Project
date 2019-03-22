@@ -1,0 +1,143 @@
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , , , , ,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0, , , , , ,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,except, , , , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,6,0,5,3,0,0,0,0,0, ,lower equal lower equal send kei,tag name input element type file element, , ,warn
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,web driver except, , , , ,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,10,0,3,4,0,0,0,0,0, ,build action add action move tick,action, , ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,1,0,0,0,30,1,47,49,0,0,0,0,0, ,string append begin object name string write object name string append string string append extern form string append string string append absolut path append string append time valu append append string append string append append builder,obj obj log level map obj obj obj file obj date obj string obj immut map builder, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,3,0,0,0,0,0,0,0,0, , , , , ,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,socket except, , , , ,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,except, , , , ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,10,0,3,1,0,0,0,0,0, ,class annot class,driver class driver, , ,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.03,4,85,1, , , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,11,0,1,2,1,0.06,4,84,1, ,set capabl,capabl,desir capabl,capabl,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.03,4,86,1, , , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.03,4,85,1, , , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,5,0,0,0,0,0.03,4,85,1, , , , , ,info
+CriticalClassesCheck,ClassBlock,info,0,0,0,1,1,1,0,333,1,116,86,12,1.00,1,160,1, ,set json code stream filter filter map collect element equal list compar int w3c code equal stream filter filter sort collect empti w3c http statu w3c http statu format info json code class except assign stream filter filter map els set json code stream filter map collect element set w3c code equal stream filter filter map collect element set class except equal stream filter filter map collect element set class except equal stream filter collect empti builder add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add build default add size valu w3c code default add size valu,collector error stream filter filter map iter collector compar error w3c code stream filter filter sort match match http statu http statu error http statu error string log error throwabl error except stream filter filter map collector error stream filter map iter collector error w3c code stream filter filter map iter collector error except stream filter filter map iter collector root caus error except stream filter match immut set builder add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add add match default error match error match default error match,set< string> list< error> error set< class< extend web driver exception>> set< class< extend web driver exception>> set< integer> set< error> map< object set< error>> error set< error> error set< error>,match match error except match match match match error error error error,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,7,0,5,0,0,0.02,1,44,1, ,w3c http statu w3c http statu,http statu http statu error http statu error, , ,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,5,0,2,0,1,0,0,0,0, ,,result result,result,return,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,web driver except, , , , ,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,6,0,2,3,0,0.09,2,32,1, ,set properti,global test environ system, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,9,0,3,1,1,0.13,2,33,1, ,stop set,global test environ environ global test environ,test environ,environ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,9,0,1,0,0,0.13,2,37,1, ,destroi driver,intern selens test base, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,1,0,31,0,23,24,6,0.12,2,39,1, ,dev mode compar set locat creat directori file name resolv copi locat resolv copi locat locat file name resolv copi file name string list filter,dev mode project file buck build atom dir file project dir file project project path dest dir file path file name string file list filter,path path string path path path,dir atom target sizzl se dir dest dir,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,1,1,0,0.02,2,67,1, ,start,super, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,1,1,0,0.02,2,67,1, ,finish,super, , ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,18,0,18,17,1,0,0,0,0, ,set context text index assert true link assert true assert equal click wait page load locat assert true click wait page load locat assert true,selenium selenium selenium text selenium selenium selenium selenium locat selenium selenium selenium locat,string,link,debug
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,7,0,2,1,0,0,0,0,0, ,dev mode output,, , ,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,7,0,1,0,0,0,0,0,0, ,dev mode,, , ,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.00,5,56,1, , , , , ,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.00,5,54,1, , , , , ,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,5,3,3,3,0,0.01,5,51,1, ,string assert equal,firefox driver log level assert, , ,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,1,0,0,0,0,0.00,5,56,1, , , , , ,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,1,0,0,0,0,0.00,5,54,1, , , , , ,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,0,5,3,3,3,0,0.01,5,50,1, ,string assert equal,firefox driver log level assert, , ,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,1,0,44,0,20,14,6,0,0,0,0, ,appli creat start travi manag window maxim execut script messag fail string elaps execut script page sourc screenshot sleep boolean boolean string,file path url fn stopwatch driver supplier driver manag window executor test url driver stopwatch javascript executor driver driver take screenshot driver time unit,stopwatch web driver javascript executor string,test url stopwatch driver executor elaps time report,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,22,1,20,24,5,0.37,1,74,2, ,mock name execut return store logger instanc add entri assert size timestamp assert equal size,level immut map immut list immut map execut method immut set local log local log log assert entri assert entri,execut method local log remot log list< log entry> int,execut method local log log entri,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,22,1,20,24,5,0.37,1,74,2, ,mock name execut return store logger instanc add entri assert size timestamp assert equal size,level immut map immut list immut map execut method immut set local log local log log assert entri assert entri,execut method local log remot log list< log entry> int,execut method local log log entri,info
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,17,0,15,15,3,0.10,3,186,1, ,return execut throw assert size messag assert equal,local log immut map execut method remot log log entri assert log entri assert,list< log entry> log entri list< log entry>,entri log entri log entri,info
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,155,0, , , , , ,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,7,1,4,6,0,0.04,3,153,1, ,execut return,immut map execut method, , ,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,15,2,10,14,0,0.09,3,113,1, ,build execut assert except type thrown verifi interact,immut map builder<> immut map execut method remot log assert except type, , ,trace
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,15,0,9,17,3,0,0,0,0, ,valu respond prepar executor mock execut script assert equal session id verifi command,driver assert driver immut list immut map,command executor remot web driver object,executor driver result,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,1,1,0,0.02,1,42,1, ,start,super, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,1,1,0,0.02,1,42,1, ,finish,super, , ,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , , , , ,info
+LogicBranch,IfBlock,info,0,0,0,0,1,1,0,13,0,2,2,3,0.07,4,52,1, ,els,deleg option,supplier< web driver> supplier< web driver>,url default supplier supplier,info
+LogicBranch,IfBlock,info,0,0,0,0,1,1,0,14,0,6,3,2,0.08,4,53,1, ,target except constructor instanc,supplier class supplier class clazz ctor option,class< extend supplier< web driver>> constructor< supplier< web driver>>,clazz ctor,info
+Exception,TryBlock,info,0,0,0,0,1,1,0,8,0,2,2,1,0.04,4,52,1, ,name,class option,class< extend supplier< web driver>>,clazz,info
+Exception,TryBlock,info,0,0,0,1,0,1,0,9,1,2,4,0,0.05,4,52,1, ,wait avail info,url checker logger, , ,info
+Exception,TryBlock,info,0,0,0,1,0,1,0,9,1,2,4,0,0.05,4,60,1, ,info wait avail,logger url checker, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,49,4,34,26,5,0.38,6,40,1, ,info build server classpath free port privat local address format add add add add valu add list add size arrai boolean copi output locat parent absolut path string set directori string info execut async messag sever destroi std sever info wait avail info add shutdown action,log port prober network util string cmd line cmd line cmd line cmd line string cmd line arrai cmd line cmd line cmd line boolean command project locat parent absolut path command command log command log command command log log url checker log web driver builder,string int string list< string>,server jar port local address cmd line url,info
+LogicBranch,IfBlock,info,0,0,0,0,0,1,0,4,0,0,0,0,0.03,6,44,1, , , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,49,4,33,26,5,0.38,6,39,1, ,info info build server classpath free port privat local address format add add add add valu add list add size arrai boolean copi output locat parent absolut path string set directori execut async messag sever destroi std sever info wait avail info add shutdown action,log log port prober network util string cmd line cmd line cmd line cmd line string cmd line arrai cmd line cmd line cmd line boolean command project locat parent absolut path command command log command command log log url checker log web driver builder,string int string list< string>,server jar port local address cmd line url,info
+Exception,TryBlock,info,0,0,0,1,0,1,0,14,1,7,6,1,0.11,6,41,1, ,messag sever destroi std sever wait avail info,log command command log url checker log,,url,info
+Exception,TryBlock,info,0,0,0,1,0,1,0,14,1,7,6,1,0.11,6,45,1, ,messag sever destroi std sever info wait avail,log command command log log url checker,,url,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,9,1,2,1,0,0.07,6,43,1, ,destroi info,command log, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,9,1,2,1,0,0.07,6,43,1, ,info destroi,log command, , ,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,11,0,9,5,1,0,0,0,0, ,creat temp file file verbos log file build start stop runtim add shutdown hook,file log file chrome driver servic builder verbos log file servic servic runtim runtim,path,log file,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,147,1, , , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,0,0,0.04,1,51,1, ,intern kei,, , ,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,4,95,2, , , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,1,0,0,0.01,4,90,2,throwabl,messag,, , ,error
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,11,1,5,5,0,0.02,4,78,2, ,forward request messag log releas termin,session ignor log timeout listen proxi registri, , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,101,2,illeg except, , , , ,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,10,1,5,5,0,0.02,4,84,2, ,orphan messag log releas termin,session ignor log timeout listen proxi registri, , ,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,72,1, , , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,6,5,1,0.02,7,69,1, ,contain remov forc releas test slot teardown,proxi proxi test slot,remot proxi,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,78,1,interrupt except, , , , ,info
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,73,1,throwabl, , , , ,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,12,0,2,3,1,0.03,7,69,1, ,session intern kei releas,activ test session,test session,session1,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,55,2,30,13,1,0.13,7,77,1, ,unlock lock remov contain format warn config hub configur config nullabl els config hub configur config nullabl els add fire matcher chang messag sever print stack trace registr unlock lock remov start poll add fire matcher chang,lock lock regist proxi string proxi hub proxi option nullabl proxi hub proxi option nullabl regist proxi registr listen proxi lock lock regist proxi self heal proxi proxi proxi,boolean,listen ok,info
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,1,1,0,0.01,7,71,1, ,contain,regist proxi, , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,1,0,0,0.01,7,70,1,throwabl,print stack trace,, , ,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,1,0,7,0,1,0,0,0.04,1,103,1, ,empti,proxi, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,1,0,7,0,1,1,0,0.04,1,35,1, ,capabl,, , ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,9,0,5,4,1,0.03,1,98,1, ,match system current time milli,capabl desir capabl clock system,test session,session,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,4,0,1,0,0,0.01,1,76,1, ,max concurr test session,proxi, , ,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,24,1,7,3,2,0.06,6,69,1, ,messag info regist hub print stack trace sleep session log handler thread temp log,thread log manag session log handler,boolean boolean,check presenc,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,6,77,1,grid except, , , , ,info
+LogicBranch,IfBlock,info,0,0,0,1,0,0,1,39,3,12,5,3,0.10,6,78,1, ,configur configur regist hub info messag info regist hub print stack trace sleep session log handler thread temp log start,registr request registr request thread log manag session log handler thread,int boolean boolean,regist cycl interv check presenc,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,5,0,1,0,0,0.01,6,68,1,except,messag,, , ,error
+Exception,TryBlock,info,0,0,0,1,0,1,0,19,1,12,8,5,0.05,6,77,1, ,messag extern form updat config real port json byte set content creat client execut statu statu format info,registr json json request http client factori client respons respons string,http request string http client http respons,registr request json client respons,info
+Exception,TryBlock,info,0,0,0,1,0,1,0,19,1,12,8,5,0.05,6,77,1, ,messag info extern form updat config real port json byte set content creat client execut statu statu format,registr json json request http client factori client respons respons string,http request string http client http respons,registr request json client respons,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,5,0,2,2,1,0.01,6,75,1, ,simpl name,servlet class node servlet,string,path,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,20,0,13,7,2,0.07,4,84,1, ,builder add object build pars version version println help usag append log debug configur log,command builder add object command common common command common common,command string builder,command print,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,52,6,25,24,10,0.18,4,67,1, ,common grid option common option pars free port configur set remot server start remot server info start registr process common grid option common option pars set raw arg format info start common option pars format info boot builder,option common grid option port prober remot remot remot log remot option common grid option configur string log hub option string log server immut map builder,grid node cli option grid node configur self regist remot selenium server grid hub cli option grid hub configur hub standalon cli option standalon configur selenium server,option configur remot server option configur hub option configur server,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,4,0,2,0,0,0.01,4,72,1, ,start remot server start registr process,remot remot, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,30,3,13,14,6,0.10,4,68,1, ,common grid option common option pars set raw arg start common option pars format info boot builder,option common grid option configur hub option string log server immut map builder,grid hub cli option grid hub configur hub standalon cli option standalon configur selenium server,option configur hub option configur server,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,14,1,5,5,3,0.05,4,65,1, ,common option pars boot builder,option server immut map builder,standalon cli option standalon configur selenium server,option configur server,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,24,1, , , , , ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,2,1,1,0.02,1,78,1, ,registri remov,registri,grid registri,registri,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,5,0,2,2,1,0.02,3,69,1, ,simpl name add servlet,servlet class,string,path,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,23,2,11,9,0,0.07,3,76,1, ,init server stop format sever start registr format info web driver hub request format info,string log server string log string log, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,23,2,9,7,0,0.07,3,67,1, ,init server stop format sever start info web driver hub request format info,string log server log string log, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,23,2,9,7,0,0.07,3,64,1, ,init server stop format sever start info registr format info,string log server log string log, , ,info
+LogicBranch,SwitchBlock,error,0,0,0,1,0,1,0,14,1,9,5,0,0.04,5,78,2, ,desir capabl cleanup messag log messag add session request wait session bound session event forward session request updat registri,request log registri, , ,info
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,2,0,0,0.02,5,85,1,except,cleanup messag,, , ,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,2,0,0.01,5,84,2,client gone except,termin,registri, , ,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,2,0,0.01,5,83,2,socket timeout except,termin,registri, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,2,2,0,0.02,5,86,1,throwabl,termin messag,registri, , ,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,1,0,0,0.02,5,86,2,except,print stack trace,, , ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,class found except,messag,, , ,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,45,0,19,12,9,0,0,0,0, ,name builder program name add object add object build messag println usag pars displai help properti configur log set instanc match us decor add rout start,command builder program name add object add object systemerr command command help system log option global distribut tracer match us server server,help flag base server flag command config log option distribut tracer session map base server option server<>,help server flag command config log option tracer session server option server,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,1,1,1,71,1,31,22,15,0.51,1,26,0, ,builder program name add object add object add object build messag println usag pars displai help properti configur log tracer set instanc creat default loopback address machin int els throw runtim avail processor builder maximum concurr session configur build add match us decor add rout start,command builder program name add object add object add object systemerr command command help system log option log option global distribut tracer http client factori network util config int runtim runtim local node builder node flag node distributor rout match us server server,help flag base server flag node flag command config log option distribut tracer session map distributor router string int local node builder server<>,help base flag node flag command config log option tracer session distributor router host name port localhost node server,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,2,0,0,0,0,0,0, ,id messag,node result, , ,info
+Exception,TryBlock, ,0,0,0,0,0,0,0,19,0,18,18,5,0,0,0,0, ,unlock activ span creat span output set pretti print write string add tag add refresh id default add id minut submit,write lock tracer tracer set pretti print sb span host host node check node runnabl node check durat durat host checker,span json output host runnabl collection< runnable>,span host runnabl node runnabl,info
+LogicBranch,IfBlock,trace,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,26,0, , , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,3,1,4,3,0,0.03,1,168,1, ,score stream filter peek,builder builder stream filter, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,19,1,9,7,3,0.18,1,90,1, ,build start url add maximum simultan session maximum simultan session format info score,builder servic servic node info info string log builder,driver servic remot web driver int,servic driver,info
+Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,1,0,0,0.02,2,60,1,except | illeg except | null pointer except,empti,option, , ,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,1,0,0,0,0,0.00,2,59,2, , , , , ,info
+Exception,TryBlock,warn,0,0,0,1,1,0,1,42,1,22,20,8,0.19,2,41,2, ,messag log empti creat default creat client creat session dialect dialect contain empti iter command codec respons codec command codec respons codec creat respons session id valu activ session,log option http client factori creat default immut map protocol handshak result result downstream dialect downstream dialect downstream dialect iter result respons respons option,http client command protocol handshak result session codec dialect dialect respons optional< activ session>,client command result codec upstream downstream respons activ session,info
+Exception,CatchBlock, ,0,0,0,0,1,0,0,5,0,2,0,0,0,0,0,0,except | illeg except | null pointer except | invalid argument except,stop empti,servic option, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,16,0,6,6,1,0.09,7,164,0, ,requir null requir null builder add add build,object object immut list builder builder builder,immut list builder< session factory>,builder,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,11,6,11,11,0,0.06,7,166,0, ,appli format info support stream filter peek map filter map,factori string factori factori stream filter peek map filter map, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,3,1,4,3,0,0.02,7,166,0, ,support stream filter peek,factori factori stream filter, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,4,1,4,6,0,0.02,7,154,0, ,appli format info support,factori string factori, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,5,1,4,6,0,0.03,7,146,0, ,appli format info support,factori string factori, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,6,1,4,6,0,0.03,7,142,0, ,appli format info support,factori string factori, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,7,1,4,6,0,0.04,7,140,0, ,appli format info support,factori string factori, , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,0,11,2,6,8,0,0.06,7,138,1, ,json info appli format info support,json factori string factori, , ,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,55,1,except, , , , ,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,1,81,3, , , , , ,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,7,0,1,2,0,0,0,0,0, ,platform match,, , ,info
+Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,0,0,0,0.04,2,71,1,class found except | class def found error, , , , ,info
+Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,0,0,0,0.04,2,59,1,unsupport class version error, , , , ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,6,0,1,2,0,0.06,2,76,2, ,call constructor,, , ,info
+Exception,TryBlock,info,0,0,0,0,0,0,0,11,0,5,6,1,0.06,1,91,1, ,class class loader name subclass add servlet,class class name,class< extend servlet>,rc servlet,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,1,26,0,10,9,3,0.13,1,35,1, ,creat pipelin add servlet add servlet match us add rout add rc support add extra servlet start,grid role match,session pipelin servlet,inact session timeout pipelin driver servlet,info
+CriticalClassesCheck,ClassBlock,warn,0,0,0,1,1,1,1,267,1,101,81,13,1.00,1,75,3, ,name logger name name cach thread pool singl thread schedul executor configur log requir null schedul fix delai global instanc add handler logger handler session log handler add handler header set access control header set header set header servic set header set header set header handl path info path info equal static resourc request handl servic redirect hub path info equal ignor handl handl cross domain rpc set statu messag output stream println output stream flush load rpc string set attribut method path content handl match fine method equal ignor id path info equal session log handler thread temp log reset current thread set name detach current thread path info path info limit split list size equal attach current thread current thread set name id attach current thread id capabl format current thread set name current thread name method path info class simpl name format fine execut submit reset execut messag log current thread interrupt id invalid,web driver servletclass logger web driver servletclass web driver servletclass executor executor object schedul logger log handler logger logger root logger log manag root logger request respons respons super respons respons respons req req static resourc handler static resourc handler static resourc handler req servlet respons servlet respons output stream servlet respons output stream cross domain rpc loader media type f8 servlet request rpc rpc rpc handler req activ session handler req path info log manag session log handler resp thread current thread session log handler req req splitter limit fragment fragment session fragment session log handler thread current thread activ session handler session log handler session session capabl string thread current thread thread current thread req req handler class string handler executor resp except handler logger thread current thread execut activ session handler session,logger logger boolean handler cross domain rpc http servlet request wrapper command handler boolean session log handler string list< string> activ session future<>,logger root logger session logger attach handler rpc wrapper handler invalid session session log handler path info fragment session execut,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,6,0,2,0,0,0.02,1,44,1,interrupt except,current thread interrupt,thread current thread, , ,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , , , , ,error
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,12,1,7,6,2,0.05,2,41,1,except,root except caus messag warn empti screenshot nullabl failur,log option web driver handler<> handler option respons,throwabl optional< string>,screenshot,warn
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,12,1,6,8,2,0.05,2,40,2,except,log root except caus empti screenshot nullabl failur,log option web driver handler<> handler option respons,throwabl optional< string>,screenshot,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,1,2,0,0.02,2,46,2,error,failur,respons, , ,error
+LoopCheck,ForBlock, ,0,0,0,0,0,0,0,9,0,6,6,1,0,0,0,0, ,evalu check null caus add okai continu test sleep tight,decor precondit decor step result decor,loggabl step,step,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,70,3, , , , , ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,72,2,except, , , , ,info
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,79,2,throwabl, , , , ,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,1,1,0,0,4,1,1,2,0,0,0,0,0, ,,step, , ,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,14,0,9,6,4,0,0,0,0, ,free port creat temp file string string launch assert null format html unit quit,port prober file temp log port grid launcher v3 string desir capabl driver,integ path string web driver,port temp log arg driver,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,1,9,0,5,4,2,0,0,0,0, ,creat session log handler attach current thread log session contain assert true,handler handler log session,session log handler session id,handler session id,info

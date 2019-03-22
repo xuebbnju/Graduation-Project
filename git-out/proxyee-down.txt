@@ -1,0 +1,14 @@
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,3,3,0,0.01,5,41,2,IOException,getMessage getMessage alertAndExit ,e I18nUtil  ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,40,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,39,2,IOException,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.01,5,40,2,Exception,getMessage alertAndExit ,e  ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,41,2,IOException,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,39,2,Exception,,,,,error
+LogicBranch,IfBlock, ,0,0,0,0,1,0,1,31,0,38,24,8,0,0,0,0,,content setContent getHttpRequest toString toString close getRequestProto getHost getRequestProto getPort getRequestProto getSsl setRequestProto parse eventLoop parent getHttpResponseInfo headers clear headers set headers set getBytes content writeBytes content readableBytes headers set writeAndFlush writeAndFlush close writeValueAsString encode writeValueAsString encode loadUri ,httpRequestInfo httpRequestInfo pipeline getHttpRequest httpResponse proxyChannel pipeline getRequestProto pipeline getRequestProto pipeline getRequestProto httpRequestInfo HttpRequestForm clientChannel eventLoop HttpDownUtil httpResponse headers httpResponse headers httpResponse headers js httpContent content httpContent content httpResponse headers clientChannel clientChannel clientChannel objectMapper URLEncoder objectMapper URLEncoder DownApplicationINSTANCE ,HttpRequestForm HttpResponseInfo String HttpContent ObjectMapper String String String ,requestForm responseInfo js httpContent objectMapper requestParam responseParam uri ,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.06,1,32,2,,,,,,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.06,1,33,2,,,,,,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,43,2,Exception,,,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,9,0,7,5,2,0,0,0,0,,getCause toString put buildJson setStatus channel writeAndFlush ,cause getCause data HttpHandlerUtil httpResponse ctx channel ,Map<String Object> FullHttpResponse ,data httpResponse ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,56,2,IOException,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,warn

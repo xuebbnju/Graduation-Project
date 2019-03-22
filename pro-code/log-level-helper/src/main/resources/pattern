@@ -1,0 +1,3 @@
+(?i)log[^. ]*\.[^. ]*(fatal|error|warn|info|debug|trace)[^. ]*
+(?i)log[^. ]*\.log\((severe|warn|info|config|fine|finer|finest)
+(?i)log[^. ]*\.log\(level\.(severe|warn|info|config|fine|finer|finest)

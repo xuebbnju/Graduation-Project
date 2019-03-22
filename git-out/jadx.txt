@@ -1,0 +1,211 @@
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.09,3,33,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.09,3,31,1,JadxArgsValidateException,,,,,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,42,2,,error currentThread interrupt getArgs setRootDir getSaveExecutor shutdown getTaskCount getCompletedTaskCount setProgress sleep isTerminating close info getClasses forEach ,LOG Thread currentThread decompiler getArgs decompiler ex ex ex progressMonitor Thread ex progressMonitor LOG decompiler getClasses ,ThreadPoolExecutor long long ,ex total done ,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,2,1,0,0.13,3,38,2,,info printErrorsReport ,LOG jadx ,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,3,4,1,0,0,0,0,,overrideProvided is assertThat ,jadxArgs   ,boolean ,res ,info
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,39,2,,debug ,LOG ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,2,32,1,,isDebugEnabled ,LOG ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,16,0,5,4,5,0.15,2,31,1,,getInputFiles get getName lastIndexOf substring ,args getInputFiles file name name ,File String File String int ,outDir outDirName file name pos ,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,16,0,10,4,0,0.05,5,48,2,,reset validate init getInputFiles loadFiles load initClassPath getResources loadResources initVisitors , JadxArgsValidator  args  root root  root  ,,,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,4,0,2,0,0,0.05,3,37,1,InterruptedException,currentThread interrupt ,Thread currentThread ,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,6,5,0.08,5,42,2,,getThreadsCount info newFixedThreadPool isExportAsGradleProject getOutDirSrc getOutDirRes getOutDir init getSrcOutDir getResOutDir appendResourcesSave appendSourcesSave ,args LOG Executors args args args args export export export   ,int ExecutorService File File ExportGradleProject ,threadsCount executor sourcesOutDir resOutDir export ,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,7,5,0.08,5,47,2,,getThreadsCount debug newFixedThreadPool isExportAsGradleProject getOutDirSrc getOutDirRes getOutDir init getSrcOutDir getResOutDir appendResourcesSave appendSourcesSave ,args LOG Executors args args args args export export export   ,int ExecutorService File File ExportGradleProject ,threadsCount executor sourcesOutDir resOutDir export ,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,41,1,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,38,1,Exception,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,7,0,10,6,1,0.04,1,55,2,JadxException,getType toString toLowerCase add add getCause getStackTrace startLine getName singleFile ,rf getType toString cw add e Utils cw rf ResContainer ,CodeWriter ,cw ,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,2,0,0.02,1,28,2,Exception,addResourceFile , ,,,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,39,2,,,,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,25,1,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,14,2,4,3,3,0.10,2,21,1,,size isDebugEnabled sort debug ,missingClasses LOG Collections LOG ,int List<String> String ,count clsNames cls ,warn
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.02,2,38,1,,,,String ,cls ,debug
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,1,0,0.01,1,45,2,,containsKey ,names ,,,debug
+Exception,TryBlock,debug,0,0,0,0,0,0,0,17,0,9,7,5,0.07,1,42,2,,writeBytes writeByte writeInt getName writeString getParents writeByte getId writeInt ,out out out cls  cls out parent out ,DataOutputStream NClass NClass NClass NClass ,out cls parents parent cls ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,4,38,2,,,,,,info
+LoopCheck,ForBlock,info,0,0,0,0,0,0,0,3,0,0,0,1,0.04,4,45,1,,,,InputFile ,inputFile ,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,29,2,11,11,7,0.40,4,48,1,,usage exit isDirectory addFilesFrom addFilesFromDirectory getFile info load load save info , System f InputFile  inputFile LOG root set set LOG ,File List<InputFile> File int InputFile RootNode ClsSet ,output inputFiles f i inputFile root set ,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,4,40,1,Exception,,,,,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,31,2,,,,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,22,1,Exception,,,,,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.01,1,86,4,,replaceArg ,inlCopy ,,,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,10,1,2,6,1,0.01,1,82,4,,replaceArg warn ,inlCopy LOG ,InsnArg ,repl ,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,4,2,0,0.03,3,68,1,,size size size subList ,args args args args ,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,6,5,1,0.03,3,82,1,,isArray getType useType getArrayElement useType add ,type arg classGen type classGen argsCode ,ArgType ,elType ,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,5,0,2,1,0,0.02,3,90,1,DecodeException,getMessage startLine ,e code ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.02,3,88,1,CodegenException,startLine ,code ,,,error
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0,,toString ,Long ,,,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,32,1,16,19,5,0.19,2,114,2,,exists getAbsolutePath error readLines trim isEmpty startsWith splitAndTrim startsWith startsWith startsWith startsWith put put put addPackagePreset ,deobfMapFile deobfMapFile LOG FileUtils l l l  l l l l mthPresetMap fldPresetMap clsPresetMap deobfuscator ,List<String> String String String String ,lines va origName alias l ,info
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,107,2,IOException,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.04,2,83,2,,getAbsolutePath dumpMapping ,deobfMapFile  ,,,warn
+LogicBranch,IfBlock,info,0,0,0,1,0,0,0,7,1,6,6,0,0.01,1,87,3,,getClassFullName getFullName equals getFullName getClassFullName info , cls getFullName cls  LOG ,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,3,2,0,0.01,1,63,2,,getClassFullName getFullName equals , cls getFullName ,,,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,IllegalArgumentException,,,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,,,,,,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,53,3,Exception,,,,,error
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,99,4,JadxRuntimeException,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,11,0,10,9,0,0.02,1,54,3,,isConstructor getParentClass getAccessFlags isEnum get add get add get add ,mthInfo  getParentClass getAccessFlags mthArgs argsTypes mthArgs argsTypes mthArgs argsTypes ,,,warn
+Exception,TryBlock,error,0,0,0,0,0,1,0,7,0,2,1,1,0.03,2,39,1,,size add ,dexNodes dexNodes ,DexNode ,dexNode ,debug
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,37,2,,,,,,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,32,1,JadxException,,,,,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,72,3,Exception,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,4,1,0,0.02,1,66,3,,getObject getArrayRootElement getObject equals ,el type getArrayRootElement getObject ,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,,emptyMap ,Collections ,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0,,,,,,warn
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,80,1,26,20,10,1.00,1,92,3,,getMessage formatMsg error unloadInsnArr getDebugInfoOffset dex checkOffset processDebugInfo getInstructions process setMethodSourceLine getReturnType equals setLineForReturn getLastInsn getOffset getArg getArg getType getName mergeDebugInfo getSourceLine setSourceLine getExitBlocks getSourceLine setSourceLine ,e ErrorsCounter LOG mth mth mth dex  mth debugInfoParser  mth getReturnType  BlockUtils ret oldRet ret oldArg oldArg newArg oldRet ret mth insn mth ,int InsnNode DebugInfoParser InsnNode InsnNode RegisterArg RegisterArg BlockNode int InsnNode ,debugOffset insnArr debugInfoParser ret oldRet oldArg newArg exit line insn ,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,47,1,Exception,,,,,error
+LogicBranch,IfBlock, ,0,0,0,0,0,1,0,7,0,3,0,0,0,0,0,0,,isTypeKnown isTypeKnown selectFirst ,elType insnElementType elType ,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,,getType ,put ,,,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,8,7,0,0.02,2,71,4,,getArg isLiteral getArg getLiteral getOp getArg getArg changeCondition ,insn getArg insn LiteralArg insngetArg1 insn wi wi insn ,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,50,3,Exception,,,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,51,3,Exception,,,,,debug
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,18,1,7,6,2,0.02,3,75,3,Exception,error unload load root getArgs getPassesList visit ,LOG mth mth mth root Jadx DepthTraversal ,List<IDexTreeVisitor> IDexTreeVisitor ,passes visitor ,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,75,3,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,20,0,6,6,3,0.02,3,75,3,,isEmpty get checkFromFirstBlock getOuts size mergeReturns ,blocks blocks  removeInfo outs  ,BlockNode BlocksRemoveInfo Set<BlocksPair> ,startBlock removeInfo outs ,debug
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,0,0,0.00,3,57,2,,getPredecessors size ,remBlock getPredecessors ,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,,,,,,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,7,0,6,8,1,0.01,1,56,3,,get getLastInsns insertAtStart getLastInsns clear forEach ,predecessors    getLastInsns predecessors ,List<InsnNode> ,insns ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,9,0,7,3,1,0.02,1,78,3,,getPredecessors isEmpty getSuccessors isEmpty get getTryBlock removeBlock ,block getPredecessors block getSuccessors block catchAttr getTryBlock ,CatchAttr ,catchAttr ,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,3,0,0.07,1,20,0,,isDebugEnabled contains contains contains getInstructions isEmpty ,LOG block block block block getInstructions ,,,debug
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,,,,,,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,3,2,0,0.01,3,81,3,,getParentInsn getParentInsn replaceArg ,wrapArg wrapArg getParentInsn ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,24,0,12,13,2,0.06,3,81,3,,getParentInsn getParentInsn getType getResult fixIterableType searchWrappedInsnParent getParentInsn add getParentInsn replaceArg fixIterableType replaceArg ,wrapArg wrapArg parentInsn parentInsn  BlockUtils castArg toSkip castArg getParentInsn  parentInsn ,InsnNode InsnArg ,parentInsn castArg ,warn
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,25,0,11,8,3,0.07,3,84,3,,isGeneric getGenericTypes equals isGenericType setType dex isInstanceOf getWildcardType getWildcardBounds dex isInstanceOf ,iterableType iterableType gType gType iterVar mth ArgType gType gType mth ArgType ,ArgType ArgType ArgType ,genericTypes gType wildcardType ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,81,3,,,,,,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,,getHandlersCount ,tb ,,,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,15,0,20,12,2,0.01,6,71,1,,cardinality nextSetBit get getId nextSetBit get getId getDomFrontier get getId getDomFrontier get put size getId set put size getId set ,df df basicBlocks first df basicBlocks first second getDomFrontier second first getDomFrontier fallThroughCases df second df fallThroughCases df first df ,BlockNode BlockNode ,first second ,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,1,6,9,0,0.01,6,71,1,,isEmpty isBadCasesOrder reOrderSwitchCases isBadCasesOrder error add ,fallThroughCases    LOG mth ,,,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,2,3,0,0.00,6,71,1,,isBadCasesOrder add , mth ,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,6,70,1,,cardinality ,outs ,,,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,3,2,0,0.01,6,69,2,,add getPredecessors addAll ,blocks handlerBlock splitters ,,,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,1,0,0,0.00,6,68,2,,isEmpty ,s ,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,2,1,0,0.00,6,72,2,,getHandlerRegion addAttr ,handler getHandlerRegion ,,,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,1,0,0.03,1,95,3,,addBreakToContainer , ,,,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,1,0,0.02,1,90,4,,getArg isThis ,synchInsn getArg ,,,warn
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,45,2,,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,50,2,,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2,,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2,,,,,,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,5,0,2,0,0,0,0,,getInstructions iterator next remove hasNext ,block getInstructions it it it ,Iterator<InsnNode> InsnNode ,it insn ,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,,,,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,2,2,0,0,0,0,0,,contains add ,IGNORECLSNAMES cls ,,,debug
+CriticalClassesCheck,ClassBlock,debug,0,0,0,1,0,1,0,196,6,64,66,28,1.00,6,53,3,,dump dump save dumpRaw save dumpRegions save equals add traverse debug printRegions printRegion debug getRegion printRegion getAttributesString debug getAttributesString debug printInsns printRegion getSubBlocks debug getFallbackMethodGen makeInsn length toString substring getAttributesString debug getInstructions getResult getResult checkSSAVar checkSSAVar getArguments getInstructions getBasicBlocks checkPHI getSVar getParentInsn containsArg getUseList getType add getArgsCount getBlockBinds size getArgsCount getBlockByArg getArguments getInstructions get getList isEmpty containsAll containsAll isEmpty getBasicBlocks getUsedInPhi getParentInsn getUseList getSVars , DotGraphVisitor dump DotGraphVisitor dumpRaw DotGraphVisitor dumpRegions block regions DepthRegionTraversal LOG   LOG mth  region LOG container LOG   region LOG MethodGen ig CodeWriterNL code toString insn LOG block insn insn   insn block mth  reg useArg parentInsn sVar insn phis phi phi getBlockBinds phi phi insn block block phiListAttr phiList phis phiList phis mth ssaVar useArg ssaVar mth ,File Set<IRegion> IBlock IContainer MethodGen InsnGen CodeWriter String InsnNode InsnArg InsnNode BlockNode SSAVar InsnNode RegisterArg List<PhiInsn> PhiInsn BlockNode InsnArg InsnNode PhiListAttr List<PhiInsn> BlockNode PhiInsn boolean InsnNode RegisterArg SSAVar ,out regions block container mg ig code insnStr insn arg insn block sVar parentInsn useArg phis phi b arg insn phiListAttr phiList block usedInPhi found parentInsn useArg ssaVar ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,12,0,3,4,1,0.06,6,50,3,,equals add traverse ,block regions DepthRegionTraversal ,Set<IRegion> ,regions ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,2,4,0,0.02,6,57,3,,getRegion printRegion ,mth  ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,15,1,5,11,2,0.08,6,49,2,,getAttributesString debug printInsns printRegion getSubBlocks ,container LOG   region ,IBlock IContainer ,block container ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,9,0,2,7,1,0.05,6,48,2,,printInsns printRegion ,  ,IBlock ,block ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,6,54,3,CodegenException,,,,,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,10,1,6,7,4,0.05,6,49,2,,debug getFallbackMethodGen makeInsn length toString substring ,LOG MethodGen ig CodeWriterNL code toString ,MethodGen InsnGen CodeWriter String ,mg ig code insnStr ,debug
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,110,7,47,41,6,1.00,7,36,2,,add formatMsg error getMessage getMessage error error addAttr remove add addAttr contains add formatMsg warn dex root getErrorsCounter addError dex root getErrorsCounter addWarning root getErrorsCounter addError root getErrorsCounter addWarning typeName dex getDexFile getName getErrorCount getErrorCount error size getClass getSimpleName replace add sort error getWarnsCount getWarnsCount size warn ,errorNodes  LOG e e LOG LOG node node warnNodes node node node  LOG cls dex root getErrorsCounter cls dex root getErrorsCounter mth root getErrorsCounter mth root getErrorsCounter node node dex getDexFile   LOG errorNodes node getClass getSimpleName errors Collections LOG   warnNodes LOG ,String String List<String> String IAttributeNode String ,msg msg errors nodeName node err ,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,3,3,0,0.06,7,40,1,,getMessage getMessage error ,e e LOG ,,,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,2,2,0,0.06,7,35,1,,error getMessage ,LOG e ,,,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,2,4,5,0,0.08,7,40,2,,error getMessage getMessage error ,LOG e e LOG ,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,13,0,5,7,1,0.12,7,40,2,,add addAttr contains add formatMsg ,warnNodes node node node  ,String ,msg ,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,8,6,4,0.11,7,32,1,,getErrorCount size getClass getSimpleName replace add sort error , errorNodes node getClass getSimpleName errors Collections LOG ,List<String> String IAttributeNode String ,errors nodeName node err ,error
+LoopCheck,ForBlock,error,0,0,0,0,0,0,0,3,0,0,0,1,0.03,7,39,1,,,,String ,err ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.03,7,32,1,,getWarnsCount , ,,,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,,,,,,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,70,2,,getAppPackage searchClassByName addResourceFields searchClassByShortName size get addResourceFields isEmpty info info makeClass addResourceFields ,root root  root candidates candidates  candidates LOG LOG   ,String String ClassNode List<ClassNode> ,appPackage fullName resCls candidates ,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,0,0,0.03,2,70,2,,isEmpty ,candidates ,,,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,62,2,,getAppPackage searchClassByName addResourceFields info searchClassByShortName size get addResourceFields isEmpty info makeClass addResourceFields ,root root  LOG root candidates candidates  candidates LOG   ,String String ClassNode List<ClassNode> ,appPackage fullName resCls candidates ,info
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,76,2,IOException,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,Exception,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,69,2,Exception,,,,,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,3,1,0.03,5,70,2,,createNewFile exists getAbsolutePath debug ,caseCheckUpper caseCheckLow testDir LOG ,boolean ,caseSensitive ,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,2,1,0.03,5,63,2,,createNewFile getAbsolutePath debug exists ,caseCheckUpper caseCheckUpper LOG caseCheckLow ,boolean ,caseSensitive ,debug
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,50,2,Exception,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.01,2,66,3,,isError ,j2d ,,,warn
+Exception,TryBlock,warn,0,0,0,1,1,1,0,14,1,6,3,1,0.07,2,61,3,,getMessage isError getDxErrors warn getAbsolutePath convert ,e j2d j2d LOG jarFile j2d ,byte ,ba ,info
+Exception,TryBlock,error,0,0,0,1,1,0,0,12,1,4,4,2,0.16,1,144,4,,error getCanonicalFile getCanonicalFile isInSubDirectoryInternal ,LOG File File  ,File File ,currentPath canonical ,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,5,0,1,0,0,0.07,1,72,2,,getName ,entry ,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,54,2,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,4,4,0,0.03,2,47,2,,loadXML parse loadXML parse ,    ,,,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,57,2,NumberFormatException,,,,,debug
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,82,3,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,66,3,Exception,,,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,76,2,IOException,,,,,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2,,isInSubDirectory getPath ,ZipSecurity outFile ,,,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2,,isInSubDirectory getFileName ,ZipSecurity rc ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,73,2,Exception,,,,,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,0,0,22,1,8,7,3,0.20,4,74,2,,getContent save getBinary getName warn makeDirsForFile close copy ,rc cw rc rc LOG FileUtils binary IOUtils ,CodeWriter InputStream FileOutputStream ,cw binary binaryFileStream ,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,,,,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,75,3,Exception,,,,,error
+LogicBranch,SwitchBlock,error,0,0,0,0,1,0,0,3,0,1,1,0,0.01,1,54,2,,toHexString ,Integer ,,,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,7,6,0,0.10,1,105,4,,makeArgs toFile setOutDir toFile setOutDirSrc toFile setOutDirRes ,  args  args  args ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,13,13,0,0.10,1,69,4,,validate getOutDir toFile is assertThat getOutDirSrc toFile is assertThat getOutDirRes toFile is assertThat ,JadxArgsValidator args    args    args    ,,,debug
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,33,1,11,9,3,0.22,2,34,2,,load getName matcher matches getMethods visit visit getCode info printMethods checkCode ,classNode mth mthPattern matcher classNode DepthTraversal CodeGen classNode LOG   ,boolean MethodNode IDexTreeVisitor ,decompile mth visitor ,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.03,2,50,2,,printMethods , ,,,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,15,0,8,7,5,0.10,2,59,2,,getName matcher matches getDecompiledLine append append countMatches countMatches ,mth mthPattern matcher mth mthCode append StringUtils StringUtils ,int StringBuilder int String int ,decompiledLine mthCode brackets line i ,info
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.04,1,80,2,,,,String ,str ,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,1,14,1,,,,,,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,2,75,1,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.02,2,66,2,,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,13,0,11,13,2,0.27,2,57,2,,getClassNode getCode toString containsOne assertThat containsOne assertThat containsOne assertThat containsOne assertThat , cls getCode         ,ClassNode String ,cls code ,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.08,1,53,3,Exception,exit ,System ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,1,41,3,Exception,,,,,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,3,34,1,Exception,,,,,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,29,2,,error currentThread interrupt getArgs setRootDir getSaveExecutor shutdown getTaskCount getCompletedTaskCount setProgress sleep isTerminating close getClasses forEach info ,LOG Thread currentThread decompiler getArgs decompiler ex ex ex progressMonitor Thread ex progressMonitor decompiler getClasses LOG ,ThreadPoolExecutor long long ,ex total done ,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,1,47,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,51,2,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,7,0,2,1,0,0.07,7,65,2,,isDone cancel ,  ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,64,2,Exception,,,,,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,61,2,,error gc getDecompileJob runJob memoryInfo debug getIndexJob runJob memoryInfo debug gc memoryInfo debug getTextIndex getSkippedCount getSkippedCount memoryInfo warn ,LOG System cache  Utils LOG cache  Utils LOG System Utils LOG cache searchIndex searchIndex Utils LOG ,TextSearchIndex ,searchIndex ,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2,,error gc memoryInfo debug getDecompileJob runJob getIndexJob runJob memoryInfo debug gc memoryInfo debug getTextIndex getSkippedCount getSkippedCount memoryInfo warn ,LOG System Utils LOG cache  cache  Utils LOG System Utils LOG cache searchIndex searchIndex Utils LOG ,TextSearchIndex ,searchIndex ,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2,,error gc memoryInfo debug getDecompileJob runJob memoryInfo debug getIndexJob runJob gc memoryInfo debug getTextIndex getSkippedCount getSkippedCount memoryInfo warn ,LOG System Utils LOG cache  Utils LOG cache  System Utils LOG cache searchIndex searchIndex Utils LOG ,TextSearchIndex ,searchIndex ,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,63,2,,error gc memoryInfo debug getDecompileJob runJob memoryInfo debug getIndexJob runJob memoryInfo debug gc getTextIndex getSkippedCount getSkippedCount memoryInfo warn ,LOG System Utils LOG cache  Utils LOG cache  Utils LOG System cache searchIndex searchIndex Utils LOG ,TextSearchIndex ,searchIndex ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,4,0,3,0,0,0.04,7,54,1,,getSkippedCount getSkippedCount memoryInfo ,searchIndex searchIndex Utils ,,,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,65,2,Exception,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,32,0,16,11,0,0,0,0,0,,setDeobfuscationMinLength setDeobfuscationUseSourceNameAsAlias setDeobfuscationForceSave setThreadsCount setReplaceConsts setSkipResources setAutoStartJobs getDefaultTheme getPath setEditorThemePath getDeobfuscationMinLength setDeobfuscationMinLength defaultLocale setLangLocale setUseImports sync ,       EditorTheme getDefaultTheme    NLS    ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.04,5,38,1,Exception,,,,,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,2,0,0,0.07,5,38,1,,fixOnLoad makeDefault ,settings JadxSettings ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,5,34,1,,isDebugEnabled ,LOG ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,5,37,1,Exception,,,,,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,8,1,4,5,1,0.09,5,35,1,,error makeString put sync ,LOG  PREFS PREFS ,String ,jsonSettings ,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,7,0,4,2,1,0,0,0,0,,getSelectedFont setFont updateFont loadSettings ,fontChooser settings mainWindow mainWindow ,Font ,font ,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,Exception,getMessage ,e ,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,1,4,4,0,0.01,3,80,2,,getDisplayedResultsStart getDisplayedResultsEnd getResultCount format ,resultsModel resultsModel resultsModel String ,,,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,9,1,5,2,1,0.02,3,38,1,,str getDisplayedResultsStart getDisplayedResultsEnd getResultCount setText ,NLS resultsModel resultsModel resultsModel resultsInfoLabel ,String ,statusText ,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,76,2,Exception,,,,,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,81,2,Exception,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,58,1,Exception,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,58,2,,,,,,error
+Exception,CatchBlock,error,0,0,0,1,0,0,0,8,1,2,3,0,0.01,3,46,1,Exception,error load ,LOG Theme ,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,48,1,Exception,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,4,1,5,3,0,0.01,5,190,1,,single length filter subscribeOn doOnNext ,Schedulers text searchEvents filter subscribeOn ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,8,1,8,4,0,0.03,5,171,1,,single prepareSearch subscribeOn toList toFlowable debug single length ,Schedulers  prepareSearch subscribeOn toList LOG Schedulers text ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,9,1,9,4,0,0.03,5,152,1,,edt single prepareSearch subscribeOn toList toFlowable debug single length ,SwingSchedulers Schedulers  prepareSearch subscribeOn toList LOG Schedulers text ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,10,1,9,4,0,0.03,5,145,1,,edt single prepareSearch subscribeOn toList toFlowable debug single length ,SwingSchedulers Schedulers  prepareSearch subscribeOn toList LOG Schedulers text ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,16,1,12,7,2,0.06,5,138,1,,onTextFieldChanges getFlowable merge edt single prepareSearch subscribeOn toList toFlowable debug single length , searchEmitter Flowable SwingSchedulers Schedulers  prepareSearch subscribeOn toList LOG Schedulers text ,Flowable<String> Flowable<String> ,textChanges searchEvents ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,15,0,7,4,1,0.05,5,187,1,,getText contains setLastSearch setLastSearchOptions clear addAll performSearch ,searchField options cache cache resultsModel resultsModel super ,String ,text ,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,2,0,0,0,0,0,0,BadLocationException,getNode getLine ,pos getNode ,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,48,3,BadLocationException,,,,,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,49,2,BadLocationException,,,,,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0,,isDebugEnabled ,LOG ,,,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,BadLocationException,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,2,51,1,Exception,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,1,0,0.04,2,39,2,,contains ,version ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,29,1,17,10,5,0.27,2,45,1,,getVersion contains debug get next getName equalsIgnoreCase isPreRelease remove hasNext iterator isEmpty sort size get getName checkAndCompare ,JadxDecompiler version LOG  it release getName release it it list list Collections list list latest VersionComparator ,String List<Release> Release Iterator<Release> Release ,version list release it latest ,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,43,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,Exception,,,,,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,debug
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,54,2,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,52,2,Exception,,,,,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,8,1,4,5,2,0.05,2,56,3,,error getDefaultToolkit getSystemClipboard setContents ,LOG Toolkit getDefaultToolkit clipboard ,Clipboard Transferable ,clipboard transferable ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,11,13,2,0.23,2,67,2,,size get isMatched get onNext isCancelled debug memoryInfo debug onComplete create , keys  values emitter emitter LOG Utils LOG emitter Flowable ,int int ,size i ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.06,2,68,2,,isCancelled ,emitter ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,10,12,2,0.23,2,49,2,,size debug get isMatched get onNext isCancelled debug onComplete create , LOG keys  values emitter emitter LOG emitter Flowable ,int int ,size i ,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,69,2,Exception,,,,,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,24,0,18,25,2,0.15,5,67,2,,contains empty contains search concat contains search concat contains search concat contains size search concat isEmpty searchInSkippedClasses concat ,options Flowable options clsNamesIndex Flowable options mthNamesIndex Flowable options fldNamesIndex Flowable options codeIndex codeIndex Flowable skippedClasses  Flowable ,boolean Flowable<JNode> ,ignoreCase result ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,12,15,3,0.13,5,66,2,,getCode searchNext isCancelled debug isFreeMemoryAvailable memoryInfo warn onComplete memoryInfo debug onComplete create ,javaClass  emitter LOG Utils Utils LOG emitter Utils LOG emitter Flowable ,String int JavaClass ,code pos javaClass ,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.02,5,67,2,,isCancelled ,emitter ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,5,0,2,0,0,0.03,5,62,2,,isFreeMemoryAvailable onComplete ,Utils emitter ,,,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,11,14,3,0.13,5,59,2,,debug getCode searchNext isCancelled debug isFreeMemoryAvailable memoryInfo warn onComplete onComplete create ,LOG javaClass  emitter LOG Utils Utils LOG emitter emitter Flowable ,String int JavaClass ,code pos javaClass ,debug

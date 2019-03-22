@@ -1,0 +1,105 @@
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,1,0,0,0,0,0.01,4,37,1,,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,20,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Exception,,,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,73,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,75,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,11,0,0,0,0,0.02,16,77,0,SQLException,,,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,75,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,73,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,75,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,73,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,75,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,1,0,0,0,12,2,6,1,0,0.02,16,75,0,Exception,getRealConnection close isDebugEnabled getRealHashCode getMessage debug ,conn getRealConnection log conn e log ,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,16,76,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,29,0,SQLException,,,,,warn
+LogicBranch,IfBlock,trace,0,0,0,1,0,0,0,3,1,2,2,0,0.02,3,36,0,,prefix debug , statementLog ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,6,1,3,0,0,0.02,1,20,0,,isDebugEnabled getOriginalObject getClass ,log metaResultObject getOriginalObject ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,1,111,1,,debug ,LogHolderlog ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,30,0,,isDebugEnabled ,LogHolderlog ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,35,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,37,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,37,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,36,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,12,36,0,MalformedURLException,,,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,35,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,12,37,0,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,5,0,0,0,0,0.03,2,126,1,IOException,,,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,6,1,0,0.03,2,81,1,,getReturnType isAssignableFrom getName getReturnType getName setInvalid ,method expected expected method getReturnType  ,,,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,2,141,1,,,,,,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,78,0,IOException,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,3,0,0,0.01,3,55,1,Throwable,getClass getName getMessage ,t getClass t ,,,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,3,1,1,0,0,0.01,3,67,1,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,6,70,0,IllegalAccessException,,,,,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,4,1,1,0,0,0.02,6,62,1,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,6,67,1,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,6,70,1,,isDebugEnabled ,log ,,,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,6,59,1,SecurityException,,,,,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,6,60,1,NoSuchMethodException,,,,,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,20,0,,isDebugEnabled ,log ,,,debug
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,1,0,0,0,0,0.01,5,40,1,,,,,,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,14,0,,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0,,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0,,,,,,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0,,,,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,2,0,0.02,3,36,0,,prefix trace , statementLog ,,,trace
+LogicBranch,IfBlock,trace,0,0,0,1,0,0,0,3,1,1,0,0,0.02,3,32,0,,isDebugEnabled ,statementLog ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,3,32,0,,isTraceEnabled ,statementLog ,,,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,23,2,,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2,,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2,,,,,,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,19,1,,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1,,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1,,,,,,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1,,,,,,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,61,5,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,61,5,,,,,,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,54,4,,,,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4,,,,,,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4,,,,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4,,,,,,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4,,,,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,4,1,0,0.03,1,20,0,,isDebugEnabled get getName getName ,log constructorArgNames specifiedType actualType ,,,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,,,,,,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,7,64,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,7,64,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,7,65,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,7,58,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,4,1,1,0,0,0.03,7,59,0,,isDebugEnabled ,log ,,,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,7,61,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,2,41,0,,isDebugEnabled ,log ,,,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,2,28,0,,isDebugEnabled ,log ,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,3,3,4,0,0.06,3,41,1,,warn error error ,log log log ,,,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,3,3,4,0,0.06,3,40,1,,debug error error ,log log log ,,,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,0,6,3,3,4,0,0.06,3,41,1,,warn debug error ,log log log ,,,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,0,6,3,3,3,0,0.06,3,27,1,,warn debug error ,log log log ,,,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,1,0,0,0,0,0.01,4,36,0,,,,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,6,0,5,6,0,0.08,4,32,0,,anyString execute when thenReturn newInstance , statement  when StatementLogger ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,1,0,0.07,4,36,0,,prepareStatement ,conn ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,1,0,0.07,4,34,0,,prepareCall ,conn ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,9,0,4,6,1,0.10,5,35,0,,setInt executeQuery assertNotNull assertNotSame ,ps ps Assert Assert ,ResultSet ,rs ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,8,0,3,4,1,0.09,5,36,0,,setNull execute assertTrue ,ps ps Assert ,boolean ,result ,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,4,2,0,0.08,5,38,0,,getUpdateCount when thenReturn getUpdateCount ,preparedStatement  when ps ,,,debug
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,1,0,0,0,0,0.01,5,39,0,,,,,,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,11,0,20,18,1,0.15,5,36,0,,next when thenReturn getMetaData when thenReturn getColumnCount when thenReturn getColumnType when thenReturn getColumnLabel when thenReturn getString when thenReturn newInstance next ,rs  when rs  when metaData  when metaData  when metaData  when rs  when ResultSetLogger resultSet ,ResultSet ,resultSet ,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,5,35,0,,setup verify trace ,  verify ,,,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,5,35,0,,setup verify trace ,  verify ,,,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,5,36,0,,setup verify trace ,  verify ,,,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,6,0,1,1,0,0.08,4,30,0,,executeQuery ,st ,,,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,8,0,2,2,2,0.11,4,34,0,,execute assertTrue ,st Assert ,String boolean ,sql execute ,debug

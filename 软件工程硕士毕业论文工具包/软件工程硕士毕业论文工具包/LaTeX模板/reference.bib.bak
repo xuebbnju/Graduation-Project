@@ -1,0 +1,1542 @@
+@inproceedings{mader2012assessing,
+   author    = {Patrick M{\"{a}}der and
+               Alexander Egyed},
+  title     = {Assessing the effect of requirements traceability for software maintenance},
+  booktitle = {28th {IEEE} International Conference on Software Maintenance {(ICSM} 2012), Trento, Italy},
+  pages     = {171--180},
+  year      = {2012},
+  crossref  = {DBLP:conf/icsm/2012},
+  url       = {https://doi.org/10.1109/ICSM.2012.6405269},
+  doi       = {10.1109/ICSM.2012.6405269},
+  timestamp = {Mon, 22 May 2017 17:11:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/MaderE12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Scott1990LSI,
+  author    = {Scott C. Deerwester and
+               Susan T. Dumais and
+               Thomas K. Landauer and
+               George W. Furnas and
+               Richard A. Harshman},
+  title     = {Indexing by Latent Semantic Analysis},
+  journal   = {{Journal of the American society for information science}},
+  volume    = {41},
+  number    = {6},
+  pages     = {391--407},
+  year      = {1990},
+  url       = {https://doi.org/10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9},
+  doi       = {10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9},
+  timestamp = {Sun, 28 May 2017 13:22:58 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jasis/DeerwesterDLFH90},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Huang2014Software,
+ author    = {Jane Cleland{-}Huang and
+               Orlena Gotel and
+               Jane Huffman Hayes and
+               Patrick M{\"{a}}der and
+               Andrea Zisman},
+  title     = {Software traceability: trends and future directions},
+  booktitle = {Proceedings of the on Future of Software Engineering {(FOSE} 2014),
+               Hyderabad, India},
+  pages     = {55--69},
+  year      = {2014},
+  crossref  = {DBLP:conf/icse/2014fose},
+  url       = {http://doi.acm.org/10.1145/2593882.2593891},
+  doi       = {10.1145/2593882.2593891},
+  timestamp = {Sun, 25 May 2014 19:36:25 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/Cleland-HuangGHMZ14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Cleland-Huang2005Utilizing,
+  author    = {Jane Cleland{-}Huang and
+               Raffaella Settimi and
+               Chuan Duan and
+               Xuchang Zou},
+  title     = {Utilizing Supporting Evidence to Improve Dynamic Requirements Traceability},
+  booktitle = {13th {IEEE} International Conference on Requirements Engineering {(RE}
+               2005), Paris, France},
+  pages     = {135--144},
+  year      = {2005},
+  crossref  = {DBLP:conf/re/2005},
+  url       = {https://doi.org/10.1109/RE.2005.78},
+  doi       = {10.1109/RE.2005.78},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/Cleland-HuangSDZ05},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Malcom2011orthogonal,
+ author    = {Malcom Gethers and
+               Rocco Oliveto and
+               Denys Poshyvanyk and
+               Andrea De Lucia},
+  title     = {On integrating orthogonal information retrieval methods to improve
+               traceability recovery},
+  booktitle = {{IEEE} 27th International Conference on Software Maintenance, {(ICSM}
+               2011), Williamsburg, VA, USA},
+  pages     = {133--142},
+  year      = {2011},
+  crossref  = {DBLP:conf/icsm/2011},
+  url       = {https://doi.org/10.1109/ICSM.2011.6080780},
+  doi       = {10.1109/ICSM.2011.6080780},
+  timestamp = {Mon, 22 May 2017 17:11:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/GethersOPL11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Kuang2017closeness,
+  author    = {Hongyu Kuang and
+               Jia Nie and
+               Hao Hu and
+               Patrick Rempel and
+               Jian Lu and
+               Alexander Egyed and
+               Patrick M{\"{a}}der},
+  title     = {Analyzing closeness of code dependencies for improving IR-based Traceability
+               Recovery},
+  booktitle = {{IEEE} 24th International Conference on Software Analysis, Evolution
+               and Reengineering {(SANER} 2017), Klagenfurt, Austria},
+  pages     = {68--78},
+  year      = {2017},
+  crossref  = {DBLP:conf/wcre/2017},
+  url       = {https://doi.org/10.1109/SANER.2017.7884610},
+  doi       = {10.1109/SANER.2017.7884610},
+  timestamp = {Wed, 10 Jan 2018 16:22:46 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/wcre/KuangNHRLEM17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Lucia2006Incremental,
+   author    = {Andrea De Lucia and
+               Rocco Oliveto and
+               Paola Sgueglia},
+  title     = {Incremental Approach and User Feedbacks: a Silver Bullet for Traceability
+               Recovery},
+  booktitle = {22nd {IEEE} International Conference on Software Maintenance {(ICSM}
+               2006), Philadelphia, Pennsylvania, {USA}},
+  pages     = {299--309},
+  year      = {2006},
+  crossref  = {DBLP:conf/icsm/2006},
+  url       = {https://doi.org/10.1109/ICSM.2006.32},
+  doi       = {10.1109/ICSM.2006.32},
+  timestamp = {Mon, 22 May 2017 17:11:02 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/LuciaOS06},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{Yates1999IR,
+ author    = {Ricardo A. Baeza{-}Yates and
+               Berthier A. Ribeiro{-}Neto},
+  title     = {Modern Information Retrieval},
+  publisher = {{ACM} Press / Addison-Wesley},
+  year      = {1999},
+  url       = {http://www.dcc.ufmg.br/irbook/},
+  isbn      = {0-201-39829-X},
+  timestamp = {Tue, 18 Sep 2012 08:39:46 +0200},
+  biburl    = {https://dblp.org/rec/bib/books/aw/Baeza-YatesR99},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{Cleland2012Traceability,
+   editor    = {Jane Cleland{-}Huang and
+               Olly Gotel and
+               Andrea Zisman},
+  title     = {Software and Systems Traceability},
+  publisher = {Springer},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/978-1-4471-2239-5},
+  doi       = {10.1007/978-1-4471-2239-5},
+  isbn      = {978-1-4471-2238-8},
+  timestamp = {Tue, 16 May 2017 14:01:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/books/daglib/0028967},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Binkley2007RoadMap,
+  author    = {David W. Binkley},
+  title     = {Source Code Analysis: {A} Road Map},
+  booktitle = {International Conference on Software Engineering, {ISCE} 2007, Workshop
+               on the Future of Software Engineering, {(FOSE} 2007),
+               Minneapolis, MN, {USA}},
+  pages     = {104--119},
+  year      = {2007},
+  crossref  = {DBLP:conf/icse/2007fose},
+  url       = {https://doi.org/10.1109/FOSE.2007.27},
+  doi       = {10.1109/FOSE.2007.27},
+  timestamp = {Thu, 08 Mar 2018 12:03:24 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/Binkley07},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Rath2017IlmSeven,
+  author    = {Michael Rath and
+               Patrick Rempel and
+               Patrick M{\"{a}}der},
+  title     = {The IlmSeven Dataset},
+  booktitle = {25th {IEEE} International Requirements Engineering Conference {(RE} 2017), Lisbon, Portugal},
+  pages     = {516--519},
+  year      = {2017},
+  crossref  = {DBLP:conf/re/2017},
+  url       = {https://doi.org/10.1109/RE.2017.18},
+  doi       = {10.1109/RE.2017.18},
+  timestamp = {Wed, 02 May 2018 16:30:51 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/RathRM17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Ali2015entities,
+  author    = {Nasir Ali and
+               Zohreh Sharafi and
+               Yann{-}Ga{\"{e}}l Gu{\'{e}}h{\'{e}}neuc and
+               Giuliano Antoniol},
+  title     = {An empirical study on the importance of source code entities for requirements
+               traceability},
+  journal   = {Empirical Software Engineering},
+  volume    = {20},
+  number    = {2},
+  pages     = {442--478},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/s10664-014-9315-y},
+  doi       = {10.1007/s10664-014-9315-y},
+  timestamp = {Sun, 28 May 2017 13:22:43 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/ese/AliSGA15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Grogge2000Statistics,
+  author    = {David J. Groggel},
+  title     = {Practical Nonparametric Statistics},
+  journal   = {Technometrics},
+  volume    = {42},
+  number    = {3},
+  pages     = {317--318},
+  year      = {2000},
+  url       = {https://doi.org/10.1080/00401706.2000.10486067},
+  doi       = {10.1080/00401706.2000.10486067},
+  timestamp = {Sat, 27 May 2017 14:25:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/technometrics/Groggel00},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Palomba2017Recommending,
+  author    = {Fabio Palomba and
+               Pasquale Salza and
+               Adelina Ciurumelea and
+               Sebastiano Panichella and
+               Harald C. Gall and
+               Filomena Ferrucci and
+               Andrea De Lucia},
+  title     = {Recommending and localizing change requests for mobile apps based on user reviews},
+  booktitle = {Proceedings of the 39th International Conference on Software Engineering
+               {(ICSE} 2017), Buenos Aires, Argentina},
+  pages     = {106--117},
+  year      = {2017},
+  crossref  = {DBLP:conf/icse/2017},
+  url       = {https://doi.org/10.1109/ICSE.2017.18},
+  doi       = {10.1109/ICSE.2017.18},
+  timestamp = {Thu, 07 Sep 2017 09:27:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/PalombaSCPGFL17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Charrada2011Benchmark,
+   author    = {Eya Ben Charrada and
+               David Caspar and
+               C{\'{e}}dric Jeanneret and
+               Martin Glinz},
+  title     = {Towards a benchmark for traceability},
+  booktitle = {Proceedings of the 12th International Workshop on Principles of Software
+               Evolution and the 7th annual {ERCIM} Workshop on Software Evolution,
+               {(EVOL/IWPSE} 2011), Szeged, Hungary},
+  pages     = {21--30},
+  year      = {2011},
+  crossref  = {DBLP:conf/iwpse/2011},
+  url       = {http://doi.acm.org/10.1145/2024445.2024451},
+  doi       = {10.1145/2024445.2024451},
+  timestamp = {Wed, 14 Sep 2011 15:54:56 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpse/CharradaCJG11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Lingjun2009Refinement,
+  author    = {Lingjun Kong and
+               Juan Li and
+               Yin Li and
+               Ye Yang and
+               Qing Wang},
+  title     = {A Requirement Traceability Refinement Method Based on Relevance Feedback},
+  booktitle = {Proceedings of the 21st International Conference on Software Engineering
+               Knowledge Engineering ({SEKE} 2009), Boston, Massachusetts,
+               USA},
+  pages     = {37--42},
+  year      = {2009},
+  crossref  = {DBLP:conf/seke/2009},
+  timestamp = {Fri, 20 Oct 2017 13:01:30 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/seke/KongLLYW09},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Lawrie2010Normalizing,
+  author    = {Dawn J. Lawrie and
+               David W. Binkley and
+               Christopher Morrell},
+  title     = {Normalizing Source Code Vocabulary},
+  booktitle = {17th Working Conference on Reverse Engineering {(WCRE} 2010), Beverly, MA, USA},
+  pages     = {3--12},
+  year      = {2010},
+  crossref  = {DBLP:conf/wcre/2010},
+  url       = {https://doi.org/10.1109/WCRE.2010.10},
+  doi       = {10.1109/WCRE.2010.10},
+  timestamp = {Thu, 08 Mar 2018 12:03:24 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/wcre/LawrieBM10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Lawrie2011identifiers,
+   author    = {Dawn J. Lawrie and
+               David W. Binkley},
+  title     = {Expanding identifiers to normalize source code vocabulary},
+  booktitle = {{IEEE} 27th International Conference on Software Maintenance ({ICSM}
+               2011), Williamsburg, VA, USA},
+  pages     = {113--122},
+  year      = {2011},
+  crossref  = {DBLP:conf/icsm/2011},
+  url       = {https://doi.org/10.1109/ICSM.2011.6080778},
+  doi       = {10.1109/ICSM.2011.6080778},
+  timestamp = {Thu, 08 Mar 2018 12:03:24 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/LawrieB11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Wang2018Term,
+  author    = {Wentao Wang and
+               Arushi Gupta and
+               Nan Niu and
+               Li Da Xu and
+               Jing{-}Ru C. Cheng and
+               Zhendong Niu},
+  title     = {Automatically Tracing Dependability Requirements via Term-Based Relevance
+               Feedback},
+  journal   = {{IEEE} Transactions on Industrial Informatics},
+  volume    = {14},
+  number    = {1},
+  pages     = {342--349},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/TII.2016.2637166},
+  doi       = {10.1109/TII.2016.2637166},
+  timestamp = {Thu, 25 Jan 2018 11:13:10 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/tii/WangGNXCN18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Penta2002RAD,
+  author    = {Massimiliano Di Penta and
+			   Sara Gradara and
+			   Giuliano Antoniol},
+  title     = {Traceability Recovery in {RAD} Software Systems},
+  booktitle = {10th International Workshop on Program Comprehension {(IWPC} 2002), Paris, France},
+  pages     = {207--216},
+  year      = {2002},
+  crossref  = {DBLP:conf/iwpc/2002},
+  url       = {https://doi.org/10.1109/WPC.2002.1021342},
+  doi       = {10.1109/WPC.2002.1021342},
+  timestamp = {Sun, 04 Jun 2017 10:08:16 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpc/PentaGA02},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Guo2017deep,
+  author    = {Jin Guo and
+               Jinghui Cheng and
+               Jane Cleland{-}Huang},
+  title     = {Semantically enhanced software traceability using deep learning techniques},
+  booktitle = {Proceedings of the 39th International Conference on Software Engineering {(ICSE} 2017), Buenos Aires, Argentina},
+  pages     = {3--14},
+  year      = {2017},
+  crossref  = {DBLP:conf/icse/2017},
+  url       = {https://doi.org/10.1109/ICSE.2017.9},
+  doi       = {10.1109/ICSE.2017.9},
+  timestamp = {Mon, 31 Jul 2017 09:06:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/0004CC17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{gotel1994analysis,
+   author    = {O. C. Z. Gotel and
+               Anthony Finkelstein},
+  title     = {An analysis of the requirements traceability problem},
+  booktitle = {Proceedings of the First {IEEE} International Conference on Requirements
+               Engineering {(ICRE} 1994), Colorado Springs, Colorado, USA},
+  pages     = {94--101},
+  year      = {1994},
+  crossref  = {DBLP:conf/re/1994},
+  url       = {https://doi.org/10.1109/ICRE.1994.292398},
+  doi       = {10.1109/ICRE.1994.292398},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/GotelF94},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{mader2012assesrsing,
+ author    = {Patrick M{\"{a}}der and
+               Alexander Egyed},
+  title     = {Assessing the effect of requirements traceability for software maintenance},
+  booktitle = {28th {IEEE} International Conference on Software Maintenance {(ICSM} 2012), Trento, Italy},
+  pages     = {171--180},
+  year      = {2012},
+  crossref  = {DBLP:conf/icsm/2012},
+  url       = {https://doi.org/10.1109/ICSM.2012.6405269},
+  doi       = {10.1109/ICSM.2012.6405269},
+  timestamp = {Mon, 22 May 2017 17:11:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/MaderE12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ramesh1995implementing,
+   author    = {Balasubramaniam Ramesh and
+               Timothy Powers and
+               Curtis Stubbs and
+               Michael Edwards},
+  title     = {Implementing requirements traceability: a case study},
+  booktitle = {Second {IEEE} International Symposium on Requirements Engineering, York, England},
+  pages     = {89--99},
+  year      = {1995},
+  crossref  = {DBLP:conf/re/1995},
+  url       = {http://doi.ieeecomputersociety.org/10.1109/ISRE.1995.512549},
+  doi       = {10.1109/ISRE.1995.512549},
+  timestamp = {Tue, 30 Sep 2014 17:11:26 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/RameshPSE95},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{antoniol2002recovering,
+author    = {Giuliano Antoniol and
+               Gerardo Canfora and
+               Gerardo Casazza and
+               Andrea De Lucia and
+               Ettore Merlo},
+  title     = {Recovering Traceability Links between Code and Documentation},
+  journal   = {{IEEE} transactions on software engineering},
+  volume    = {28},
+  number    = {10},
+  pages     = {970--983},
+  year      = {2002},
+  url       = {https://doi.org/10.1109/TSE.2002.1041053},
+  doi       = {10.1109/TSE.2002.1041053},
+  timestamp = {Fri, 09 Jun 2017 11:03:33 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tse/AntoniolCCLM02},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{marcus2003recovering,
+  author    = {Andrian Marcus and
+               Jonathan I. Maletic},
+  title     = {Recovering Documentation-to-Source-Code Traceability Links using Latent
+               Semantic Indexing},
+  booktitle = {Proceedings of the 25th International Conference on Software Engineering {(ICSE} 2003), Portland, Oregon, {USA}},
+  pages     = {125--137},
+  year      = {2003},
+  crossref  = {DBLP:conf/icse/2003},
+  url       = {https://doi.org/10.1109/ICSE.2003.1201194},
+  doi       = {10.1109/ICSE.2003.1201194},
+  timestamp = {Tue, 23 May 2017 01:11:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/MarcusM03},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{cleland2005utilizing,
+  author    = {Jane Cleland{-}Huang and
+               Raffaella Settimi and
+               Chuan Duan and
+               Xuchang Zou},
+  title     = {Utilizing Supporting Evidence to Improve Dynamic Requirements Traceability},
+  booktitle = {13th {IEEE} International Conference on Requirements Engineering {(RE}
+               2005), Paris, France},
+  pages     = {135--144},
+  year      = {2005},
+  crossref  = {DBLP:conf/re/2005},
+  url       = {https://doi.org/10.1109/RE.2005.78},
+  doi       = {10.1109/RE.2005.78},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/Cleland-HuangSDZ05},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Panichella2015Adaptive,
+  author    = {Annibale Panichella and
+               Andrea De Lucia and
+               Andy Zaidman},
+  title     = {Adaptive User Feedback for IR-Based Traceability Recovery},
+  booktitle = {8th {IEEE/ACM} International Symposium on Software and Systems Traceability
+               {(SST} 2015), Florence, Italy},
+  pages     = {15--21},
+  year      = {2015},
+  crossref  = {DBLP:conf/icse/2015sst},
+  url       = {https://doi.org/10.1109/SST.2015.10},
+  doi       = {10.1109/SST.2015.10},
+  timestamp = {Tue, 23 May 2017 01:11:51 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/PanichellaLZ15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{abadi2008traceability,
+   author    = {Ahron Abadi and
+               Mordechai Nisenson and
+               Yahalomit Simionovici},
+  title     = {A Traceability Technique for Specifications},
+  booktitle = {The 16th {IEEE} International Conference on Program Comprehension
+               {(ICPC} 2008), Amsterdam, The Netherlands},
+  pages     = {103--112},
+  year      = {2008},
+  crossref  = {DBLP:conf/iwpc/2008},
+  url       = {https://doi.org/10.1109/ICPC.2008.30},
+  doi       = {10.1109/ICPC.2008.30},
+  timestamp = {Mon, 22 May 2017 17:11:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpc/AbadiNS08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{eaddy2008cerberus,
+ author    = {Marc Eaddy and
+               Alfred V. Aho and
+               Giuliano Antoniol and
+               Yann{-}Ga{\"{e}}l Gu{\'{e}}h{\'{e}}neuc},
+  title     = {{CERBERUS:} Tracing Requirements to Source Code Using Information
+               Retrieval, Dynamic Analysis, and Program Analysis},
+  booktitle = {The 16th {IEEE} International Conference on Program Comprehension {(ICPC} 2008), Amsterdam, The Netherlands},
+  pages     = {53--62},
+  year      = {2008},
+  crossref  = {DBLP:conf/iwpc/2008},
+  url       = {https://doi.org/10.1109/ICPC.2008.39},
+  doi       = {10.1109/ICPC.2008.39},
+  timestamp = {Mon, 22 May 2017 17:11:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpc/EaddyAAG08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{dasgupta2013enhancing,
+   author    = {Tathagata Dasgupta and
+               Mark Grechanik and
+               Evan Moritz and
+               Bogdan Dit and
+               Denys Poshyvanyk},
+  title     = {Enhancing Software Traceability by Automatically Expanding Corpora
+               with Relevant Documentation},
+  booktitle = {2013 {IEEE} International Conference on Software Maintenance {(ICSM 2013}), Eindhoven,
+               The Netherlands},
+  pages     = {320--329},
+  year      = {2013},
+  crossref  = {DBLP:conf/icsm/2013},
+  url       = {https://doi.org/10.1109/ICSM.2013.43},
+  doi       = {10.1109/ICSM.2013.43},
+  timestamp = {Mon, 22 May 2017 17:11:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/DasguptaGMDP13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ali2012empirical,
+   author    = {Nasir Ali and
+               Zohreh Sharafi and
+               Yann{-}Ga{\"{e}}l Gu{\'{e}}h{\'{e}}neuc and
+               Giuliano Antoniol},
+  title     = {An empirical study on requirements traceability using eye-tracking},
+  booktitle = {28th {IEEE} International Conference on Software Maintenance, {ICSM}
+               2012, Trento, Italy, September 23-28, 2012},
+  pages     = {191--200},
+  year      = {2012},
+  crossref  = {DBLP:conf/icsm/2012},
+  url       = {https://doi.org/10.1109/ICSM.2012.6405271},
+  doi       = {10.1109/ICSM.2012.6405271},
+  timestamp = {Mon, 22 May 2017 17:11:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/AliSGA12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{mahmoud2013supporting,
+  author    = {Anas Mahmoud and
+               Nan Niu},
+  title     = {Supporting requirements traceability through refactoring},
+  booktitle = {21st {IEEE} International Requirements Engineering Conference, {RE}
+               2013, Rio de Janeiro-RJ, Brazil, July 15-19, 2013},
+  pages     = {32--41},
+  year      = {2013},
+  crossref  = {DBLP:conf/re/2013},
+  url       = {https://doi.org/10.1109/RE.2013.6636703},
+  doi       = {10.1109/RE.2013.6636703},
+  timestamp = {Mon, 05 Jun 2017 12:43:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/MahmoudN13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{ali2013trustrace,
+  author    = {Nasir Ali and
+               Yann{-}Ga{\"{e}}l Gu{\'{e}}h{\'{e}}neuc and
+               Giuliano Antoniol},
+  title     = {Trustrace: Mining Software Repositories to Improve the Accuracy of
+               Requirement Traceability Links},
+  journal   = {{IEEE} Trans. Software Eng.},
+  volume    = {39},
+  number    = {5},
+  pages     = {725--741},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/TSE.2012.71},
+  doi       = {10.1109/TSE.2012.71},
+  timestamp = {Wed, 17 May 2017 10:56:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tse/AliGA13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{capobianco2013improving,
+  author    = {Giovanni Capobianco and
+               Andrea De Lucia and
+               Rocco Oliveto and
+               Annibale Panichella and
+               Sebastiano Panichella},
+  title     = {Improving IR-based traceability recovery via noun-based indexing of
+               software artifacts},
+  journal   = {Journal of Software: Evolution and Process},
+  volume    = {25},
+  number    = {7},
+  pages     = {743--762},
+  year      = {2013},
+  url       = {https://doi.org/10.1002/smr.1564},
+  doi       = {10.1002/smr.1564},
+  timestamp = {Sun, 28 May 2017 13:17:10 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/smr/CapobiancoLOPP13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Cleland-Huang2013Requirements,
+  author    = {Jane Cleland{-}Huang},
+  title     = {Are Requirements Alive and Kicking?},
+  journal   = {{IEEE} Software},
+  volume    = {30},
+  number    = {3},
+  pages     = {13--15},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/MS.2013.47},
+  doi       = {10.1109/MS.2013.47},
+  timestamp = {Thu, 18 May 2017 09:53:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/software/Cleland-Huang13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{diaz2013using,
+  author    = {Diana Diaz and
+               Gabriele Bavota and
+               Andrian Marcus and
+               Rocco Oliveto and
+               Silvia Takahashi and
+               Andrea De Lucia},
+  title     = {Using code ownership to improve IR-based Traceability Link Recovery},
+  booktitle = {{IEEE} 21st International Conference on Program Comprehension, {ICPC}
+               2013, San Francisco, CA, USA, 20-21 May, 2013},
+  pages     = {123--132},
+  year      = {2013},
+  crossref  = {DBLP:conf/iwpc/2013},
+  url       = {https://doi.org/10.1109/ICPC.2013.6613840},
+  doi       = {10.1109/ICPC.2013.6613840},
+  timestamp = {Thu, 15 Jun 2017 21:40:41 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpc/DiazBMOTL13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{panichella2013and,
+  author    = {Annibale Panichella and
+               Collin McMillan and
+               Evan Moritz and
+               Davide Palmieri and
+               Rocco Oliveto and
+               Denys Poshyvanyk and
+               Andrea De Lucia},
+  title     = {When and How Using Structural Information to Improve IR-Based Traceability
+               Recovery},
+  booktitle = {17th European Conference on Software Maintenance and Reengineering {(CSMR} 2013), Genova, Italy},
+  pages     = {199--208},
+  year      = {2013},
+  crossref  = {DBLP:conf/csmr/2013},
+  url       = {https://doi.org/10.1109/CSMR.2013.29},
+  doi       = {10.1109/CSMR.2013.29},
+  timestamp = {Wed, 24 May 2017 08:29:47 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/csmr/PanichellaMMPOPL13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{mcmillan2009combining,
+  author    = {Collin McMillan and
+               Denys Poshyvanyk and
+               Meghan Revelle},
+  title     = {Combining textual and structural analysis of software artifacts for
+               traceability link recovery},
+  booktitle = {{ICSE} Workshop on Traceability in Emerging Forms of Software Engineering {(TEFSE@ICSE} 2009), Vancouver, BC, Canada},
+  pages     = {41--48},
+  year      = {2009},
+  crossref  = {DBLP:conf/icse/2009tefse},
+  url       = {https://doi.org/10.1109/TEFSE.2009.5069582},
+  doi       = {10.1109/TEFSE.2009.5069582},
+  timestamp = {Tue, 23 May 2017 01:11:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/McMillanPR09},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{cover2012elements,
+  author    = {Thomas M. Cover and
+               Joy A. Thomas},
+  title     = {Elements of information theory {(2.} ed.)},
+  publisher = {Wiley},
+  year      = {2006},
+  isbn      = {978-0-471-24195-9},
+  timestamp = {Fri, 25 Mar 2011 09:04:29 +0100},
+  biburl    = {https://dblp.org/rec/bib/books/daglib/0016881},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{deerwester1990indexing,
+   author    = {Scott C. Deerwester and
+               Susan T. Dumais and
+               Thomas K. Landauer and
+               George W. Furnas and
+               Richard A. Harshman},
+  title     = {Indexing by Latent Semantic Analysis},
+  journal   = {{JASIS}},
+  volume    = {41},
+  number    = {6},
+  pages     = {391--407},
+  year      = {1990},
+  url       = {https://doi.org/10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9},
+  doi       = {10.1002/(SICI)1097-4571(199009)41:6<391::AID-ASI1>3.0.CO;2-9},
+  timestamp = {Sun, 28 May 2017 13:22:58 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jasis/DeerwesterDLFH90},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{dumais1991improving,
+  title={Improving the retrieval of information from external sources},
+  author={Susan T. Dumais},
+  journal={Behavior Research Methods, Instruments, Computers},
+  volume={23},
+  number={2},
+  pages={229--236},
+  year={1991},
+  publisher={Springer}
+}
+
+@article{berry1992large,
+  title={Large-scale sparse singular value computations},
+  author={Michael W. Berry},
+  journal={International Journal of Supercomputer Applications},
+  volume={6},
+  number={1},
+  pages={13--49},
+  year={1992},
+  publisher={Citeseer}
+}
+
+@article{landauer1997solution,
+  title={A solution to Plato's problem: The latent semantic analysis theory of acquisition, induction, and representation of knowledge},
+  author={TK Landauer and
+			ST Dumais},
+  journal={Psychological review},
+  volume={104},
+  number={2},
+  pages={211},
+  year={1997},
+  publisher={American Psychological Association}
+}
+
+@book{salton1986introduction,
+ author    = {Gerard Salton and
+               Michael McGill},
+  title     = {Introduction to Modern Information Retrieval},
+  publisher = {McGraw-Hill Book Company},
+  year      = {1984},
+  isbn      = {0-07-054484-0},
+  timestamp = {Thu, 03 Jan 2002 11:51:25 +0100},
+  biburl    = {https://dblp.org/rec/bib/books/mg/SaltonG83},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{dumais1994latent,
+ author    = {Susan T. Dumais},
+  title     = {Latent Semantic Indexing {(LSI)} and {TREC-2}},
+  booktitle = {Proceedings of The Second Text REtrieval Conference, {TREC} 1993,
+               Gaithersburg, Maryland, USA, August 31 - September 2, 1993},
+  pages     = {105--116},
+  year      = {1993},
+  crossref  = {DBLP:conf/trec/1993},
+  url       = {http://trec.nist.gov/pubs/trec2/papers/ps/bellcore.ps},
+  timestamp = {Tue, 07 Apr 2015 13:04:04 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/trec/Dumais93},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{anquetil1998assessing,
+   author    = {Nicolas Anquetil and
+               Timothy C. Lethbridge},
+  title     = {Assessing the relevance of identifier names in a legacy software system},
+  booktitle = {Proceedings of the 1998 conference of the Centre for Advanced Studies
+               on Collaborative Research, November 30 - December 3, 1998, Toronto,
+               Ontario, Canada},
+  pages     = {4},
+  year      = {1998},
+  crossref  = {DBLP:conf/cascon/1998},
+  url       = {http://doi.acm.org/10.1145/783160.783164},
+  doi       = {10.1145/783160.783164},
+  timestamp = {Wed, 15 Feb 2006 10:03:33 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/cascon/AnquetilL98},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{scanniello2015link,
+  author    = {Giuseppe Scanniello and
+               Andrian Marcus and
+               Daniele Pascale},
+  title     = {Link analysis algorithms for static concept location: an empirical
+               assessment},
+  journal   = {Empirical Software Engineering},
+  volume    = {20},
+  number    = {6},
+  pages     = {1666--1720},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/s10664-014-9327-7},
+  doi       = {10.1007/s10664-014-9327-7},
+  timestamp = {Tue, 06 Jun 2017 22:24:59 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/ese/ScannielloMP15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{bennett2000software,
+  author    = {Keith H. Bennett and
+               V{\'{a}}clav Rajlich},
+  title     = {Software maintenance and evolution: a roadmap},
+  booktitle = {22nd International Conference on on Software Engineering, Future of
+               Software Engineering Track, {ICSE} 2000, Limerick Ireland, June 4-11,
+               2000.},
+  pages     = {73--87},
+  year      = {2000},
+  crossref  = {DBLP:conf/icse/2000future},
+  url       = {http://doi.acm.org/10.1145/336512.336534},
+  doi       = {10.1145/336512.336534},
+  timestamp = {Fri, 18 May 2012 15:03:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/BennettR00},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{lethbridge2003software,
+  author    = {Timothy Lethbridge and
+               Janice Singer and
+               Andrew Forward},
+  title     = {How Software Engineers Use Documentation: The State of the Practice},
+  journal   = {{IEEE} Software},
+  volume    = {20},
+  number    = {6},
+  pages     = {35--39},
+  year      = {2003},
+  url       = {https://doi.org/10.1109/MS.2003.1241364},
+  doi       = {10.1109/MS.2003.1241364},
+  timestamp = {Thu, 08 Jun 2017 09:06:58 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/software/LethbridgeSF03},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{ben2015supporting,
+ author    = {Eya Ben Charrada and
+               Anne Koziolek and
+               Martin Glinz},
+  title     = {Supporting requirements update during software evolution},
+  journal   = {Journal of Software: Evolution and Process},
+  volume    = {27},
+  number    = {3},
+  pages     = {166--194},
+  year      = {2015},
+  url       = {https://doi.org/10.1002/smr.1705},
+  doi       = {10.1002/smr.1705},
+  timestamp = {Sun, 28 May 2017 13:17:10 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/smr/CharradaKG15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{levenshtein1966binary,
+  title={Binary codes capable of correcting deletions, insertions, and reversals},
+  author={Levenshtein and Vladimir I},
+  booktitle={Soviet physics doklady},
+  volume={10},
+  number={8},
+  pages={707--710},
+  year={1966}
+}
+
+@inproceedings{glinz2007non,
+   author    = {Martin Glinz},
+  title     = {On Non-Functional Requirements},
+  booktitle = {15th {IEEE} International Requirements Engineering Conference, {RE}
+               2007, October 15-19th, 2007, New Delhi, India},
+  pages     = {21--26},
+  year      = {2007},
+  crossref  = {DBLP:conf/re/2007},
+  url       = {https://doi.org/10.1109/RE.2007.45},
+  doi       = {10.1109/RE.2007.45},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/Glinz07},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{burgstaller2010understanding,
+ author    = {Benedikt Burgstaller and
+               Alexander Egyed},
+  title     = {Understanding where requirements are implemented},
+  booktitle = {26th {IEEE} International Conference on Software Maintenance {(ICSM}
+               2010), Timisoara, Romania},
+  pages     = {1--5},
+  year      = {2010},
+  crossref  = {DBLP:conf/icsm/2010},
+  url       = {https://doi.org/10.1109/ICSM.2010.5609699},
+  doi       = {10.1109/ICSM.2010.5609699},
+  timestamp = {Mon, 22 May 2017 17:11:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/BurgstallerE10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{zhao2006sniafl,
+  author    = {Wei Zhao and
+               Lu Zhang and
+               Yin Liu and
+               Jiasu Sun and
+               Fuqing Yang},
+  title     = {{SNIAFL:} Towards a static noninteractive approach to feature location},
+  journal   = {{ACM} Trans. Softw. Eng. Methodol.},
+  volume    = {15},
+  number    = {2},
+  pages     = {195--226},
+  year      = {2006},
+  url       = {http://doi.acm.org/10.1145/1131421.1131424},
+  doi       = {10.1145/1131421.1131424},
+  timestamp = {Wed, 20 Apr 2016 15:35:54 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tosem/ZhaoZLSY06},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{bavota2014automating,
+  author    = {Gabriele Bavota and
+               Andrea De Lucia and
+               Andrian Marcus and
+               Rocco Oliveto},
+  title     = {Automating extract class refactoring: an improved method and its evaluation},
+  journal   = {Empirical Software Engineering},
+  volume    = {19},
+  number    = {6},
+  pages     = {1617--1664},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/s10664-013-9256-x},
+  doi       = {10.1007/s10664-013-9256-x},
+  timestamp = {Tue, 06 Jun 2017 22:24:59 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/ese/BavotaLMO14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{kuang2015can,
+  title={Can method data dependencies support the assessment of traceability between requirements and source code?},
+   author    = {Hongyu Kuang and
+               Patrick M{\"{a}}der and
+               Hao Hu and
+               Achraf Ghabi and
+               LiGuo Huang and
+               Jian L{\"{u}} and
+               Alexander Egyed},
+  title     = {Can method data dependencies support the assessment of traceability
+               between requirements and source code?},
+  journal   = {Journal of Software: Evolution and Process},
+  volume    = {27},
+  number    = {11},
+  pages     = {838--866},
+  year      = {2015},
+  url       = {https://doi.org/10.1002/smr.1736},
+  doi       = {10.1002/smr.1736},
+  timestamp = {Wed, 10 Jan 2018 16:22:46 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/smr/KuangMHGHLE15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{mens2005challenges,
+  author    = {Tom Mens and
+               Michel Wermelinger and
+               St{\'{e}}phane Ducasse and
+               Serge Demeyer and
+               Robert Hirschfeld and
+               Mehdi Jazayeri},
+  title     = {Challenges in Software Evolution},
+  booktitle = {8th International Workshop on Principles of Software Evolution {(IWPSE}
+               2005), 5-7 September 2005, Lisbon, Portugal},
+  pages     = {13--22},
+  year      = {2005},
+  crossref  = {DBLP:conf/iwpse/2005},
+  url       = {https://doi.org/10.1109/IWPSE.2005.7},
+  doi       = {10.1109/IWPSE.2005.7},
+  timestamp = {Sun, 04 Jun 2017 10:10:02 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpse/MensWDDHJ05},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{ramesh2001toward,
+  title={Toward reference models for requirements traceability},
+  author={Balasubramaniam Ramesh and Matthias Jarke},
+  journal={IEEE Transactions on Software Engineering},
+  volume={27},
+  number={1},
+  pages={58--93},
+  year={2001},
+  publisher={IEEE}
+}
+
+@article{mader2012towards,
+ author    = {Patrick M{\"{a}}der and
+               Orlena Gotel},
+  title     = {Towards automated traceability maintenance},
+  journal   = {Journal of Systems and Software},
+  volume    = {85},
+  number    = {10},
+  pages     = {2205--2227},
+  year      = {2012},
+  url       = {https://doi.org/10.1016/j.jss.2011.10.023},
+  doi       = {10.1016/j.jss.2011.10.023},
+  timestamp = {Sun, 28 May 2017 13:21:58 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/jss/MaderG12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{hayes2007requirements,
+  author    = {Jane Huffman Hayes and
+               Alex Dekhtyar and
+               Senthil Karthikeyan Sundaram and
+               Elizabeth Ashlee Holbrook and
+               Sravanthi Vadlamudi and
+               Alain April},
+  title     = {REquirements TRacing On target {(RETRO):} improving software maintenance
+               through traceability recovery},
+  journal   = {{ISSE}},
+  volume    = {3},
+  number    = {3},
+  pages     = {193--202},
+  year      = {2007},
+  url       = {https://doi.org/10.1007/s11334-007-0024-1},
+  doi       = {10.1007/s11334-007-0024-1},
+  timestamp = {Sun, 28 May 2017 13:18:01 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/isse/HayesDSHVA07},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{cleland2003event,
+  author    = {Jane Cleland{-}Huang and
+               Carl K. Chang and
+               Mark J. Christensen},
+  title     = {Event-Based Traceability for Managing Evolutionary Change},
+  journal   = {{IEEE} Trans. Software Eng.},
+  volume    = {29},
+  number    = {9},
+  pages     = {796--810},
+  year      = {2003},
+  url       = {https://doi.org/10.1109/TSE.2003.1232285},
+  doi       = {10.1109/TSE.2003.1232285},
+  timestamp = {Wed, 17 May 2017 10:56:35 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tse/Cleland-HuangCC03},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{hayes2006advancing,
+   author    = {Jane Huffman Hayes and
+               Alex Dekhtyar and
+               Senthil Karthikeyan Sundaram},
+  title     = {Advancing Candidate Link Generation for Requirements Tracing: The
+               Study of Methods},
+  journal   = {{IEEE} Transactions on Software Engineering},
+  volume    = {32},
+  number    = {1},
+  pages     = {4--19},
+  year      = {2006},
+  url       = {https://doi.org/10.1109/TSE.2006.3},
+  doi       = {10.1109/TSE.2006.3},
+  timestamp = {Wed, 17 May 2017 10:56:36 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tse/HayesDS06},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{cleland2010machine,
+  author    = {Jane Cleland{-}Huang and
+               Adam Czauderna and
+               Marek Gibiec and
+               John Emenecker},
+  title     = {A machine learning approach for tracing regulatory codes to product
+               specific requirements},
+  booktitle = {Proceedings of the 32nd {ACM/IEEE} International Conference on Software
+               Engineering ({ICSE} 2010), Cape Town, South Africa},
+  pages     = {155--164},
+  year      = {2010},
+  crossref  = {DBLP:conf/icse/2010-1},
+  url       = {http://doi.acm.org/10.1145/1806799.1806825},
+  doi       = {10.1145/1806799.1806825},
+  timestamp = {Sun, 06 Jun 2010 12:25:52 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/Cleland-HuangCGE10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ben2012identifying,
+  author    = {Eya Ben Charrada and
+               Anne Koziolek and
+               Martin Glinz},
+  title     = {Identifying outdated requirements based on source code changes},
+  booktitle = {2012 20th {IEEE} International Requirements Engineering Conference
+               (RE), Chicago, IL, USA, September 24-28, 2012},
+  pages     = {61--70},
+  year      = {2012},
+  crossref  = {DBLP:conf/re/2012},
+  url       = {https://doi.org/10.1109/RE.2012.6345840},
+  doi       = {10.1109/RE.2012.6345840},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/CharradaKG12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{ben2010automated,
+   author    = {Eya Ben Charrada and
+               Martin Glinz},
+  title     = {An automated hint generation approach for supporting the evolution
+               of requirements specifications},
+  booktitle = {Proceedings of the Joint {ERCIM} Workshop on Software Evolution {(EVOL)}
+               and International Workshop on Principles of Software Evolution (IWPSE),
+               Antwerp, Belgium, September 20-21, 2010.},
+  pages     = {58--62},
+  year      = {2010},
+  crossref  = {DBLP:conf/iwpse/2010},
+  url       = {http://doi.acm.org/10.1145/1862372.1862387},
+  doi       = {10.1145/1862372.1862387},
+  timestamp = {Sun, 09 Jan 2011 18:29:35 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpse/CharradaG10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{conover1980practical,
+   author    = {David J. Groggel},
+  title     = {Practical Nonparametric Statistics},
+  journal   = {Technometrics},
+  volume    = {42},
+  number    = {3},
+  pages     = {317--318},
+  year      = {2000},
+  url       = {https://doi.org/10.1080/00401706.2000.10486067},
+  doi       = {10.1080/00401706.2000.10486067},
+  timestamp = {Sat, 27 May 2017 14:25:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/technometrics/Groggel00},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{fox2006introduction,
+  title={Introduction to Software Engineering Design: Processes, Principles and Patterns with UML2},
+  author={Christopher Fox},
+  year={2006},
+  publisher={Addison-Wesley Longman Publishing Co., Inc.}
+}
+
+@article{kampenes2007systematic,
+  author    = {Vigdis By Kampenes and
+               Tore Dyb{\aa} and
+               Jo Erskine Hannay and
+               Dag I. K. Sj{\o}berg},
+  title     = {A systematic review of effect size in software engineering experiments},
+  journal   = {Information {\&} Software Technology},
+  volume    = {49},
+  number    = {11-12},
+  pages     = {1073--1086},
+  year      = {2007},
+  url       = {https://doi.org/10.1016/j.infsof.2007.02.015},
+  doi       = {10.1016/j.infsof.2007.02.015},
+  timestamp = {Wed, 17 May 2017 10:55:33 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/infsof/KampenesDHS07},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Chen2013Robust,
+ author    = {Xiaofan Chen and
+               John G. Hosking and
+               John Grundy and
+               Robert Amor},
+  title     = {Development of Robust Traceability Benchmarks},
+  booktitle = {22nd Australian Conference on Software Engineering {(ASWEC} 2013),
+                Melbourne, Victoria, Australia},
+  pages     = {145--154},
+  year      = {2013},
+  crossref  = {DBLP:conf/aswec/2013},
+  url       = {https://doi.org/10.1109/ASWEC.2013.26},
+  doi       = {10.1109/ASWEC.2013.26},
+  timestamp = {Thu, 01 Jun 2017 18:58:06 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/aswec/ChenHGA13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Heck2013trackers,
+   author    = {Petra Heck and
+               Andy Zaidman},
+  title     = {An analysis of requirements evolution in open source projects: recommendations
+               for issue trackers},
+  booktitle = {13th International Workshop on Principles of Software Evolution ({IWPSE} 2013), Proceedings, Saint Petersburg, Russia},
+  pages     = {43--52},
+  year      = {2013},
+  crossref  = {DBLP:conf/iwpse/2013},
+  url       = {http://doi.acm.org/10.1145/2501543.2501550},
+  doi       = {10.1145/2501543.2501550},
+  timestamp = {Sun, 04 Jun 2017 10:10:02 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/iwpse/HeckZ13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Shi2017linguistic,
+   author    = {Lin Shi and
+               Celia Chen and
+               Qing Wang and
+               Shoubin Li and
+               Barry W. Boehm},
+  title     = {Understanding feature requests by leveraging fuzzy method and linguistic
+               analysis},
+  booktitle = {Proceedings of the 32nd {IEEE/ACM} International Conference on Automated
+               Software Engineering ({ASE} 2017), Urbana, IL, USA},
+  pages     = {440--450},
+  year      = {2017},
+  crossref  = {DBLP:conf/kbse/2017},
+  url       = {https://doi.org/10.1109/ASE.2017.8115656},
+  doi       = {10.1109/ASE.2017.8115656},
+  timestamp = {Fri, 01 Dec 2017 22:44:10 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/kbse/ShiCWLB17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Heck2014Horizontal,
+   author    = {Petra Heck and
+               Andy Zaidman},
+  title     = {Horizontal traceability for just-in-time requirements: the case for
+               open source feature requests},
+  journal   = {Journal of Software: Evolution and Process},
+  volume    = {26},
+  number    = {12},
+  pages     = {1280--1296},
+  year      = {2014},
+  url       = {https://doi.org/10.1002/smr.1678},
+  doi       = {10.1002/smr.1678},
+  timestamp = {Sun, 28 May 2017 13:17:10 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/smr/HeckZ14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Cleland-Huang2011challenges,
+    author    = {Jane Cleland{-}Huang and
+               Adam Czauderna and
+               Alex Dekhtyar and
+               Olly Gotel and
+               Jane Huffman Hayes and
+               Ed Keenan and
+               Greg Leach and
+               Jonathan I. Maletic and
+               Denys Poshyvanyk and
+               Yonghee Shin and
+               Andrea Zisman and
+               Giuliano Antoniol and
+               Brian Berenbach and
+               Alexander Egyed and
+               Patrick M{\"{a}}der},
+  title     = {Grand challenges, benchmarks, and TraceLab: developing infrastructure
+               for the software traceability research community},
+  booktitle = {Proceedings of the 6th International Workshop on Traceability
+               in Emerging Forms of Software Engineering ({TEFSE} 2011), Waikiki,
+               Honolulu, HI, {USA}},
+  pages     = {17--23},
+  year      = {2011},
+  crossref  = {DBLP:conf/icse/2011tefse},
+  url       = {http://doi.acm.org/10.1145/1987856.1987861},
+  doi       = {10.1145/1987856.1987861},
+  timestamp = {Thu, 25 Sep 2014 13:42:30 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/icse/Cleland-HuangCDGHKLMPSZABEM11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Cleland-Huang2009managing,
+ author    = {Jane Cleland{-}Huang and
+               Horatiu Dumitru and
+               Chuan Duan and
+               Carlos Castro{-}Herrera},
+  title     = {Automated support for managing feature requests in open forums},
+  journal   = {Commun. {ACM}},
+  volume    = {52},
+  number    = {10},
+  pages     = {68--74},
+  year      = {2009},
+  url       = {http://doi.acm.org/10.1145/1562764.1562784},
+  doi       = {10.1145/1562764.1562784},
+  timestamp = {Mon, 28 Sep 2009 14:24:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/cacm/Cleland-HuangDDC09},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Antoniol2000Modelling,
+author    = {Giuliano Antoniol and
+               Gerardo Casazza and
+               Aniello Cimitile},
+  title     = {Traceability Recovery by Modeling Programmer Behavior},
+  booktitle = {Proceedings of the Seventh Working Conference on Reverse Engineering
+               {(WCRE} 2000), Brisbane, Australia},
+  pages     = {240--247},
+  year      = {2000},
+  crossref  = {DBLP:conf/wcre/2000},
+  url       = {https://doi.org/10.1109/WCRE.2000.891475},
+  doi       = {10.1109/WCRE.2000.891475},
+  timestamp = {Fri, 26 May 2017 00:48:18 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/wcre/AntoniolCC00},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{Zhang2012The,
+  title={The Study of Methods for Language Model Based Positive and Negative Relevance Feedback in Information Retrieval},
+  author={Wenjing Zhang and Junyi Wang},
+  booktitle={Fourth International Symposium on Information Science and Engineering (ISISE 2012), Shanghai, China},
+  pages={39-43},
+  year={2012}
+}
+
+
+@book{Manning2008Introduction,
+  author    = {Christopher D. Manning and
+               Prabhakar Raghavan and
+               Hinrich Sch{\"{u}}tze},
+  title     = {Introduction to information retrieval},
+  publisher = {Cambridge University Press},
+  year      = {2008},
+  isbn      = {978-0-521-86571-5},
+  timestamp = {Wed, 16 Mar 2011 21:36:11 +0100},
+  biburl    = {https://dblp.org/rec/bib/books/daglib/0021593},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@article{Antoniol2017Ten,
+   author    = {Giuliano Antoniol and
+               Jane Cleland{-}Huang and
+               Jane Huffman Hayes and
+               Michael Vierhauser},
+  title     = {Grand Challenges of Traceability: The Next Ten Years},
+  journal={arXiv preprint arXiv:1710.03129},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1710.03129},
+  archivePrefix = {arXiv},
+  eprint    = {1710.03129},
+  timestamp = {Wed, 01 Nov 2017 19:05:43 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1710-03129},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Chen2011combining,
+  author    = {Xiaofan Chen and
+               John C. Grundy},
+  title     = {Improving automated documentation to code traceability by combining
+               retrieval techniques},
+  booktitle = {26th {IEEE/ACM} International Conference on Automated Software Engineering
+               {(ASE} 2011), Lawrence, KS, USA},
+  pages     = {223--232},
+  year      = {2011},
+  crossref  = {DBLP:conf/kbse/2011},
+  url       = {https://doi.org/10.1109/ASE.2011.6100057},
+  doi       = {10.1109/ASE.2011.6100057},
+  timestamp = {Sun, 04 Jun 2017 10:04:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/kbse/ChenG11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Rempel2017Defects,
+  author    = {Patrick Rempel and
+               Patrick M{\"{a}}der},
+  title     = {Preventing Defects: The Impact of Requirements Traceability Completeness
+               on Software Quality},
+  journal   = {{IEEE} Transactions on Software Engineering},
+  volume    = {43},
+  number    = {8},
+  pages     = {777--797},
+  year      = {2017},
+  url       = {https://doi.org/10.1109/TSE.2016.2622264},
+  doi       = {10.1109/TSE.2016.2622264},
+  timestamp = {Tue, 22 Aug 2017 16:36:24 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tse/RempelM17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Egyed2010Effort,
+  author    = {Alexander Egyed and
+               Florian Graf and
+               Paul Gr{\"{u}}nbacher},
+  title     = {Effort and Quality of Recovering Requirements-to-Code Traces: Two
+               Exploratory Experiments},
+  booktitle = {18th {IEEE} International Requirements Engineering Conference {(RE} 2010)
+               Sydney, New South Wales, Australia},
+  pages     = {221--230},
+  year      = {2010},
+  crossref  = {DBLP:conf/re/2010},
+  url       = {https://doi.org/10.1109/RE.2010.34},
+  doi       = {10.1109/RE.2010.34},
+  timestamp = {Mon, 22 May 2017 17:11:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/EgyedGG10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Cleland-Huang2015Industrial,
+   author    = {Jane Cleland{-}Huang},
+  title     = {Toward Meaningful Industrial-Academic Partnerships},
+  journal   = {{IEEE} Software},
+  volume    = {32},
+  number    = {1},
+  pages     = {18--21},
+  year      = {2015},
+  url       = {https://doi.org/10.1109/MS.2015.20},
+  doi       = {10.1109/MS.2015.20},
+  timestamp = {Thu, 18 May 2017 09:53:38 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/software/Cleland-Huang15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Wohlin2012Industry,
+  author    = {Claes Wohlin and
+               Ayb{\"{u}}ke Aurum and
+               Lefteris Angelis and
+               Laura Phillips and
+               Yvonne Dittrich and
+               Tony Gorschek and
+               H{\aa}kan Grahn and
+               Kennet Henningsson and
+               Simon K{\aa}gstr{\"{o}}m and
+               Graham Low and
+               Per Rovegard and
+               Piotr Tomaszewski and
+               Christine Van Toorn and
+               Jeff Winter},
+  title     = {The Success Factors Powering Industry-Academia Collaboration},
+  journal   = {{IEEE} Software},
+  volume    = {29},
+  number    = {2},
+  pages     = {67--73},
+  year      = {2012},
+  url       = {https://doi.org/10.1109/MS.2011.92},
+  doi       = {10.1109/MS.2011.92},
+  timestamp = {Thu, 08 Jun 2017 09:06:58 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/software/WohlinAAPDGGHKLRTTW12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Mader2013Strategic,
+   author    = {Patrick M{\"{a}}der and
+               Paul L. Jones and
+               Yi Zhang and
+               Jane Cleland{-}Huang},
+  title     = {Strategic Traceability for Safety-Critical Projects},
+  journal   = {{IEEE} Software},
+  volume    = {30},
+  number    = {3},
+  pages     = {58--66},
+  year      = {2013},
+  url       = {https://doi.org/10.1109/MS.2013.60},
+  doi       = {10.1109/MS.2013.60},
+  timestamp = {Thu, 18 May 2017 09:53:39 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/software/MaderJZC13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{Gutman1989Gutman,
+  author    = {Michael Gutman},
+  title     = {Asymptotically optimal classification for multiple tests with empirically
+               observed statistics},
+  journal   = {{IEEE} Transactions on Information Theory},
+  volume    = {35},
+  number    = {2},
+  pages     = {401--408},
+  year      = {1989},
+  url       = {https://doi.org/10.1109/18.32134},
+  doi       = {10.1109/18.32134},
+  timestamp = {Sun, 28 May 2017 13:18:57 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tit/Gutman89},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Massey2008iTrust,
+  author    = {Aaron K. Massey and
+               Paul N. Otto and
+               Annie I. Ant{\'{o}}n},
+  title     = {Aligning Requirements with {HIPAA} in the iTrust System},
+  booktitle = {16th {IEEE} International Requirements Engineering Conference {(RE}
+               2008), Barcelona, Catalunya, Spain},
+  pages     = {335--336},
+  year      = {2008},
+  crossref  = {DBLP:conf/re/2008},
+  url       = {https://doi.org/10.1109/RE.2008.53},
+  doi       = {10.1109/RE.2008.53},
+  timestamp = {Mon, 22 May 2017 17:11:52 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/re/MasseyOA08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Fischer2003Populating,
+  author    = {Michael Fischer and
+               Martin Pinzger and
+               Harald C. Gall},
+  title     = {Populating a Release History Database from Version Control and Bug
+               Tracking Systems},
+  booktitle = {19th International Conference on Software Maintenance {(ICSM} 2003),
+               The Architecture of Existing Systems, Amsterdam,
+               The Netherlands},
+  pages     = {23},
+  year      = {2003},
+  crossref  = {DBLP:conf/icsm/2003},
+  url       = {https://doi.org/10.1109/ICSM.2003.1235403},
+  doi       = {10.1109/ICSM.2003.1235403},
+  timestamp = {Wed, 22 Nov 2017 09:15:20 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/icsm/FischerPG03},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{Pohl2010Requirements,
+  author    = {Klaus Pohl},
+  title     = {Requirements Engineering - Fundamentals, Principles, and Techniques},
+  publisher = {Springer},
+  year      = {2010},
+  url       = {http://www.springer.com/computer/swe/book/978-3-642-12577-5?changeHeader},
+  isbn      = {978-3-642-12577-5},
+  timestamp = {Fri, 04 Feb 2011 11:23:26 +0100},
+  biburl    = {https://dblp.org/rec/bib/books/daglib/0024869},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/computer/EgyedZHD18,
+  author    = {Alexander Egyed and
+               Klaus Zeman and
+               Peter Hehenberger and
+               Andreas Demuth},
+  title     = {Maintaining Consistency across Engineering Artifacts},
+  journal   = {{IEEE} Computer},
+  volume    = {51},
+  number    = {2},
+  pages     = {28--35},
+  year      = {2018},
+  url       = {https://doi.org/10.1109/MC.2018.1451666},
+  doi       = {10.1109/MC.2018.1451666},
+  timestamp = {Tue, 06 Mar 2018 17:05:11 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/computer/EgyedZHD18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

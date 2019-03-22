@@ -1,0 +1,260 @@
+%%]dvipdfm
+\documentclass[twoside, master]{NJUthesis}
+% \documentclass[pdftex]{NJUthesis}
+
+% 可选参数：
+%   nobackinfo 取消封二页导师签名信息
+%   oneside/twoside 单面/双面打印
+%   phd/master 博士/硕士论文
+% 下面三个选一个：
+% dvipdfm 使用 dvipdfm(x) 生成最终的 PDF 文档 (缺省设置，不建议修改）
+% dvips 使用 dvips 生成最终的 PS 文档
+% pdftex 使用 pdfLaTeX 生成最终的 PDF 文档
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 导言区
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 小节标题靠左对齐
+\CTEXsetup[format+={\flushleft}]{section}
+
+% 设置链接颜色
+\hypersetup{
+% pdf 属性
+             pdftitle={LaTeX Thesis Template of Nanjing University}, %
+            pdfauthor={Zongfei Zhang}
+}
+
+% 表格
+\usepackage{longtable, multirow}
+% 英文使用 Times 字体
+\usepackage{times}
+% 源代码
+\usepackage{fancyvrb}
+% 自定义列表样式
+\usepackage{enumitem}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{moreverb}
+\usepackage{txfonts}
+\usepackage{mathcomp}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[linesnumbered,boxed,ruled,vlined]{algorithm2e}
+\usepackage{array}
+\usepackage{multirow}
+
+%%	added by Jiang
+\usepackage{extarrows}	%使用长箭头
+\usepackage{nomencl}	%与术语表有关的包
+\usepackage{booktabs}
+\usepackage{ccmap}
+
+\makenomenclature
+
+\setcounter{topnumber}{5}
+
+\theoremstyle{plain}
+\newtheorem{definition}{\hspace{2em}定义}[chapter]
+\newtheorem{lemma}{\hspace{2em}引理}[chapter]
+\newtheorem{theorem}{\hspace{2em}定理}[chapter]
+\newtheorem{property}{\hspace{2em}性质}[chapter]
+\newtheorem{example}{\hspace{2em}例}[chapter]
+\newtheorem{myrule}{\hspace{2em}规则}[chapter]
+
+
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}% 表格内换行
+\renewcommand{\footnoterule}{%脚注线
+  \kern -3pt
+  \hrule width 2.3in height 0.4pt
+  \kern 2pt
+}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 国家图书馆封面内容字符串
+% 仅博士需要填写并保证模板参数选择了 phd
+\classification{}
+\confidential{}
+\UDC{}
+\titlelinea{南京大学学位论文}
+\titlelineb{~\LaTeX{}~模板}
+\titlelinec{}
+\advisorinfo{南京大学~计算机系}
+\chairman{XXX 教授}
+\reviewera{某某某某　副研究员}
+\reviewerb{XXX 教授}
+\reviewerc{XXX 教授}
+\reviewerd{XXX 教授}
+\nlcfootdate{~年~~月~~日}
+
+% 南大中文封面内容字符串
+\title{一种结合代码依赖和用户反馈的软件可追踪生成方法}
+\author{\kaishu 张宗飞}
+\studentnum{MF1533075}
+\grade{2015}
+\advisor{\kaishu胡昊~~副教授}
+
+\major{\kaishu计算机技术}
+\researchfield{\kaishu软件可追踪性}
+\footdate{\kaishu2018~年~5~月}
+\submitdate{\kaishu2018~年~5~月~10~日}
+\defenddate{\kaishu2018~年~5~月~25~日}
+
+
+
+% 英文封面内容字符串
+\englishtitle{Combining User Feedback with Closeness Analysis on Code to Improve IR-Based Traceability Recovery}
+\englishauthor{Zongfei Zhang}
+\englishadvisor{Associate Professor}
+\englishadvisorname{~~Hao Hu}
+\englishinstitute{Institute of Computer Software }
+\englishdegree{Master of Engineering}
+\englishmajor{Computer Software and Theory}
+\englishdate{May 2018}
+
+% 制作封面命令
+\maketitle
+
+%\makechinesetitle
+
+% 制作英文封面命令
+\makeenglishtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+\begin{abstract}
+
+软件开发过程中，诸如代码、需求文档、测试集合等软件制品之间的追踪线索对于软件理解、影响分析、软件维护等活动都具有重要意义。然而，人工的建立软件制品之间的追踪线索需要耗费大量时间和精力。因此，自动化生成软件制品之间的追踪关系成为领域内的研究热点。
+当前建立需求到代码可追踪性的主流方法是信息检索方法，该方法通过计算需求和代码之间的文本相似度并按照该值自大到小排序形成候选追踪线索列表。然而，需求和代码之间存在的所谓词汇表失配问题使得该方法精度有限，难以支撑日常实践。
+针对该问题，众多研究工作提出了一系列增强策略。其中，基于代码依赖分析以及基于用户反馈的增强策略是当前的研究热点。然而，引入代码依赖分析的增强策略严重依赖于初始候选追踪线索排序表的精度，当初始列表结果精度不高时，该方法容易对之前列表造成污染。引入用户反馈的增强策略则需要用户遍历大部分列表才能取得明显效果，难以应用到日常实践中。
+
+基于对以上相关工作的分析，为了生成需求到代码的高精度追踪线索列表，我们形成如下重要研究思路：（1）通过代码依赖紧密度分析发掘功能关系紧密的代码元素，
+并将其放到同一个代码域（code region）中。（2）引入用户反馈来防止直接使用代码依赖可能带来的列表污染问题，根据用户对当前代码元素与需求相关性的验证结果调整域内代码元素和域外代码元素对应候选线索的相似度值。（3）针对域内和域外代码元素对应候选追踪线索设置不同的优化策略，从而改善整个候选列表的排序。
+
+
+综上所述，本文工作概括如下：
+\begin{enumerate}
+  \item 结合代码依赖紧密度分析和用户反馈的可追踪性生成方法。我们提出了一种结合了代码依赖紧密度分析和用户反馈的软件可追踪生成方法。一方面通过设置代码依赖紧密度阈值划分代码域，使得功能紧密的代码元素位于同一个代码域中；另一方面，对于给定需求，将各代码域中有代表性的代码元素交由用户判断与该需求相关性，根据用户反馈结果调整相关代码元素对应候选线索的相似度值。
+  \item 实验数据组织及方法验证。我们用一个被领域内广泛用于可追踪方法验证的高质量数据集和三个被广泛应用于日常实践的开源系统可追踪数据集验证了我们方法的有效性和实用性。并且，我们通过对开源软件在issue-tracking工具上的软件行为信息进行分析整理，组织了其需求到代码的追踪关系。此外，我们通过运行开源系统自带的用于验证系统功能的测试用例得到了我们方法所需的代码依赖。
+  \item 基于代码依赖和用户反馈的软件可追踪生成工具的设计与实现。为了将我们的方法应用于日常实践，我们设计并实现软件可追踪生成工具，并集成了我们结合代码依赖紧密度分析和用户反馈的软件可追踪生成方法。
+\end{enumerate}
+
+实验表明，我们的方法只需少量的用户反馈信息即可在精度上显著优于基线方法。并且，通过软件可追踪生成工具很容易将本文的方法应用到日常实践中。
+%实验表明，本文方法只需少量的用户反馈信息即可在精度上显著优于基线方法。并且，本文的软件可追踪生成工具可以将该方法应用于日常实践中。
+
+\keywords{需求可追踪性，代码依赖，信息检索，紧密度分析，用户反馈}
+
+\end{abstract}
+
+% 英文摘要
+\begin{englishabstract}
+The traceability between artifacts such as code, requirement documents and test sets, make a great impact on software understanding, impact analysis, and software maintenance. However, establishing traceability between software artifacts is time consuming, tedious, and may involve unforeseen difficulties. Therefore, establish the traceability between software artifacts automatically has become one of the most representative and challenging work in the academic community. Information retrieval(IR) is now the most widely accepted and applied technique in the research of traceability recovery.
+In general, typical IR-based approaches compute the textual similarity between two software artifacts and generate candidate trace links list. Unfortunately, the vocabulary mismatch problem between requirement and code artifacts makes the accuracy limited. So it is difficult to apply IR approach in practice. To address this issue, researchers have successfully proposed enhancing strategies from different perspectives. The two types of enhancement strategies below are research hotspots in the current field. A growing body of work optimize the candidate list by combining IR techniques with code dependency analysis. However, these approaches are sensitive to the correctness of the candidate links and they offer no help or even make the results deteriorate with the incorrect links. Recent work focused on utilizing user feedback to increase the accuracy of IR-based approaches. However, the users need to verify most of candidate list. This is infeasible in practice to improve IR-based approaches.
+
+Based on the analysis of the above related work, we have formed the following important research ideas to generate a high performance candidate traceability list:(1) Based on closeness measure, we are able to build separate sets of code classes that closely relate each other based on their code dependencies. We suggest that each set(named as code region) implicitly represents at least one aspect of the system functionalities. (2) We try to avoid the pollution of candidate list by making the candidate links verified through user feedback prior to adjust the similarity of links with code dependency analysis. (3) We employ different optimization strategies for code elements which are inside and outside region. Eventually, all links are re-ranked according to the combined information of IR values, user feedback, and our closeness analysis.
+
+In summary, the contribution of this paper is summarized as follows:
+\begin{enumerate}
+  \item We proposed an IR-based approach combining user feedback with closeness analysis on code dependencies. On the one hand, we build candidate regions through setting closeness threshold. On the other hand, for a given requirement, we choose the class that has the highest IR value in each region as the representative class. Then
+      we ask user to iteratively verify these representative classes for each region and adjust the similarity of relevant candidate link base on user feedback.
+  \item We evaluated the above traceability recovery approach on four different case studies.
+        We have validated the effectiveness and practicality of our approach with a high-quality data set which is widely used in the domain for traceability validation and three open source systems that are widely used in everyday practice. And we organized the traceability between requirement and code through analyzing behavioral information of the open source software on the issue-tracking tool. We obtained the code dependencies required by our method by running the test cases which are used to verify system functionality of software system self.
+  \item In order to apply our method to daily practice, we also developed an assistant tool for traceability recovery between requirement and code. In addition, we integrate the above approach into it.
+\end{enumerate}
+ The evaluation also showed that our approach statistically outperforms other baseline approaches through a small amount of user feedback.
+
+\englishkeywords{traceability recovery, code dependencies, information retrieval, closeness analysis, user feedback}
+\end{englishabstract}
+
+% 生成目录命令
+\tableofcontents
+
+% 以下两个目录可根据具体情况注释掉
+% 生成表格目录命令
+\listoftables
+% 生成插图目录命令
+\listoffigures
+
+%生成术语表命令
+%\include{chapter/Nomenclatures}
+%\def\nomname{缩略语对照表}
+%\printnomenclature[5em]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+\input{chapter/Introduction.tex}
+
+\input{chapter/test.tex}
+
+\input{chapter/RelatedWork.tex}
+
+\input{chapter/RequirementTraceability.tex}
+
+\input{chapter/Evaluation.tex}
+
+\input{chapter/Tool.tex}
+
+\input{chapter/Conclusion.tex}
+
+\backmatter
+
+
+\begin{thanks}
+
+\vskip 18pt
+论文写在二零一八年的春天，在南大的生活也将划下句点。在南大的三年研究生学习，让我在学识、做事以及做人三个方面都收获颇多。回顾这三年的成长，点点滴滴都离不开老师、朋友以及家长的帮助。在这离别的时刻，我想对这些年一路陪伴以及帮助我的人表示感谢。
+
+首先感谢我的导师，胡昊老师。在研究生的三年中，胡老师无论是在学习上，还是在生活上都给予了我悉心的指导与关怀。胡老师在平时既是一个前辈，在人生规划、职场生活方面给了我很多宝贵的建议；又是一位益友，在一起讨论科研问题，探讨项目经验，让我在学术以及项目上面都得到很多的启发。从胡老师那里学得的，不仅是做事，更是做人，让我终身受益。
+
+感谢匡宏宇老师，在科研和生活上给了我很大的帮助。和匡宏宇老师合作期间，他严谨的学术风格以及科研素养让我受益颇多，并且我论文的选题也离不开师兄的帮助与教导。祝愿师兄科研顺利，家庭美满。
+
+感谢南京大学软件所的吕建教授、陶先平教授、马晓星教授、徐锋教授、黄宇教授、许畅教授、曹春副教授、余萍副教授、马骏老师、张建莹老师、王金路老师等所有关心和帮助过我的老师。无论是在硕士讨论班还是课堂，老师们的言传身教能够给我很多的启发与思考。同样感谢同学们在硕士讨论班的分享，让我对除自己研究方向之外的领域有了更多的了解。
+
+感谢一起奋斗的同门，聂佳、梁阳、戚可生、龚宇豪、单苏苏、卜琪、王勇、蔡欣辰，感谢大家三年的帮助与陪伴，希望大家以后都能有好的发展，科研之余也要多多锻炼和玩耍，科研的效率会更高。
+
+最后我要向我的家人致以最衷心的感谢和最诚挚的敬意。
+
+\end{thanks}
+
+
+%个人简介
+\Nchapter{简历与科研成果}
+\noindent {\heiti 基本情况}
+\vspace{1ex}
+\noindent 张宗飞，男，汉族，1993~年~1~月出生，山东省费县人。
+\vspace{2ex}
+
+\noindent {\heiti 教育背景}
+\begin{description}[labelindent=0em, leftmargin=8em, style=sameline]
+\item[2015.9～2018.6] 南京大学计算机科学与技术系 \hfill 硕士
+\item[20011.9～2015.7] 长安大学计算机科学与技术 \hfill 本科
+\end{description}
+
+% 发表文章目录
+
+\noindent {\heiti 攻读硕士学位期间申请的专利}
+
+\begin{enumerate}[label=\arabic*., labelindent=0em, leftmargin=*]
+	\item 匡宏宇，胡昊，吕建，\textbf{张宗飞}，``一种结合用户反馈和代码依赖的软件可追踪生成方法''，申请号：201810184034.9，已受理。
+\end{enumerate}
+
+% 参考文献
+\bibliography{reference}
+
+\end{document}
+
+

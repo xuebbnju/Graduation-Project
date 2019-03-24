@@ -44,7 +44,7 @@ if __name__ == '__main__':
     display_step = 50
     n_input = 28
     n_classes = 6
-    loadpath = "E:\\graduate-design\\test-pro\py-test\\resultDatabei.csv"
+    loadpath = "E:\\graduate-design\\test-pro\py-test\\resultDataTest2.csv"
     encoder = LabelEncoder()
     one_hot = OneHotEncoder(categories='auto')
     data = pd.read_csv(loadpath)
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     #                 "VariableDeclarationName1", "VariableDeclarationName2", "VariableDeclarationName3",
     #                 "VariableDeclarationName4", "VariableDeclarationName5", "VariableDeclarationName6", "LogLevel"]
 
-    data.columns = ["CheckType","BlockType","MaxLogLevel","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount", "ExceptionType1", "ExceptionType2","ExceptionType3","ExceptionType4","ExceptionType5","ExceptionType6","MethodcallName1","MethodcallName2","MethodcallName3","MethodcallName4","MethodcallName5","MethodcallName6", "MethodCallerName1","MethodCallerName2","MethodCallerName3","MethodCallerName4","MethodCallerName5","MethodCallerName6","VariableDeclarationType1","VariableDeclarationType2","VariableDeclarationType3","VariableDeclarationType4","VariableDeclarationType5","VariableDeclarationType6",
+    data.columns = ["CheckType","BlockType","MaxLogLevel","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount", "ExceptionType1", "ExceptionType2","ExceptionType3","ExceptionType4","ExceptionType5","ExceptionType6","LoopCondition1","LoopCondition2","LoopCondition3","LoopCondition4","LoopCondition5","LoopCondition6","LogicBranchCondition1","LogicBranchCondition2","LogicBranchCondition3","LogicBranchCondition4","LogicBranchCondition5","LogicBranchCondition6","MthodBlockType1","MthodBlockType2","MthodBlockType3","MthodBlockType4","MthodBlockType5","MthodBlockType6","MethodcallName1","MethodcallName2","MethodcallName3","MethodcallName4","MethodcallName5","MethodcallName6", "MethodCallerName1","MethodCallerName2","MethodCallerName3","MethodCallerName4","MethodCallerName5","MethodCallerName6","VariableDeclarationType1","VariableDeclarationType2","VariableDeclarationType3","VariableDeclarationType4","VariableDeclarationType5","VariableDeclarationType6",
                   "VariableDeclarationName1","VariableDeclarationName2","VariableDeclarationName3","VariableDeclarationName4","VariableDeclarationName5","VariableDeclarationName6","ClassName1","ClassName2","ClassName3","ClassName4","ClassName5","ClassName6","PackageName1","PackageName2","PackageName3","PackageName4","PackageName5","PackageName6","LogLevel"]
     numeric_features = ["BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount"]
     numeric_transformer = Pipeline(steps=[('scaler', MinMaxScaler())])
@@ -88,8 +88,8 @@ if __name__ == '__main__':
     print(Y[:4])
     # Y = one_hot.fit_transform(Y).toarray()
     # Y = label_binarize(Y, classes=list(range(6)))
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
-    X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.1)
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.1)
+
     print(X_train.shape)
     print(y_train)
     clf1 = tree.DecisionTreeClassifier(min_samples_leaf=18,max_depth=18)
@@ -116,9 +116,9 @@ if __name__ == '__main__':
     print(y_acu.shape)
     y_p = clf.predict_proba(X_test)
     brier_score = 0
-    for y, yp in zip(y_core, y_p):
-        for i in range(y_p.shape[1]):
-            brier_score += (yp[i] - y[i]) * (yp[i] - y[i])
+    # for y, yp in zip(y_core, y_p):
+    #     for i in range(y_p.shape[1]):
+    #         brier_score += (yp[i] - y[i]) * (yp[i] - y[i])
 
     print("brier_score:", brier_score / y_p.shape[0])
     # # y_ = one_hot.fit_transform(y_).toarray()

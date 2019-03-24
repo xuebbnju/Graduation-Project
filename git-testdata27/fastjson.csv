@@ -1,0 +1,6 @@
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,1,64,1, ,debug,logger, , ,fast json json view,com alibaba fastjson support spring,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,23,0, ,debug enabl,logger, , ,fast json json view,com alibaba fastjson support spring,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.03,1,67,1, ,debug,logger, , ,respons bodi advic,com alibaba fastjson support spring,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,23,0, ,debug enabl,logger, , ,respons bodi advic,com alibaba fastjson support spring,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,5,6,1,0,0,0,0, ,write string flush string pars assert equal,writer writer thisbao assert,string,result,serial writer test,com alibaba fastjson serial,info
+CriticalMethodCheck,MethodBlock, ,1,0,0,0,0,0,0,8,0,7,4,1,0,0,0,0, ,pars data name equal data string equal,test bean test bean tester test bean data valu,test bean,test bean,test pars,com alibaba fastjson serial,info

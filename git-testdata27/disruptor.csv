@@ -1,0 +1,7 @@
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,0,1,0,59,3,3,9,0,1.00,3,66,3, ,log log log,logger logger logger, , ,fatal except handler,com lmax disruptor,fatal
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,1,0,7,0,0,0,0,0.12,3,58,2, , , , , ,fatal except handler,com lmax disruptor,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.08,3,65,2, , , , , ,fatal except handler,com lmax disruptor,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.08,3,64,2, , , , , ,fatal except handler,com lmax disruptor,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,0,0,0,0.09,2,57,3, , , , , ,ignor except handler,com lmax disruptor,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,0,0,0,0.09,2,68,3, , , , , ,ignor except handler,com lmax disruptor,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,5,0,0,0,0,0.09,2,66,3, , , , , ,ignor except handler,com lmax disruptor,info

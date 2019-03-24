@@ -1,0 +1,211 @@
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.09,3,33,1,except, , , , , , , ,jadx,jadx cli,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.09,3,31,1,jadx arg valid except, , , , , , , ,jadx,jadx cli,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,2,1,0,0.13,3,43,2, , ,error count 0, ,print error report error,jadx, , ,jadx,jadx cli,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,6,1,2,1,0,0.13,3,38,2, , ,error count 0, ,info print error report,jadx, , ,jadx,jadx cli,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,6,0,3,4,1,0.09,1,48,2, , , ,jadx arg,process arg assert,jadx arg,boolean,re,jadx arg test,jadx cli,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,6,0,3,4,1,0.09,1,48,2, , , ,jadx arg,overrid provid assert,jadx arg,boolean,re,jadx arg test,jadx cli,info
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,2,0,0.03,2,43,2, , ,debug enabl, ,debug,, , ,jadx arg valid,jadx api,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,2,32,1, , ,debug enabl, ,debug enabl,, , ,jadx arg valid,jadx api,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,16,0,5,4,5,0.15,2,31,1, , , ,file,input file name index substr,arg input file file name name,file string file string int,dir dir name file name po,jadx arg valid,jadx api,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,16,0,10,4,0,0.05,5,48,2, , , ,void,reset valid init input file load file load init class path resourc load resourc init visitor,jadx arg valid arg root root root, , ,jadx decompil,jadx api,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,2,0,0,0.01,5,46,2,interrupt except, , , ,current thread interrupt,thread current thread, , ,jadx decompil,jadx api,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,6,5,0.08,5,42,2, , , ,executor servic,thread count info fix thread pool export gradl project dir src dir re dir init src dir re dir append resourc save append sourc save,arg executor arg arg arg arg export export export,int executor servic file file export gradl project,thread count executor sourc dir re dir export,jadx decompil,jadx api,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,1,0,29,1,12,7,5,0.08,5,47,2, , , ,executor servic,thread count debug fix thread pool export gradl project dir src dir re dir init src dir re dir append resourc save append sourc save,arg executor arg arg arg arg export export export,int executor servic file file export gradl project,thread count executor sourc dir re dir export,jadx decompil,jadx api,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,41,1,except, , , , , , , ,jadx decompil,jadx api,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,38,1,except, , , , , , , ,jadx decompil,jadx api,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,7,0,10,6,1,0.04,1,55,2,jadx except, , , ,type string lower add add caus stack trace start line name singl file,rf type string cw add util cw rf re contain,code writer,cw,resourc loader,jadx api,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,2,0,0.02,1,28,2,except, , , ,add resourc file,, , ,resourc loader,jadx api,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,39,2, , ,const, , , , , ,jadx,jadx core,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,25,1,except, , , , , , , ,jadx,jadx core,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,14,2,4,3,3,0.10,2,21,1, , , ,void,size debug enabl sort debug,miss class collect,int list< string> string,count cl name cl,clsp graph,jadx core clsp,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,7,1,2,3,2,0.05,2,39,2, , ,debug enabl, ,sort debug,collect,list< string> string,cl name cl,clsp graph,jadx core clsp,debug
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.02,2,38,1, ,cl name, , , , ,string,cl,clsp graph,jadx core clsp,debug
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,1,0,0.01,1,45,2, , ,id null name contain kei name, ,contain kei,name, , ,cl set,jadx core clsp,debug
+Exception,TryBlock,debug,0,0,0,0,0,0,0,17,0,9,7,5,0.07,1,42,2, , , , ,write byte write byte write int name write string parent write byte id write int,cl cl parent,data output stream class class class class,cl parent parent cl,cl set,jadx core clsp,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,4,38,2, , , ,void, , , , ,convert cl set,jadx core clsp,info
+LoopCheck,ForBlock,info,0,0,0,0,0,0,0,3,0,0,0,1,0.04,4,45,1, ,input file, , , , ,input file,input file,convert cl set,jadx core clsp,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,29,2,11,11,7,0.40,4,48,1, , , ,void,usag exit directori add file add file directori file info load load save info,system input file input file root set set,file list< input file> file int input file root node cl set,output input file input file root set,convert cl set,jadx core clsp,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,29,2,11,12,7,0.40,4,52,2, , , ,void,usag exit directori add file add file directori file info load load save info,system input file input file root set set,file list< input file> file int input file root node cl set,output input file input file root set,convert cl set,jadx core clsp,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,31,2, , ,indent 0, , , , , ,code writer,jadx core codegen,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,22,1,except, , , , , , , ,code writer,jadx core codegen,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.01,1,86,4, , ,repl null, ,replac arg,inl copi, , ,insn gen,jadx core codegen,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,10,1,2,6,1,0.01,1,82,4, , ,reg num reg length, ,replac arg warn,inl copi,insn arg,repl,insn gen,jadx core codegen,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,4,2,0,0.03,3,68,1, , ,arg size 2, ,size size size sub list,arg arg arg arg, , ,method gen,jadx core codegen,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,8,0,6,5,1,0.03,3,82,1, , ,type arrai, ,arrai type type arrai element type add,type arg class gen type class gen arg code,arg type,el type,method gen,jadx core codegen,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,5,0,2,1,0,0.02,3,90,1,decod except, , , ,messag start line,code, , ,method gen,jadx core codegen,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.02,3,88,1,codegen except, , , ,start line,code, , ,method gen,jadx core codegen,error
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , ,handler null, , , , , ,region gen,jadx core codegen,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0, , ,lit 0, ,string,, , ,type gen,jadx core codegen,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,0,0,32,1,16,19,5,0.19,3,106,2, , , ,void,exist absolut path error read line trim empti start split trim start start start start add packag preset,deobf map file deobf map file file util mth preset map fld preset map cl preset map deobfusc,list< string> string string string string,line va orig name alia,deobf preset,jadx core deobf,info
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,101,2,except, , , , , , , ,deobf preset,jadx core deobf,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,101,2,except, , , , , , , ,deobf preset,jadx core deobf,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.04,3,85,2, , ,forc save, ,absolut path dump map,deobf map file, , ,deobf preset,jadx core deobf,warn
+LogicBranch,IfBlock,info,0,0,0,1,0,0,0,7,1,6,6,0,0.01,1,87,3, , ,pkg null, ,class name name equal name class name info,cl name cl, , ,deobfusc,jadx core deobf,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,3,2,0,0.01,1,63,2, , ,cl name equal class name cl, ,class name name equal,cl name, , ,deobfusc,jadx core deobf,info
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , ,parent insn, , , , , ,insn arg,jadx core dex instruct arg,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,except, , , , , , , ,class node,jadx core dex node,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,70,3,except, , , , , , , ,class node,jadx core dex node,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,53,3,except, , , , , , , ,class node,jadx core dex node,error
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,99,4,jadx runtim except, , , , , , , ,method node,jadx core dex node,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,11,0,10,9,0,0.02,1,54,3, , ,mth info constructor, ,constructor parent class access flag enum add add add,mth info parent class access flag mth arg arg type mth arg arg type mth arg arg type, , ,method node,jadx core dex node,warn
+Exception,TryBlock,error,0,0,0,0,0,1,0,7,0,2,1,1,0.03,2,39,1, , , , ,size add,dex node dex node,dex node,dex node,root node,jadx core dex node,debug
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,37,2, , ,arsc null, , , , , ,root node,jadx core dex node,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,32,1,jadx except, , , , , , , ,root node,jadx core dex node,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,72,3,except, , , , , , , ,local var,jadx core dex node parser,error
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0, , ,id null, ,empti map,collect, , ,signatur parser,jadx core dex node parser,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,5,0,0,0,0,0,0,0,0, , , ,boolean, , , , ,abstract region,jadx core dex region,warn
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,80,1,26,20,10,1.00,1,92,3, , , , ,messag format msg error unload insn arr debug info offset dex check offset process debug info instruct process set method sourc line return type equal set line return insn offset arg arg type name merg debug info sourc line set sourc line exit block sourc line set sourc line,error counter mth mth mth dex mth debug info parser mth return type block util ret ret ret arg arg arg ret ret mth insn mth,int insn node debug info parser insn node insn node regist arg regist arg block node int insn node,debug offset insn arr debug info parser ret ret arg arg exit line insn,debug info visitor,jadx core dex visitor,info
+LogicBranch,IfBlock, ,0,0,0,0,0,1,0,7,0,3,0,0,0,0,0,0, , ,el type type, ,type type select,el type insn element type el type, , ,mod visitor,jadx core dex visitor,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0, , ,type insn type, ,type,, , ,re sugar code,jadx core dex visitor,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,8,7,0,0.02,2,71,4, , ,insn arg 1 liter liter arg insn arg 1 liter 0, ,arg liter arg liter op arg arg chang condit,insn arg insn liter arg insnget arg1 insn wi wi insn, , ,simplifi visitor,jadx core dex visitor,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,50,3,except, , , , , , , ,simplifi visitor,jadx core dex visitor,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,51,3,except, , , , , , , ,simplifi visitor,jadx core dex visitor,debug
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,18,1,7,6,2,0.02,3,75,3,except, , , ,error unload load root arg pass list visit,mth mth mth root jadx depth travers,list< dex tree visitor> dex tree visitor,pass visitor,block final extract,jadx core dex visitor blocksmak,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,75,3,except, , , , , , , ,block final extract,jadx core dex visitor blocksmak,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,20,0,6,6,3,0.02,3,75,3, , , ,block remov info,empti check block out size merg return,block block remov info out,block node block remov info set< block pair>,start block remov info out,block final extract,jadx core dex visitor blocksmak,debug
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,0,0,0.00,3,57,2, , ,rem block predecessor size 1, ,predecessor size,rem block predecessor, , ,block final extract,jadx core dex visitor blocksmak,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , ,top splitter null, , , , , ,block finish,jadx core dex visitor blocksmak,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,7,0,6,8,1,0.01,1,56,3, , ,insn count 0, ,insn insert start insn,predecessor insn predecessor,list< insn node>,insn,block processor,jadx core dex visitor blocksmak,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,9,0,7,3,1,0.02,1,78,3, , ,block predecessor empti || block successor empti, ,predecessor empti successor empti try block remov block,block predecessor block successor block catch attr try block,catch attr,catch attr,block processor,jadx core dex visitor blocksmak,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,6,0,0.07,1,50,3, , ,debug enabl block contain flag block contain flag block contain flag block instruct empti, ,contain contain contain instruct empti debug,block block block block instruct, , ,check region,jadx core dex visitor region,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,6,3,0,0.07,1,20,0, , ,debug enabl block contain flag block contain flag block contain flag block instruct empti, ,debug enabl contain contain contain instruct empti,block block block block instruct, , ,check region,jadx core dex visitor region,debug
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , ,bad bad els, , , , , ,maker helper,jadx core dex visitor region,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,3,2,0,0.01,3,81,3, , ,wrap arg null wrap arg parent insn null, ,parent insn parent insn replac arg,wrap arg wrap arg parent insn, , ,loop region visitor,jadx core dex visitor region,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,24,0,12,13,2,0.06,3,81,3, , ,wrap arg null wrap arg parent insn null, ,parent insn parent insn type result fix iter type search wrap insn parent parent insn add parent insn replac arg fix iter type replac arg,wrap arg wrap arg parent insn parent insn block util cast arg skip cast arg parent insn parent insn,insn node insn arg,parent insn cast arg,loop region visitor,jadx core dex visitor region,warn
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,25,0,11,8,3,0.07,3,84,3, , ,iter type gener, ,gener gener type equal gener type set type dex instanc wildcard type wildcard bound dex instanc,iter type iter type type type iter var mth arg type type type mth arg type,arg type arg type arg type,gener type type wildcard type,loop region visitor,jadx core dex visitor region,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,81,3, , ,block null, , , , , ,loop region visitor,jadx core dex visitor region,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0, , ,tb handler count 0, ,handler count,tb, , ,process try catch region,jadx core dex visitor region,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,15,0,20,12,2,0.01,6,71,1, , ,df cardin 2, ,cardin set bit id set bit id dom frontier id dom frontier size id set size id set,df df basic block df basic block dom frontier dom frontier fall df df fall df df,block node block node,,region maker,jadx core dex visitor region,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,1,6,9,0,0.01,6,71,1, , ,fall empti bad block map fall, ,empti bad re switch bad error add,fall mth, , ,region maker,jadx core dex visitor region,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,2,3,0,0.00,6,71,1, , ,bad block map fall, ,bad add,mth, , ,region maker,jadx core dex visitor region,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,6,70,1, , ,loop null out cardin 1, ,cardin,out, , ,region maker,jadx core dex visitor region,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,3,2,0,0.01,6,69,2, , ,handler block null, ,add predecessor add,block handler block splitter, , ,region maker,jadx core dex visitor region,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,1,0,0,0.00,6,68,2, , ,empti, ,empti,, , ,region maker,jadx core dex visitor region,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,2,1,0,0.00,6,72,2, , ,exc handler attr null, ,handler region add attr,handler handler region, , ,region maker,jadx core dex visitor region,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,1,0,0.03,1,95,3, , ,instanceof region, ,add break contain,, , ,region maker visitor,jadx core dex visitor region,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,2,1,0,0.02,1,90,4, , ,synch insn arg 0, ,arg,synch insn arg, , ,region maker visitor,jadx core dex visitor region,warn
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,45,2, , ,, , , , , ,region stack,jadx core dex visitor region,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,50,2, , ,, , , , , ,region stack,jadx core dex visitor region,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2, , ,, , , , , ,region stack,jadx core dex visitor region,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,46,2, , ,, , , , , ,region stack,jadx core dex visitor region,debug
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,11,0,5,0,2,0,0,0,0, , , ,void,instruct iter remov,block instruct,iterator< insn node> insn node,insn,elimin phi node,jadx core dex visitor ssa,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , ,block id live length, , , , , ,live var analysi,jadx core dex visitor ssa,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,4,0,2,2,0,0,0,0,0, , ,contain short name, ,contain add,cl, , ,export gradl project,jadx core export,debug
+CriticalClassesCheck,ClassBlock,debug,0,0,0,1,0,1,0,196,6,64,66,28,1.00,6,53,3, , , , ,dump dump save dump raw save dump region save equal add travers debug print region print region debug region print region attribut string debug attribut string debug print insn print region sub block debug fallback method gen insn length string substr attribut string debug instruct result result check var check var argument instruct basic block check var parent insn contain arg list type add arg count block bind size arg count block arg argument instruct list empti contain contain empti basic block phi parent insn list var,dot graph visitor dump dot graph visitor dump raw dot graph visitor dump region block region depth region travers mth region contain region method gen ig code writer code string insn block insn insn insn block mth reg arg parent insn var insn phi phi phi block bind phi phi insn block block phi list attr phi list phi phi list phi mth ssa var arg ssa var mth,file set< region> block contain method gen insn gen code writer string insn node insn arg insn node block node var insn node regist arg list< phi insn> phi insn block node insn arg insn node phi list attr list< phi insn> block node phi insn boolean insn node regist arg var,region block contain mg ig code insn str insn arg insn block var parent insn arg phi phi arg insn phi list attr phi list block phi found parent insn arg ssa var,debug util,jadx core util,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,12,0,3,4,1,0.06,6,50,3, , , ,void,equal add travers,block region depth region travers,set< region>,region,debug util,jadx core util,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,2,4,0,0.02,6,57,3, , , ,void,region print region,mth, , ,debug util,jadx core util,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,15,1,5,11,2,0.08,6,49,2, , , ,void,attribut string debug print insn print region sub block,contain region,block contain,block contain,debug util,jadx core util,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,9,0,2,7,1,0.05,6,48,2, , ,contain instanceof region, ,print insn print region,,block,block,debug util,jadx core util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,6,54,3,codegen except, , , , , , , ,debug util,jadx core util,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,10,1,6,7,4,0.05,6,49,2, , , , ,debug fallback method gen insn length string substr,method gen ig code writer code string,method gen insn gen code writer string,mg ig code insn str,debug util,jadx core util,debug
+CriticalClassesCheck,ClassBlock,error,0,0,0,1,1,0,0,110,7,47,41,6,1.00,7,36,2, , , , ,add format msg error messag messag error error add attr remov add add attr contain add format msg warn dex root error counter add error dex root error counter add warn root error counter add error root error counter add warn type name dex dex file name error count error count error size class simpl name replac add sort error warn count warn count size warn,error node node node warn node node node node cl dex root error counter cl dex root error counter mth root error counter mth root error counter node node dex dex file error node node class simpl name error collect warn node,string string list< string> string attribut node string,msg msg error node name node err,error counter,jadx core util,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,3,3,0,0.06,7,40,1, , ,instanceof jadx overflow except, ,messag messag error,, , ,error counter,jadx core util,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,7,1,2,2,0,0.06,7,35,1, , ,instanceof jadx overflow except, ,error messag,, , ,error counter,jadx core util,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,9,2,4,5,0,0.08,7,40,2, , ,null, ,error messag messag error,, , ,error counter,jadx core util,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,13,0,5,7,1,0.12,7,40,2, , , ,string,add add attr contain add format msg,warn node node node node,string,msg,error counter,jadx core util,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,8,6,4,0.11,7,32,1, , ,error count 0, ,error count size class simpl name replac add sort error,error node node class simpl name error collect,list< string> string attribut node string,error node name node err,error counter,jadx core util,error
+LoopCheck,ForBlock,error,0,0,0,0,0,0,0,3,0,0,0,1,0.03,7,39,1, ,error, , , , ,string,err,error counter,jadx core util,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.03,7,32,1, , ,warn count 0, ,warn count,, , ,error counter,jadx core util,warn
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0, , ,field node null, , , , , ,insn util,jadx core util,warn
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,70,2, , , ,class node,app packag search class name add resourc field search class short name size add resourc field empti info info class add resourc field,root root root candid candid candid,string string class node list< class node>,app packag name re cl candid,android resourc util,jadx core util android,info
+LogicBranch,IfBlock,info,0,0,0,0,0,0,0,3,0,1,0,0,0.03,2,70,2, , ,candid empti, ,empti,candid, , ,android resourc util,jadx core util android,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,0,1,24,2,12,19,4,0.21,2,62,2, , , ,class node,app packag search class name add resourc field info search class short name size add resourc field empti info class add resourc field,root root root candid candid candid,string string class node list< class node>,app packag name re cl candid,android resourc util,jadx core util android,info
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,76,2,except, , , , , , , ,file util,jadx core util file,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,except, , , , , , , ,file util,jadx core util file,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,72,2,except, , , , , , , ,file util,jadx core util file,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,69,2,except, , , , , , , ,file util,jadx core util file,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,3,1,0.03,5,70,2, , ,check upper creat file, ,creat file exist absolut path debug,check upper check low test dir,boolean,sensit,file util,jadx core util file,debug
+LogicBranch,IfBlock,error,0,0,0,1,1,0,0,8,1,4,2,1,0.03,5,63,2, , ,check upper creat file, ,creat file absolut path debug exist,check upper check upper check low,boolean,sensit,file util,jadx core util file,debug
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,2,50,2,except, , , , , , , ,input file,jadx core util file,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.01,2,66,3, , ,j2d error, ,error,j2d, , ,input file,jadx core util file,warn
+Exception,TryBlock,warn,0,0,0,1,1,1,0,14,1,6,3,1,0.07,2,61,3, , , , ,messag error dx error warn absolut path convert,j2d j2d jar file j2d,byte,ba,input file,jadx core util file,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,3,120,3,except, , , , , , , ,zip secur,jadx core util file,error
+Exception,TryBlock,error,0,0,0,1,1,0,0,12,1,4,4,2,0.16,3,120,3, , , , ,error canon file canon file sub directori intern,file file,file file,current path canon,zip secur,jadx core util file,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,5,0,1,0,0,0.07,3,96,2, , ,compress size 0 || uncompress size 0, ,name,entri, , ,zip secur,jadx core util file,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,5,0,1,0,0,0.07,3,96,2, , ,compress size uncompress size, ,name,entri, , ,zip secur,jadx core util file,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,binari parser,jadx core xmlgen,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,54,2,except, , , , , , , ,manifest attribut,jadx core xmlgen,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,4,4,0,0.03,2,47,2, , , ,void,load pars load pars,, , ,manifest attribut,jadx core xmlgen,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,57,2,format except, , , , , , , ,manifest attribut,jadx core xmlgen,debug
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,82,3,except, , , , , , , ,re contain,jadx core xmlgen,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,66,3,except, , , , , , , ,re contain,jadx core xmlgen,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,76,2,except, , , , , , , ,resourc saver,jadx core xmlgen,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2, , ,zip secur sub directori dir file, ,sub directori path,zip secur file, , ,resourc saver,jadx core xmlgen,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,2,2,0,0.05,4,68,2, , ,zip secur sub directori dir file, ,sub directori file name,zip secur rc, , ,resourc saver,jadx core xmlgen,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,73,2,except, , , , , , , ,resourc saver,jadx core xmlgen,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,1,0,0,22,1,8,7,3,0.20,4,74,2, , , ,void,content save binari name warn dir file close copi,rc cw rc rc file util binari util,code writer input stream file output stream,cw binari binari file stream,resourc saver,jadx core xmlgen,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0, , ,b1 0x80 0, , , , , ,re tabl parser,jadx core xmlgen,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,75,3,except, , , , , , , ,valu parser,jadx core xmlgen entri,error
+LogicBranch,SwitchBlock,error,0,0,0,0,1,0,0,3,0,1,1,0,0.01,1,54,2, , ,option empti, ,hex string,integ, , ,valu parser,jadx core xmlgen entri,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,7,6,0,0.10,1,105,4, , , ,void,arg file set dir file set dir src file set dir re,arg arg arg, , ,jadx arg valid dir test,jadx api,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,13,13,0,0.10,1,69,4, , , ,void,valid dir file assert dir src file assert dir re file assert,jadx arg valid arg arg arg, , ,jadx arg valid dir test,jadx api,debug
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,1,1,0,33,1,11,9,3,0.22,2,34,2, , , ,boolean,load name matcher match method visit visit code info print method check code,class node mth mth pattern matcher class node depth travers code gen class node,boolean method node dex tree visitor,decompil mth visitor,base extern test,jadx test extern,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,5,0,1,2,0,0.03,2,50,2, , ,mth pattern null, ,print method,, , ,base extern test,jadx test extern,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,15,0,8,7,5,0.10,2,59,2, , ,mth pattern matcher mth name match, ,name matcher match decompil line append append count match count match,mth mth pattern matcher mth mth code append string util string util,int string builder int string int,decompil line mth code bracket line,base extern test,jadx test extern,info
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,3,0,0,0,1,0.04,1,80,2, ,error, , , , ,string,str,jadx visitor test,jadx test function,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,1,14,1, , ,info null, , , , , ,jadx visitor test,jadx test function,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,1,84,2,except, , , , , , , ,test try catch finally3,jadx test integr trycatch,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,13,0,11,13,2,0.27,1,48,3, , , ,void,class node code string contain assert contain assert contain assert contain assert,cl code,class node string,cl code,test try catch finally3,jadx test integr trycatch,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,test variabl definit,jadx test integr variabl,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.08,1,53,3,except, , , ,exit,system, , ,jadx,jadx gui,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.06,1,41,3,except, , , , , , , ,jadx,jadx gui,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,3,34,1,except, , , , , , , ,jadx wrapper,jadx gui,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,4,0,2,0,0,0.05,3,37,1,interrupt except, , , ,current thread interrupt,thread current thread, , ,jadx wrapper,jadx gui,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,29,2, , , , ,error current thread interrupt arg set root dir save executor shutdown task count complet task count set progress sleep termin close class info,thread current thread decompil arg decompil ex ex ex progress monitor thread ex progress monitor decompil class,thread pool executor,ex total,jadx wrapper,jadx gui,info
+Exception,TryBlock,error,0,0,0,1,0,0,0,18,2,16,7,3,0.22,3,42,2, , , , ,error current thread interrupt arg set root dir save executor shutdown task count complet task count set progress sleep termin close info class,thread current thread decompil arg decompil ex ex ex progress monitor thread ex progress monitor decompil class,thread pool executor,ex total,jadx wrapper,jadx gui,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,1,47,2,except, , , , , , , ,background job,jadx gui job,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,51,2,except, , , , , , , ,background job,jadx gui job,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,7,0,2,1,0,0.07,7,65,2, , , ,void,cancel,, , ,background worker,jadx gui job,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,64,2,except, , , , , , , ,background worker,jadx gui job,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,61,2, , , , ,error gc decompil job run job memori info debug index job run job memori info debug gc memori info debug text index skip count skip count memori info warn,system cach util cach util system util cach search index search index util,text search index,search index,background worker,jadx gui job,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2, , , , ,error gc memori info debug decompil job run job index job run job memori info debug gc memori info debug text index skip count skip count memori info warn,system util cach cach util system util cach search index search index util,text search index,search index,background worker,jadx gui job,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,62,2, , , , ,error gc memori info debug decompil job run job memori info debug index job run job gc memori info debug text index skip count skip count memori info warn,system util cach util cach system util cach search index search index util,text search index,search index,background worker,jadx gui job,debug
+Exception,TryBlock,debug,0,0,0,1,0,0,0,20,5,18,13,1,0.21,7,63,2, , , , ,error gc memori info debug decompil job run job memori info debug index job run job memori info debug gc text index skip count skip count memori info warn,system util cach util cach util system cach search index search index util,text search index,search index,background worker,jadx gui job,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,4,0,3,0,0,0.04,7,54,1, , ,search index null search index skip count 0, ,skip count skip count memori info,search index search index util, , ,background worker,jadx gui job,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,7,65,2,except, , , , , , , ,background worker,jadx gui job,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,index job,jadx gui job,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,32,0,16,11,0,0,0,0,0, , , ,void,set deobfusc min length set deobfusc sourc name alia set deobfusc forc save set thread count set replac const set skip resourc set auto start job default theme path set editor theme path deobfusc min length set deobfusc min length default local set lang local set import sync,editor theme default theme, , ,jadx set,jadx gui set,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.04,5,38,1,except, , , , , , , ,jadx set adapt,jadx gui set,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,2,0,0,0.07,5,38,1, , ,set null, ,fix load default,set jadx set, , ,jadx set adapt,jadx gui set,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,3,0,0.03,5,41,1, , ,debug enabl, ,string debug,, , ,jadx set adapt,jadx gui set,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,5,34,1, , ,debug enabl, ,debug enabl,, , ,jadx set adapt,jadx gui set,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,5,37,1,except, , , , , , , ,jadx set adapt,jadx gui set,error
+Exception,TryBlock,debug,0,0,0,1,0,0,0,8,1,4,5,1,0.09,5,35,1, , , , ,error string sync,,string,json set,jadx set adapt,jadx gui set,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,7,0,4,2,1,0,0,0,0, , ,result font chooser, ,select font set font updat font load set,font chooser set main window main window,font,font,jadx set window,jadx gui set,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,except, , , ,messag,, , ,certif,jadx gui treemodel,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,1,4,4,0,0.01,3,80,2, , , , ,displai result start displai result result count format,result model result model result model string, , ,common search dialog,jadx gui ui,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,9,1,5,2,1,0.02,3,38,1, , , ,void,str displai result start displai result result count set text,result model result model result model result info label,string,statu text,common search dialog,jadx gui ui,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,76,2,except, , , , , , , ,common search dialog,jadx gui ui,error
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,81,2,except, , , , , , , ,common search dialog,jadx gui ui,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,main drop target,jadx gui ui,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,58,1,except, , , , , , , ,main window,jadx gui ui,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,58,2, , ,node null, , , , , ,main window,jadx gui ui,error
+Exception,CatchBlock,error,0,0,0,1,0,0,0,8,1,2,3,0,0.01,3,46,1,except, , , ,error load,theme, , ,main window,jadx gui ui,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,48,1,except, , , , , , , ,main window,jadx gui ui,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,4,1,5,3,0,0.01,2,173,1, , , , ,singl length filter subscrib,schedul text search event filter subscrib, , ,search dialog,jadx gui ui,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,16,1,12,7,2,0.06,2,41,2, , , ,void,text field chang flowabl merg edt singl prepar search subscrib list flowabl debug singl length,search emitt flowabl swing schedul schedul prepar search subscrib list schedul text,flowable< string> flowable< string>,text chang search event,search dialog,jadx gui ui,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,15,0,7,4,1,0.05,2,163,1, , , ,void,text contain set search set search option add perform search,search field option cach cach result model result model super,string,text,search dialog,jadx gui ui,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,2,0,0,0,0,0,0,bad locat except, , , ,node line,po node, , ,tab pane,jadx gui ui,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,2,except, , , , , , , ,code,jadx gui ui codearea,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,48,3,bad locat except, , , , , , , ,code,jadx gui ui codearea,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,49,2,bad locat except, , , , , , , ,code,jadx gui ui codearea,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,except, , , , , , , ,code link gener,jadx gui ui codearea,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,jadx token maker,jadx gui ui codearea,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,39,2, , ,debug enabl, ,debug,, , ,line,jadx gui ui codearea,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,bad locat except, , , , , , , ,search bar,jadx gui ui codearea,error
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,1,0,0.04,2,39,2, , ,version contain dev, ,contain,version, , ,jadx updat,jadx gui updat,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,29,1,17,10,5,0.27,2,45,1, , , ,releas,version contain debug name equal ignor pre releas remov iter empti sort size name check compar,jadx decompil version releas name releas list list collect list list version compar,string list< release> releas iterator< release> releas,version list releas,jadx updat,jadx gui updat,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,43,2,except, , , , , , , ,certif manag,jadx gui util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,except, , , , , , , ,certif manag,jadx gui util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,54,2,except, , , , , , , ,util,jadx gui util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,52,2,except, , , , , , , ,util,jadx gui util,error
+Exception,TryBlock,error,0,0,0,1,0,0,0,8,1,4,5,2,0.05,2,56,3, , , , ,error default toolkit system clipboard set content,toolkit default toolkit clipboard,clipboard transfer,clipboard transfer,util,jadx gui util,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,11,13,2,0.23,2,67,2, , , , ,size match cancel debug memori info debug complet creat,kei valu emitt emitt util emitt flowabl,int int,size,code index,jadx gui util search,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.06,2,68,2, , ,emitt cancel, ,cancel,emitt, , ,code index,jadx gui util search,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,15,3,10,12,2,0.23,2,49,2, , , , ,size debug match cancel debug complet creat,kei valu emitt emitt emitt flowabl,int int,size,code index,jadx gui util search,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,69,2,except, , , , , , , ,text search index,jadx gui util search,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,24,0,18,25,2,0.15,5,67,2, , , ,flowabl node,contain empti contain search concat contain search concat contain search concat contain size search concat empti search skip class concat,option flowabl option cl name index flowabl option mth name index flowabl option fld name index flowabl option code index code index flowabl skip class flowabl,boolean flowable< node>,ignor result,text search index,jadx gui util search,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,12,15,3,0.13,5,66,2, , , , ,code search cancel debug free memori avail memori info warn complet memori info debug complet creat,java class emitt util util emitt util emitt flowabl,string int java class,code po java class,text search index,jadx gui util search,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,4,0,1,0,0,0.02,5,67,2, , ,emitt cancel, ,cancel,emitt, , ,text search index,jadx gui util search,debug
+LogicBranch,IfBlock,debug,0,0,0,0,1,0,0,5,0,2,0,0,0.03,5,62,2, , ,util free memori avail, ,free memori avail complet,util emitt, , ,text search index,jadx gui util search,warn
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,1,0,0,21,4,11,14,3,0.13,5,59,2, , , , ,debug code search cancel debug free memori avail memori info warn complet complet creat,java class emitt util util emitt emitt flowabl,string int java class,code po java class,text search index,jadx gui util search,debug

@@ -1,0 +1,373 @@
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0, , , , , ,druid data sourc auto configur,com alibaba druid spring boot autoconfigur,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,55,1,throwabl, , , , ,filter manag,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,46,1, , , , , ,filter manag,com alibaba druid filter,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,57,1,class cast except, , , , ,filter manag,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,47,1, , , , , ,filter manag,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,49,1, , , , , ,config filter,com alibaba druid filter config,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.01,4,58,1, ,info,, , ,config filter,com alibaba druid filter config,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,4,46,1, ,info enabl,, , ,config filter,com alibaba druid filter config,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,48,0,except, , , , ,config filter,com alibaba druid filter config,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,49,1, , , , , ,config filter,com alibaba druid filter config,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0, , , , , ,common log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,log4j2 filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,log4j2 filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,log4j2 filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0, , , , , ,log4j filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,32,0, , , , , ,log4j filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0, , , , , ,slf4j log filter,com alibaba druid filter log,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,53,1,except, , , , ,stat filter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,65,1,except, , , , ,stat filter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,72,1,except, , , , ,stat filter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,71,1,except, , , , ,stat filter,com alibaba druid filter stat,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,60,1, , , , , ,stat filter,com alibaba druid filter stat,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,7,41,1, ,id log debug,conn log, , ,mock driver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,38,0, ,log debug enabl,log, , ,mock driver,com alibaba druid mock,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,39,0,except, , , , ,mock driver,com alibaba druid mock,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,37,0,except, , , , ,mock driver,com alibaba druid mock,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,7,41,1, ,id log debug,conn log, , ,mock driver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,36,0, ,log debug enabl,log, , ,mock driver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,7,41,1, ,log debug,log, , ,mock driver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,40,0, ,log debug enabl,log, , ,mock driver,com alibaba druid mock,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,56,1, ,instanc,clazz, , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1, , , , , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1, , , , , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.00,10,59,1, ,equal,jdbc constant, , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,57,1, ,instanc,clazz, , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1, , , , , ,druid abstract data sourc,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,6,0,0,0,0,0.00,10,61,1, , , , , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,61,1, , , , , ,druid abstract data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,10,55,1, ,equal ignor,jdbc constant r2, , ,druid abstract data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,1,0,9,0,1,0,0,0.00,10,58,1, ,instanc,clazz, , ,druid abstract data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,10,0,1,1,1,0.00,10,62,1, ,discard connect,,string,error msg,druid abstract data sourc,com alibaba druid pool,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,38,2,unsupport oper except, , , , ,druid connect holder,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,38,2,featur support except, , , , ,druid connect holder,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,2,1,0,0.02,2,41,2,except,messag equal,method support, , ,druid connect holder,com alibaba druid pool,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,format except, , , , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,1,0,4,0,0,0,0,0.00,76,50,1,except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,4,0,0,0,0,0.00,76,50,1,runtim except, , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,0,0,0,0.00,76,50,1,error, , , , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,3,1,1,0.00,76,50,1, ,empti info,thisnam,string,msg,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,3,0,1,0.00,76,50,1, ,info enabl empti,thisnam,string,msg,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,1,1,0,0.00,76,50,1,except,sleep,thread, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,3,1,0,0.00,76,50,1, ,class name info,filter class, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,1,19,0,7,4,2,0.01,76,49,1, ,start pars config raw driver class name raw url name add filter filter,jdbc url druid driver config config config config,data sourc proxi config filter,config filter,druid data sourc,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,29,0,1,0,1,0.01,76,50,1, ,length,thisvalid queri,string,error messag,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1, , , , , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,76,49,1, ,,select queri block queri, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,76,49,1, ,,select queri block queri, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,warn,, , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,warn enabl,, , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,debug,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,debug enabl,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,debug,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,debug enabl,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,debug,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,debug enabl,, , ,druid data sourc,com alibaba druid pool,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,55,0,19,9,5,0.02,76,50,1, ,trace enabl lock unlock trace enabl remov set trace enabl current time milli length substr lock unlock close disabl set discard disabl close connect discard connect set discard,conn activ connect lock activ connect lock conn activ connect conn system sql sql lock lock conn conn holder conn jdbc util holder holder,druid connect holder boolean reentrant lock statement,holder error time milli requir discard lock stmt,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,76,50,1, , , , , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.00,76,50,1, ,async close connect enabl current thread,thread, , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1, ,size warn,activ connect, , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1, ,warn enabl,, , ,druid data sourc,com alibaba druid pool,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,11,0,3,2,0,0.00,76,50,1,throwabl,statement cach discard connect increment,holder recycl error count updat, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,76,50,1, ,close,jdbc util, , ,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,except, , , , ,druid data sourc,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,12,0,2,0,0,0.00,76,50,1,except,lock unlock,lock lock, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,76,50,1,memori error,set fail continu lock unlock signal lock unlock schedul,lock lock empti lock lock creat schedul, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,76,50,1,except,set fail continu lock unlock signal lock unlock schedul,lock lock empti lock lock creat schedul, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,1,1,0,0.00,76,50,1,runtim except,set fail continu,, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,12,0,3,1,0,0.00,76,50,1,error,lock unlock set fail continu,lock lock, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.00,76,50,1,throwabl, , , , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.00,76,50,1, ,physic connect close,physic connect jdbc util, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1, , , , , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,28,0,6,2,0,0.01,76,49,1,except,set fail continu lock unlock signal sleep,lock lock empti thread, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,76,50,1,runtim except,set fail continu,, , ,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,76,50,1,error,set fail continu,, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.00,76,50,1, ,physic connect close,connect jdbc util, , ,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,except, , , , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,26,0,23,12,4,0.01,76,50,1, ,log abandon append owner thread name append append connect time milli append append connect stack trace append string append append owner thread append owner thread stack trace append string append append,buf pool connect owner thread buf buf pool connect buf buf pool connect buf tracei buf buf pool connect owner thread buf pool connect owner thread buf tracei buf buf,string builder stack trace element int int,buf trace,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,2,0,0.00,76,50,1, ,debug,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,debug enabl,, , ,druid data sourc,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,11,0,6,5,2,0.00,76,50,1, ,append append append append append sql list,buf buf buf buf buf info,string builder string,buf sql,druid data sourc,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,1,1,0,0.00,76,50,1,except,increment,connect error count updat, , ,druid data sourc,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,3,2,0,0.00,76,50,1, ,fillabl connect close,holder jdbc util, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1, ,info,, , ,druid data sourc,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1, ,info enabl,, , ,druid data sourc,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,except, , , , ,druid data sourc,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,54,1,format except,error error,, , ,druid data sourc factori,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,58,1,format except,error error,, , ,druid data sourc factori,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,61,1,format except,error error,, , ,druid data sourc factori,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,3,0,0,0,0,0.01,1,18,1, , , , , ,druid data sourc stat logger impl,com alibaba druid pool,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,22,0, , , , , ,druid data sourc stat logger impl,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,8,0,3,2,0,0.01,3,22,1,except,handl except connect close,raw statement connect, , ,druid pool connect,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1, , , , , ,druid pool connect,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1, , , , , ,druid pool connect,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1, , , , , ,druid pool connect,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,except, , , , ,druid pool prepar statement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,except, , , , ,druid pool prepar statement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,except, , , , ,druid pool prepar statement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,33,2,except, , , , ,druid pool prepar statement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,except, , , , ,druid pool prepar statement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,except, , , , ,druid pool statement,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,4,31,1, ,debug,, , ,druid pool statement,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,4,27,1, ,debug enabl,, , ,druid pool statement,com alibaba druid pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,except, , , , ,druid pool statement,com alibaba druid pool,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,28,0,8,1,7,0.03,4,31,1, ,current time milli version pool count class name class name,error class name system data sourc data sourcedriv class data sourceexcept sorter class,druid connect holder druid abstract data sourc string,holder data sourc current time milli activ time milli idl milli valid idl milli error msg,druid pool statement,com alibaba druid pool,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,1,2,0.08,4,25,1, ,connect proxi id id connect proxi id id debug,stmt proxi connect proxi stmt proxi stmt proxi connect proxi stmt proxi,string prepar statement proxi,messag stmt proxi,prepar statement pool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,0,2,0.08,4,26,0, ,debug enabl connect proxi id id connect proxi id id,stmt proxi connect proxi stmt proxi stmt proxi connect proxi stmt proxi,string prepar statement proxi,messag stmt proxi,prepar statement pool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,1,2,0.08,4,25,1, ,connect proxi id id connect proxi id id debug,stmt proxi connect proxi stmt proxi stmt proxi connect proxi stmt proxi,string prepar statement proxi,messag stmt proxi,prepar statement pool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,0,2,0.08,4,26,0, ,debug enabl connect proxi id id connect proxi id id,stmt proxi connect proxi stmt proxi stmt proxi connect proxi stmt proxi,string prepar statement proxi,messag stmt proxi,prepar statement pool,com alibaba druid pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,19,0,except, , , , ,prepar statement pool,com alibaba druid pool,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,1,0,0,0.02,7,56,1, ,empti,name list, , ,data sourc creator,com alibaba druid pool ha,error
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,8,0,5,10,5,0.05,7,51,1, ,properti properti properti creat,properti properti properti map,string string string druid data sourc string,url usernam password data sourc,data sourc creator,com alibaba druid pool ha,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,19,2,8,12,6,0.11,7,55,1, ,empti error properti properti properti info creat,name list properti properti properti map,map< string data source> string string string druid data sourc string,map url usernam password data sourc,data sourc creator,com alibaba druid pool ha,info
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,8,1,2,3,0,0.05,7,55,1,file found except,warn resourc stream,data sourc creatorclass, , ,data sourc creator,com alibaba druid pool ha,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,56,1,except, , , , ,data sourc creator,com alibaba druid pool ha,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,11,2,3,4,0,0.06,7,54,1, ,debug warn resourc stream,data sourc creatorclass, , ,data sourc creator,com alibaba druid pool ha,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,18,1,3,3,0,0.11,7,56,1, ,error close load,properti, , ,data sourc creator,com alibaba druid pool ha,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,55,1,except, , , , ,data sourc creator,com alibaba druid pool ha,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,1,0,0,0.01,1,51,1, ,empti,data sourc map, , ,avail data sourc,com alibaba druid pool ha,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,80,1, , , , , ,avail data sourc,com alibaba druid pool ha,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,10,0,5,1,1,0.11,2,78,1, ,blacklist blacklist empti try data sourc blacklist,selector selector blacklist selector,data sourc,data sourc,random data sourc recov thread,com alibaba druid pool ha selector,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,7,0,2,1,0,0.08,2,61,1,except,messag discard connect,data sourc, , ,random data sourc recov thread,com alibaba druid pool ha selector,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,14,1,8,5,0,0.16,2,86,1, ,name messag warn discard connect close connect valid connect remov blacklist,data sourc data sourc jdbc util data sourc data sourc selector, , ,random data sourc recov thread,com alibaba druid pool ha selector,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,4,0,0,0,0,0,0, ,test borrow test return start start,avail data sourc avail data sourc thread thread, , ,random data sourc selector,com alibaba druid pool ha selector,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,4,2,0,0.03,2,109,1, ,valu kei add blacklist,data sourc map selector, , ,random data sourc valid thread,com alibaba druid pool ha selector,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,2,1,0,0.04,2,61,1,except,properti messag,info, , ,random data sourc valid thread,com alibaba druid pool ha selector,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,11,1,6,6,0,0.08,2,99,1, ,properti messag warn close connect valid connect,info jdbc util driver data sourc, , ,random data sourc valid thread,com alibaba druid pool ha selector,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,sql valid connect checker,com alibaba druid pool vendor,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,format except, , , , ,oracl except sorter,com alibaba druid pool vendor,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,except, , , , ,druid data sourc,com alibaba druid pool xa,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,31,2,except, , , , ,jtd resourc,com alibaba druid pool xa,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,except, , , , ,jtd resourc,com alibaba druid pool xa,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,1,1,0,0.02,1,49,2,except,log,log factori, , ,druid driver,com alibaba druid proxi,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,1,1,0,0.02,1,36,2,throwabl,log,log factori, , ,druid driver,com alibaba druid proxi,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,28,2,class cast except, , , , ,util,com alibaba druid sql,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,48,2,parser except, , , , ,util,com alibaba druid sql,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0, ,size,entri, , ,select list cach,com alibaba druid sql parser,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , , , , ,schema repositori,com alibaba druid sql repositori,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,except, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,except, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,8,40,1,throwabl, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,8,40,1,throwabl, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,8,34,2, , , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,throwabl, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,throwabl, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,except, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,except, , , , ,druid data sourc stat manag,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,39,2,except, , , , ,druid stat servic,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,37,2,except, , , , ,druid stat servic,com alibaba druid stat,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,format except, , , , ,jdbc data sourc stat,com alibaba druid stat,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,43,2, ,error,, , ,abstract web stat impl,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0, ,error enabl,, , ,abstract web stat impl,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.01,1,17,2,except,init paramet,,string,msg,resourc servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.01,1,17,2,except,init paramet,,string,msg,resourc servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.02,5,33,2,except,init paramet,,string,msg,stat view servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,28,2,except, , , , ,stat view servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,1,0.02,5,33,2,except, , ,string,msg,stat view servlet,com alibaba druid support http,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,29,2,except,messag return result,druid stat servic, , ,stat view servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,28,2,except,messag return result,druid stat servic, , ,stat view servlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,29,2,except,messag return result,druid stat servic, , ,stat view servlet,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,89,1, ,equal,fals, , ,web stat filter,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,91,1, ,equal,fals, , ,web stat filter,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,87,1,format except, , , , ,web stat filter,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,35,1, , , , , ,web app stat,com alibaba druid support http stat,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,43,1, , , , , ,web app stat,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,37,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,35,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,38,2,except, , , , ,web app stat util,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,29,2,throwabl, , , , ,ibati util,com alibaba druid support ibati,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,34,2,except, , , , ,ibati util,com alibaba druid support ibati,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,35,2,except, , , , ,ibati util,com alibaba druid support ibati,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,4,0,0,0,0,0,throwabl,creat proxi,super, , ,spring ibati bean name auto proxi creator,com alibaba druid support ibati,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,4,0,0,0,0,0,throwabl,creat proxi,super, , ,spring ibati bean type auto proxi creator,com alibaba druid support ibati,error
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,67,1,27,31,4,0.35,3,28,1, ,time set autoscrol creat titl border set border set layout width height set bound add creat titl border set border add add height width set bound width height set bound height width set bound add compon listen debug data pars data tabl data process,date scroll pane border factori scroll pane scroll pane border factori copyright panel copyright panel copyright panel scroll pane copyright panel tabl data processor tabl data processor,boolean label arrai list< link hash map< string object>>,refresh time author info data,druid panel,com alibaba druid support jconsol,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,8,0,3,4,1,0.04,3,24,1, ,data pars data tabl data process,tabl data processor tabl data processor,arrai list< link hash map< string object>>,data,druid panel,com alibaba druid support jconsol,debug
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,21,1, , , , , ,druid panel,com alibaba druid support jconsol,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,29,1,except, , , , ,druid panel,com alibaba druid support jconsol,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,21,1,except, , , , ,druid sql detail frame,com alibaba druid support jconsol,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,40,0,29,23,14,0.10,1,22,2, ,remov remov size size size size kei valu equal equal equal equal entri set iter add add add add,data content el content el entri entri kei kei kei kei data el err data el slow data el pars data el content el entri set pars data slow data error data data,link hash map< string object> int int int int link hash map< string object> link hash map< string object> link hash map< string object> link hash map< string object> entry< string object> string object int iterator< entry< string object>>,content el pars len slow len err len len pars data el slow data el err data el data el entri kei valu,druid sql detail frame,com alibaba druid support jconsol,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,1,23,1, ,string debug,, , ,tabl data processor,com alibaba druid support jconsol util,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0, ,debug enabl,, , ,tabl data processor,com alibaba druid support jconsol util,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,3,0,0,0,0,0.02,10,15,1, , , , , ,jakarta common log impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1, , , , , ,jakarta common log impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,15,0, , , , , ,jakarta common log impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1, , , , , ,jakarta common log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1, , , , , ,jakarta common log impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,4,62,2, , , , , ,jdk14 log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,62,2, , , , , ,jdk14 log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,80,3, , , , , ,jdk14 log impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,63,2, , , , , ,jdk14 log impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,79,3, , , , , ,jdk14 log impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1, , , , , ,log4j2 impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0, , , , , ,log4j2 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1, , , , , ,log4j2 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1, , , , , ,log4j2 impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0, , , , , ,log4j2 impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1, , , , , ,log4j2 impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0, , , , , ,log4j2 impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1, , , , , ,log4j2 impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1, , , , , ,log4j2 impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1, , , , , ,log4j2 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4, , , , , ,f4 impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,1,20,0, , , , , ,log4j impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4, , , , , ,f4 impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4, , , , , ,f4 impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4, , , , , ,f4 impl,com alibaba druid support log,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3, , , , , ,f4 impl,com alibaba druid support log,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,except, , , , ,monitor client,com alibaba druid support monitor,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,except, , , , ,monitor client,com alibaba druid support monitor,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,33,2,except, , , , ,monitor dao jdbc impl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,4,34,2,pars except, , , , ,monitor dao jdbc impl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,except, , , , ,monitor dao jdbc impl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,32,2,except, , , , ,monitor dao jdbc impl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,except, , , , ,monitor dao jdbc impl,com alibaba druid support monitor dao,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,druid data sourc convert,com alibaba druid support simplejndi,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,druid stat interceptor,com alibaba druid support spring stat,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,2,35,2,except, , , , ,spring stat util,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,2,35,2,except, , , , ,spring stat util,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.04,2,43,2,except, , , , ,spring stat util,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,except, , , , ,druid data sourc util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,except, , , , ,druid data sourc util,com alibaba druid util,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,34,2,except, , , , ,druid data sourc util,com alibaba druid util,trace
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,27,1,except, , , , ,http client util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,25,1,except, , , , ,http client util,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,25,1,except, , , , ,http client util,com alibaba druid util,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,6,3,1,0.10,4,26,1, ,input stream append append read line string debug,conn respons builder append reader respons builder,string,line,http client util,com alibaba druid util,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,5,2,1,0.10,4,22,1, ,debug enabl input stream append append read line,conn respons builder append reader,string,line,http client util,com alibaba druid util,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,except, , , , ,jdbc sql stat util,com alibaba druid util,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,32,2,except, , , , ,jdbc util,com alibaba druid util,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,except, , , , ,jdbc util,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,except, , , , ,jdbc util,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,except, , , , ,jdbc util,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,except, , , , ,jdbc util,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,except, , , , ,jdbc util,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,except, , , , ,jdbc util,com alibaba druid util,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0, , , , , ,oracl util,com alibaba druid util,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,format except, , , , ,string util,com alibaba druid util,warn
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,2,69,1, , , , , ,wall filter,com alibaba druid wall,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,49,1, ,log violat,, , ,wall filter,com alibaba druid wall,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,62,1, ,log violat,, , ,wall filter,com alibaba druid wall,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,3,0,0,0,0,0.04,1,18,1, , , , , ,wall provid stat logger impl,com alibaba druid wall,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,22,0, , , , , ,wall provid stat logger impl,com alibaba druid wall,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , ,wall visitor util,com alibaba druid wall spi,error
+CriticalMethodCheck,MethodBlock, ,1,0,0,0,0,0,0,5,0,1,2,1,0,0,0,0, ,,session,sampl,sampl,hibern test,com alibaba druid bvt hibern,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2, ,declar field set access reset stat connect close error count assert equal,druid data sourceclass field field data sourc conn assert,field log connect,field conn,config error test,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2, ,declar field set access reset stat error count assert equal connect close,druid data sourceclass field field assert data sourc conn,field log connect,field conn,config error test,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2, ,declar field set access reset stat connect close error count assert equal,druid data sourceclass field field data sourc conn assert,field log connect,field conn,config error test2,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2, ,declar field set access reset stat error count assert equal connect close,druid data sourceclass field field assert data sourc conn,field log connect,field conn,config error test2,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,11,2,7,5,2,0.18,1,43,2, ,declar field set access reset stat init error count assert equal,druid data sourceclass field field data sourc assert,field log,field,config error test3,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,11,2,7,5,2,0.18,1,43,2, ,declar field set access reset stat error count assert equal init,druid data sourceclass field field assert data sourc,field log,field,config error test3,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,14,2,9,7,2,0.19,3,42,2, ,set test idl declar field set valid queri set access reset stat init warn count assert equal,data sourc druid data sourceclass data sourc field field data sourc assert,field log,field,config error test mysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,14,2,9,7,2,0.19,3,42,2, ,set test idl declar field set valid queri set access reset stat warn count assert equal init,data sourc druid data sourceclass data sourc field field assert data sourc,field log,field,config error test mysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,13,2,8,6,2,0.18,3,42,2, ,set test idl declar field set access reset stat init warn count assert equal,data sourc druid data sourceclass field field data sourc assert,field log,field,config error test mysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,13,2,8,6,2,0.18,3,42,2, ,set test idl declar field set access reset stat warn count assert equal init,data sourc druid data sourceclass field field assert data sourc,field log,field,config error test mysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,1,13,0,6,3,3,0,0,0,0, ,declar field set access reset stat connect close,druid data sourceclass field field log data sourc conn,field log connect,field log conn,valid queri log b2 test,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,1,12,0,6,3,3,0,0,0,0, ,declar field set access reset stat connect close,druid data sourceclass field field log data sourc conn,field log connect,field log conn,valid queri log test,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,18,0,10,7,1,0.17,2,52,2, ,set declar field set access reset stat set url set test borrow set connect properti set filter init,super druid data sourceclass log field log field data sourc log data sourc data sourc data sourc data sourc data sourc,field,log field,connect properti chang test,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,42,2,55,47,2,0.41,2,52,2, ,connect properti size assert equal connect properti properti assert equal connect properti properti assert equal connect close set connect properti set connect properti info count assert equal connect properti size assert equal connect properti properti assert equal connect properti properti assert equal unwrap assert null merg sql assert fals set connect properti merg sql assert true connect properti size assert equal connect properti properti assert equal connect properti properti assert equal connect properti properti assert equal set connect properti merg sql assert fals connect properti properti assert equal connect properti properti assert equal connect properti properti assert equal,data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc conn data sourc data sourc data sourc log assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc assert filter assert data sourc filter assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc filter assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert,connect stat filter,conn filter,connect properti chang test,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,42,2,55,47,2,0.41,2,52,2, ,connect properti size assert equal connect properti properti assert equal connect properti properti assert equal connect close set connect properti info count assert equal set connect properti connect properti size assert equal connect properti properti assert equal connect properti properti assert equal unwrap assert null merg sql assert fals set connect properti merg sql assert true connect properti size assert equal connect properti properti assert equal connect properti properti assert equal connect properti properti assert equal set connect properti merg sql assert fals connect properti properti assert equal connect properti properti assert equal connect properti properti assert equal,data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc conn data sourc data sourc log assert data sourc data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc assert filter assert data sourc filter assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert data sourc filter assert data sourc connect properti assert data sourc connect properti assert data sourc connect properti assert,connect stat filter,conn filter,connect properti chang test,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,17,0,9,6,1,0,0,0,0, ,set declar field set access reset stat set url set test borrow set connect properti init,super druid data sourceclass log field log field data sourc log data sourc data sourc data sourc data sourc,field,log field,connect properti chang test1,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,16,0,8,5,1,0,0,0,0, ,set declar field set access reset stat set url set test borrow init,super druid data sourceclass log field log field data sourc log data sourc data sourc data sourc,field,log field,pool prepar statement chang test,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,17,0,9,6,1,0,0,0,0, ,set declar field set access reset stat set url set test borrow set filter init,super druid data sourceclass log field log field data sourc log data sourc data sourc data sourc data sourc,field,log field,sql skip count test,com alibaba druid bvt pool dynam,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1, ,set data sourc log enabl set connect log enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,common log filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,common log filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,common log filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1, ,set data sourc log enabl set connect log enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j2 filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j2 filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j2 filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1, ,set data sourc log enabl set connect log enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1, ,set data sourc log enabl set connect log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set result set log enabl set result set log enabl set result set log enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log4j filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1, ,set data sourc log enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1, ,set data sourc log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set log error enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log filter test,com alibaba druid bvt proxi,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1, ,set data sourc log enabl set connect log error enabl set connect rollback log enabl set connect connect log enabl set connect connect log enabl set connect commit log enabl set connect close log enabl set statement log enabl set statement log error enabl set statement creat log enabl set statement execut log enabl set statement execut batch log enabl set statement execut queri log enabl set statement execut updat log enabl set statement prepar call log enabl set statement prepar log enabl set statement close log enabl set statement paramet set log enabl set result set log enabl set result set log enabl set result set log enabl set result set close log enabl,log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter log filter, , ,log filter test,com alibaba druid bvt proxi,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.02,2,37,2,except,print stack trace,ex, , ,pars util,com alibaba druid bvt sql mysql param,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,38,1,except, , , , ,pars util,com alibaba druid bvt sql mysql param,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,1,except, , , , ,pars util,com alibaba druid bvt sql mysql param,error
+LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,5,6,0.30,1,46,3, ,pars statement accept paramet string info size assert true,parser pars statement visitor plist assert,string builder export paramet visitor statement parser statement list< object> string,visitor parser pars statement plist sql,export paramet dot test,com alibaba druid bvt sql oracl visitor,info
+LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,4,6,0.30,1,28,2, ,pars statement accept paramet info string size assert true,parser pars statement visitor plist assert,string builder export paramet visitor statement parser statement list< object> string,visitor parser pars statement plist sql,export paramet dot test,com alibaba druid bvt sql oracl visitor,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,1,35,1, , , , , ,async close test1,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1, , , , , ,async close test1,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,1,35,1, , , , , ,async close test2,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1, , , , , ,async close test2,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,1,35,1, , , , , ,async close test3,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1, , , , , ,async close test3,com alibaba druid pvt pool,error

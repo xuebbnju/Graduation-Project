@@ -62,8 +62,24 @@ if __name__ == '__main__':
     one_hot = OneHotEncoder(categories='auto')
     data = pd.read_csv(loadpath)
     data = data.sample(frac=1)
-    data.columns = ["CheckType","BlockType","MaxLogLevel","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount", "ExceptionType1", "ExceptionType2","ExceptionType3","ExceptionType4","ExceptionType5","ExceptionType6","MethodcallName1","MethodcallName2","MethodcallName3","MethodcallName4","MethodcallName5","MethodcallName6", "MethodCallerName1","MethodCallerName2","MethodCallerName3","MethodCallerName4","MethodCallerName5","MethodCallerName6","VariableDeclarationType1","VariableDeclarationType2","VariableDeclarationType3","VariableDeclarationType4","VariableDeclarationType5","VariableDeclarationType6",
-                  "VariableDeclarationName1","VariableDeclarationName2","VariableDeclarationName3","VariableDeclarationName4","VariableDeclarationName5","VariableDeclarationName6","ClassName1","ClassName2","ClassName3","ClassName4","ClassName5","ClassName6","PackageName1","PackageName2","PackageName3","PackageName4","PackageName5","PackageName6","LogLevel"]
+    data.columns = ["CheckType", "BlockType", "MaxLogLevel", "AssertInBlock", "ThreadInBlock", "JDBCInBlock",
+                    "LogInBlock", "ReturnInBlock", "ThrowInBlock", "SettingFlag", "BlockSLOC", "LogInBlockCount",
+                    "MethodCallCount", "MethodParameterCount", "VariableDeclarationCount", "Logdensity", "LogNumber",
+                    "AverageLogLength", "AverageeLogParameterCount", "ExceptionType1", "ExceptionType2",
+                    "ExceptionType3", "ExceptionType4", "ExceptionType5", "ExceptionType6", "LoopCondition1",
+                    "LoopCondition2", "LoopCondition3", "LoopCondition4", "LoopCondition5", "LoopCondition6",
+                    "LogicBranchCondition1", "LogicBranchCondition2", "LogicBranchCondition3", "LogicBranchCondition4",
+                    "LogicBranchCondition5", "LogicBranchCondition6", "MthodBlockType1", "MthodBlockType2",
+                    "MthodBlockType3", "MthodBlockType4", "MthodBlockType5", "MthodBlockType6", "MethodcallName1",
+                    "MethodcallName2", "MethodcallName3", "MethodcallName4", "MethodcallName5", "MethodcallName6",
+                    "MethodCallerName1", "MethodCallerName2", "MethodCallerName3", "MethodCallerName4",
+                    "MethodCallerName5", "MethodCallerName6", "VariableDeclarationType1", "VariableDeclarationType2",
+                    "VariableDeclarationType3", "VariableDeclarationType4", "VariableDeclarationType5",
+                    "VariableDeclarationType6",
+                    "VariableDeclarationName1", "VariableDeclarationName2", "VariableDeclarationName3",
+                    "VariableDeclarationName4", "VariableDeclarationName5", "VariableDeclarationName6", "ClassName1",
+                    "ClassName2", "ClassName3", "ClassName4", "ClassName5", "ClassName6", "PackageName1",
+                    "PackageName2", "PackageName3", "PackageName4", "PackageName5", "PackageName6", "LogLevel"]
     numeric_features = ["BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount"]
     numeric_transformer = Pipeline(steps=[('scaler', StandardScaler())])
     categorical_features = ["CheckType", "BlockType", "MaxLogLevel"]

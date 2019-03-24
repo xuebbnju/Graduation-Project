@@ -1,259 +1,373 @@
-CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0,,,,,,info
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,55,1,Throwable,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,46,1,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,57,1,ClassCastException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,47,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,49,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,59,56,1,,info ,LOG ,,,info
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,4,46,1,,isInfoEnabled ,LOG ,,,info
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,48,0,Exception,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,49,1,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,53,1,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,65,1,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,72,1,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,71,1,SQLException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,60,1,,,,,,error
-LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,5,48,1,,getLog debug , getLog ,,,debug
-LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,5,43,1,,getLog isDebugEnabled , getLog ,,,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,45,1,Exception,,,,,error
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,5,42,1,Exception,,,,,warn
-LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,5,41,1,,getLog isDebugEnabled , getLog ,,,debug
-LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,5,46,1,,getLog isDebugEnabled , getLog ,,,debug
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,56,1,,newInstance ,clazz ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.00,10,59,1,,equals ,JdbcConstantsSQLSERVER ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,57,1,,newInstance ,clazz ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,6,0,0,0,0,0.00,10,61,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,61,1,,,,,,info
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,10,55,1,,equalsIgnoreCase ,JdbcConstantsORACLEDRIVER2 ,,,warn
-LogicBranch,IfBlock,error,0,0,0,0,0,1,0,9,0,1,0,0,0.00,10,58,1,,newInstance ,clazz ,,,error
-LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,28,0,8,1,7,0.03,4,31,1,,endsWith currentTimeMillis getVersionNumber getPoolingCount getClass getName getClass getName ,errorClassName System VERSION dataSource dataSourcedriver getClass dataSourceexceptionSorter getClass ,DruidConnectionHolder DruidAbstractDataSource long long long long String ,holder dataSource currentTimeMillis lastActiveTimeMillis idleMillis lastValidIdleMillis errorMsg ,error
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,35,2,SQLFeatureNotSupportedException,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,2,1,0,0.02,1,41,2,SQLException,getMessage equals ,e Method not supported ,,,warn
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,NumberFormatException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isInfoEnabled ,LOG ,,,info
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isInfoEnabled ,LOG ,,,info
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isInfoEnabled ,LOG ,,,info
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isInfoEnabled ,LOG ,,,info
-Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,0,0,0,0.00,59,55,1,Error,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,3,0,1,0.00,59,56,1,,isInfoEnabled getID isEmpty ,LOG this thisname ,String ,msg ,info
-Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,1,1,0,0.00,59,55,1,SQLException,sleep ,Thread ,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isInfoEnabled ,LOG ,,,info
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,1,19,0,7,4,2,0.01,59,55,1,,startsWith parseConfig getRawDriverClassName getRawUrl getName addFilter getFilters ,jdbcUrl DruidDriver config config config  config ,DataSourceProxyConfig Filter ,config filter ,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,29,0,1,0,1,0.01,59,56,1,,length ,thisvalidationQuery ,String ,errorMessage ,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,59,54,1,,getFrom ,SQLSelectQueryBlock query ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,59,54,1,,getFrom ,SQLSelectQueryBlock query ,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,59,56,1,,size warn ,activeConnections LOG ,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isWarnEnabled ,LOG ,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,6,3,1,0.10,3,26,1,,getInputStream append append readLine toString debug ,conn responseBuilder append reader responseBuilder LOG ,String ,line ,debug
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isDebugEnabled ,LOG ,,,debug
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isDebugEnabled ,LOG ,,,debug
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,55,0,19,9,5,0.02,59,56,1,,isTraceEnable lock unlock isTraceEnable remove setTraceEnable currentTimeMillis length substring lock unlock isClosed isDisable setDiscard disable close getConnection discardConnection setDiscard ,conn activeConnectionLock activeConnectionLock conn activeConnections conn System sql sql lock lock conn conn holder conn JdbcUtils holder this holder ,DruidConnectionHolder long boolean ReentrantLock Statement ,holder lastErrorTimeMillis requireDiscard lock stmt ,error
-LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,59,56,1,,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.00,59,56,1,,isAsyncCloseConnectionEnable currentThread , Thread ,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,55,1,,isWarnEnabled ,LOG ,,,warn
-Exception,CatchBlock,error,0,0,0,0,0,0,0,11,0,3,2,0,0.00,59,56,1,Throwable,clearStatementCache discardConnection incrementAndGet ,holder this recycleErrorCountUpdater ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,59,56,1,,close ,JdbcUtils ,,,info
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,Exception,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isInfoEnabled ,LOG ,,,info
-Exception,CatchBlock,error,0,0,0,0,1,0,0,12,0,2,0,0,0.00,59,56,1,SQLException,lock unlock ,lock lock ,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,59,55,1,OutOfMemoryError,setFailContinuous lock unlock signalAll lock unlock schedule , lock lock notEmpty lock lock createScheduler ,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,59,55,1,SQLException,setFailContinuous lock unlock signalAll lock unlock schedule , lock lock notEmpty lock lock createScheduler ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,59,56,1,RuntimeException,setFailContinuous , ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,59,56,1,Error,setFailContinuous , ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.00,59,56,1,Throwable,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.00,59,56,1,,getPhysicalConnection close ,connection JdbcUtils ,,,info
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,55,1,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,28,0,6,2,0,0.01,59,54,1,SQLException,getSQLState setFailContinuous lock unlock signalAll sleep ,e  lock lock notEmpty Thread ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,Exception,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,26,0,23,12,4,0.01,59,56,1,,isLogAbandoned append getOwnerThread getName append append getConnectedTimeMillis append append getConnectStackTrace append toString append append getOwnerThread getState append getOwnerThread getStackTrace append toString append append , buf pooledConnection getOwnerThread buf buf pooledConnection buf buf pooledConnection buf tracei buf buf pooledConnection getOwnerThread buf pooledConnection getOwnerThread buf tracei buf buf ,StringBuilder StackTraceElement int int ,buf trace i i ,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isDebugEnabled ,LOG ,,,debug
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,11,0,6,5,2,0.00,59,55,1,,append append append append append getSqlList ,buf buf buf buf buf info ,StringBuilder String ,buf sql ,error
-Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,1,1,0,0.00,59,55,1,SQLException,incrementAndGet ,connectErrorCountUpdater ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,3,2,0,0.00,59,56,1,,isFillable getConnection close ,this holder JdbcUtils ,,,info
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,59,56,1,,isInfoEnabled ,LOG ,,,info
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,59,56,1,Exception,,,,,warn
-Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,54,1,NumberFormatException,error error ,LOG LOG ,,,error
-Exception,CatchBlock,error,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,58,1,NumberFormatException,error error ,LOG LOG ,,,warn
-Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,61,1,NumberFormatException,error error ,LOG LOG ,,,error
-CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,3,0,0,0,0,0.04,1,18,1,,,,,,info
-CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,22,0,,,,,,info
-Exception,CatchBlock,error,0,0,0,0,1,0,0,8,0,3,2,0,0.01,1,22,1,SQLException,handleException getConnection isClosed ,this rawStatement getConnection ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,38,2,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,35,2,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,36,2,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,34,2,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,36,2,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,Exception,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,4,27,1,,isDebugEnabled ,LOG ,,,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,SQLException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,1,17,1,7,0,2,0.08,2,33,1,,isDebugEnabled getConnectionProxy getId getId getConnectionProxy getId getId ,LOG stmtProxy getConnectionProxy stmtProxy stmtProxy getConnectionProxy stmtProxy ,String PreparedStatementProxy ,message stmtProxy ,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,19,0,Exception,,,,,error
-LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,1,0,0,0.02,7,56,1,,isEmpty ,nameList ,,,error
-LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,8,0,5,10,5,0.05,7,51,1,,getProperty getProperty getProperty create put ,properties properties properties  map ,String String String DruidDataSource String ,url username password dataSource n ,info
-CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,19,2,8,12,6,0.11,7,55,1,,isEmpty error getProperty getProperty getProperty info create put ,nameList LOG properties properties properties LOG  map ,Map<String DataSource> String String String DruidDataSource String ,map url username password dataSource n ,info
-Exception,CatchBlock,warn,0,0,0,1,0,0,0,8,1,2,3,0,0.05,7,55,1,FileNotFoundException,warn getResourceAsStream ,LOG DataSourceCreatorclass ,,,debug
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,56,1,Exception,,,,,warn
-Exception,TryBlock,warn,0,0,0,1,0,0,0,11,2,3,4,0,0.06,7,54,1,,debug warn getResourceAsStream ,LOG LOG DataSourceCreatorclass ,,,debug
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,18,1,3,3,0,0.11,7,56,1,,error close load ,LOG is properties ,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,55,1,Exception,,,,,error
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,1,0,0,0.01,1,51,1,,isEmpty ,dataSourceMap ,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,80,1,,,,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,10,0,5,1,1,0.11,2,78,1,,getBlacklist getBlacklist isEmpty tryOneDataSource getBlacklist ,selector selector getBlacklist  selector ,DataSource ,dataSource ,info
-Exception,CatchBlock,info,0,0,0,0,0,0,0,7,0,2,1,0,0.08,2,61,1,Exception,getMessage discardConnection ,e dataSource ,,,warn
-Exception,TryBlock,warn,0,0,0,1,0,0,0,14,1,8,5,0,0.16,2,86,1,,getName getMessage warn discardConnection close getConnection validateConnection removeBlacklist ,dataSource e LOG dataSource JdbcUtils dataSource dataSource selector ,,,info
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,4,0,0,0,0,0,0,,isTestOnBorrow isTestOnReturn start start ,highAvailableDataSource highAvailableDataSource Thread Thread ,,,info
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,4,2,0,0.03,2,109,1,,getValue getKey get addBlacklist ,e e dataSourceMap selector ,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,2,1,0,0.04,2,61,1,SQLException,getProperty getMessage ,info e ,,,warn
-Exception,TryBlock,warn,0,0,0,1,0,0,0,11,1,6,6,0,0.08,2,99,1,,getProperty getMessage warn close connect validateConnection ,info e LOG JdbcUtils driver dataSource ,,,debug
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,warn
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,NumberFormatException,,,,,error
-Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,XAException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,31,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,Exception,,,,,error
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,1,1,0,0.02,1,49,2,Exception,getLog ,LogFactory ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,1,1,0,0.02,1,36,2,Throwable,getLog ,LogFactory ,,,warn
-Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,28,2,ClassCastException,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,48,2,ParserException,,,,,warn
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,,size ,entries ,,,warn
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,info
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,35,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,39,2,JMException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,33,2,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,37,2,JMException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,47,1,Exception,,,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,NumberFormatException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,43,2,,error ,LOG ,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0,,isErrorEnabled ,LOG ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.02,3,30,2,Exception,getInitParameter , ,String ,msg ,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,3,22,2,IOException,getMessage returnJSONResult ,e DruidStatService ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,1,0.02,3,30,2,Exception,,,String ,msg ,warn
-Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,3,24,2,Exception,getMessage returnJSONResult ,e DruidStatService ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,89,1,,equals ,false ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,91,1,,equals ,false ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,87,1,NumberFormatException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,35,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,43,1,,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,37,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,35,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,43,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,29,2,Throwable,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,34,2,Exception,,,,,error
-Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,4,0,0,0,0,0,Throwable,createProxy ,super ,,,error
-LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,67,1,27,31,4,0.35,3,28,1,,getTime setAutoscrolls createTitledBorder setBorder setLayout getWidth getHeight setBounds add createTitledBorder setBorder add add getHeight getWidth setBounds getWidth getHeight setBounds getHeight getWidth setBounds addComponentListener debug getData parseData tableDataProcess ,Date scrollPane BorderFactory scrollPane    scrollPane this BorderFactory copyrightPanel copyrightPanel this   copyrightPanel   scrollPane   copyrightPanel this LOG TableDataProcessor TableDataProcessor  ,boolean long JLabel ArrayList<LinkedHashMap<String Object>> ,needRefresh timeNow authorInfo data ,warn
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,8,0,3,4,1,0.04,3,24,1,,getData parseData tableDataProcess ,TableDataProcessor TableDataProcessor  ,ArrayList<LinkedHashMap<String Object>> ,data ,debug
-LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,21,1,,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,29,1,Exception,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,21,1,Exception,,,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,40,0,29,23,14,0.10,1,22,2,,get remove remove size size size size next getKey getValue get equals get equals get equals get equals put put put put hasNext entrySet iterator add add add add ,data contentEle contentEle PARESETITLELIST LASTSLOWTITLELIST LASTERRORTITLELIST OTHERERRORTITLELIST it entry entry PARESETITLELIST key LASTSLOWTITLELIST key LASTERRORTITLELIST key OTHERERRORTITLELIST key otherDataEle errDataEle slowDataEle parseDataEle it contentEle entrySet parseData lastSlowData lastErrorData otherData ,LinkedHashMap<String Object> int int int int LinkedHashMap<String Object> LinkedHashMap<String Object> LinkedHashMap<String Object> LinkedHashMap<String Object> Entry<String Object> String Object int Iterator<Entry<String Object>> ,contentEle parseLen slowLen errLen otherLen parseDataEle slowDataEle errDataEle otherDataEle entry key value i it ,warn
-LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0,,isDebugEnabled ,LOG ,,,debug
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,9,54,4,,,,,,debug
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,,,error
-CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,,,debug
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,,,debug
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,,,warn
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,9,54,4,,,,,,info
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,,,info
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,9,54,4,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,9,54,4,,,,,,error
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,4,62,2,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,62,2,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,80,3,,,,,,info
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,63,2,,,,,,info
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,79,3,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,error
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,error
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,info
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,debug
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,warn
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,9,48,3,,,,,,warn
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,34,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,3,35,2,ParseException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,36,2,SQLException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,33,2,SQLException,,,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,SQLException,,,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,info
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,27,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,37,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,37,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,37,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,36,2,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,35,2,Exception,,,,,info
-Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,10,35,2,Exception,,,,,trace
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,28,1,IOException,,,,,error
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.03,3,24,1,IOException,,,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,5,2,1,0.10,3,21,1,,isDebugEnabled getInputStream append append readLine ,LOG conn responseBuilder append reader ,String ,line ,debug
-Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,Exception,,,,,error
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,Exception,,,,,error
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,38,2,Exception,,,,,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,38,2,Exception,,,,,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,38,2,Exception,,,,,debug
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,40,2,Exception,,,,,debug
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,error
-Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,NumberFormatException,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,2,69,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,49,1,,isLogViolation , ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,62,1,,isLogViolation , ,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,IOException,,,,,error
-CriticalMethodCheck,MethodBlock, ,1,0,0,0,0,0,0,5,0,1,2,1,0,0,0,0,,get ,session ,Sample ,sample ,debug
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.02,1,43,2,,,,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,11,2,7,5,2,0.18,1,19,0,,getDeclaredField setAccessible get resetStat getErrorCount assertEquals init ,DruidDataSourceclass field field LOG LOG Assert dataSource ,Field Log ,field LOG ,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,2,31,1,,getDeclaredField setAccessible get resetStat getErrorCount assertEquals getConnection close ,DruidDataSourceclass field field LOG LOG Assert dataSource conn ,Field Log Connection ,field LOG conn ,error
-CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,1,0,0,0,0,0.01,1,42,2,,,,,,warn
-CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,13,2,8,6,2,0.18,1,18,0,,setTestWhileIdle getDeclaredField setAccessible get resetStat getWarnCount assertEquals init ,dataSource DruidDataSourceclass field field LOG LOG Assert dataSource ,Field Log ,field LOG ,warn
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,1,0,0,0,0,0.02,1,43,2,,,,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,1,12,0,6,3,3,0.24,1,19,0,,getDeclaredField setAccessible get resetStat getConnection close ,DruidDataSourceclass field field log dataSource conn ,Field Log Connection ,field log conn ,error
-CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,1,0,0,0,0,0.01,1,52,2,,,,,,info
-CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,17,0,9,6,1,0.15,1,28,0,,setUp getDeclaredField setAccessible get resetStat setUrl setTestOnBorrow setFilters init ,super DruidDataSourceclass logField logField dataSourceLog dataSource dataSource dataSource dataSource ,Field ,logField ,info
-CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,42,2,55,47,2,0.41,2,40,1,,getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnection close setConnectionProperties getInfoCount assertEquals setConnectionProperties getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals unwrap assertNotNull isMergeSql assertFalse setConnectionProperties isMergeSql assertTrue getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals setConnectionProperties isMergeSql assertFalse getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals ,dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource conn dataSource dataSourceLog Assert dataSource dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource Assert filter Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert ,Connection StatFilter ,conn filter ,info
-CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,setDataSourceLogEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,setDataSourceLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,error
-CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,setDataSourceLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.02,2,37,2,Exception,printStackTrace ,ex ,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,38,1,Exception,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,1,Exception,,,,,error
-LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,5,6,0.30,1,46,3,,parseStatement accept getParameters toString info size assertTrue ,parser parseStatement visitor out LOG plist Assert ,StringBuilder ExportParameterVisitor SQLStatementParser SQLStatement List<Object> String ,out visitor parser parseStatement plist sql ,info
-LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,4,6,0.30,1,28,2,,parseStatement accept getParameters info toString size assertTrue ,parser parseStatement visitor LOG out plist Assert ,StringBuilder ExportParameterVisitor SQLStatementParser SQLStatement List<Object> String ,out visitor parser parseStatement plist sql ,info
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,1,35,1,,,,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1,,,,,,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0,,,,DataSource,,,,,DruidDataSourceAutoConfigure,com alibaba druid spring boot autoconfigure,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,55,1,Throwable,,,,,,,,FilterManager,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,46,1,,,filterClass    null,,,,,,FilterManager,com alibaba druid filter,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,57,1,ClassCastException,,,,,,,,FilterManager,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,47,1,,,filterClass    null,,,,,,FilterManager,com alibaba druid filter,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,49,1,,,  dataSourceProxy instanceof DruidDataSource ,,,,,,ConfigFilter,com alibaba druid filter config,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.01,4,58,1,,,LOG isInfoEnabled  ,,info ,LOG ,,,ConfigFilter,com alibaba druid filter config,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,4,46,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,ConfigFilter,com alibaba druid filter config,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,48,0,Exception,,,,,,,,ConfigFilter,com alibaba druid filter config,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,4,49,1,,,inStream    null,,,,,,ConfigFilter,com alibaba druid filter config,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,32,0,,,,boolean,,,,,CommonsLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0,,,,void,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0,,,,void,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0,,,,void,,,,,CommonsLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0,,,,void,,,,,CommonsLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.02,11,32,0,,,,void,,,,,CommonsLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Log4j2Filter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0,,,,boolean,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0,,,,boolean,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0,,,,boolean,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,8,32,0,,,,boolean,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Log4j2Filter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Log4j2Filter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0,,,,void,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0,,,,void,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,33,0,,,,void,,,,,Log4jFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,32,0,,,,void,,,,,Log4jFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,8,32,0,,,,void,,,,,Log4jFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.03,11,32,0,,,,boolean,,,,,Slf4jLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,void,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,void,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,void,,,,,Slf4jLogFilter,com alibaba druid filter logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,void,,,,,Slf4jLogFilter,com alibaba druid filter logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,11,32,0,,,,void,,,,,Slf4jLogFilter,com alibaba druid filter logging,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,53,1,Exception,,,,,,,,StatFilter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,65,1,Exception,,,,,,,,StatFilter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,72,1,SQLException,,,,,,,,StatFilter,com alibaba druid filter stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,71,1,SQLException,,,,,,,,StatFilter,com alibaba druid filter stat,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,60,1,,,logSlowSql,,,,,,StatFilter,com alibaba druid filter stat,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,7,41,1,,,getLog   isDebugEnabled  ,,getId getLog debug ,conn  getLog ,,,MockDriver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,38,0,,,getLog   isDebugEnabled  ,,getLog isDebugEnabled , getLog ,,,MockDriver,com alibaba druid mock,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,39,0,Exception,,,,,,,,MockDriver,com alibaba druid mock,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,7,37,0,Exception,,,,,,,,MockDriver,com alibaba druid mock,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,7,41,1,,,getLog   isDebugEnabled  ,,getId getLog debug ,conn  getLog ,,,MockDriver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,36,0,,,getLog   isDebugEnabled  ,,getLog isDebugEnabled , getLog ,,,MockDriver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,7,41,1,,,logExecuteQueryEnable    getLog   isDebugEnabled  ,,getLog debug , getLog ,,,MockDriver,com alibaba druid mock,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,0,0,0.01,7,40,0,,,logExecuteQueryEnable    getLog   isDebugEnabled  ,,getLog isDebugEnabled , getLog ,,,MockDriver,com alibaba druid mock,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,56,1,,,clazz    null,,newInstance ,clazz ,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,minEvictableIdleTimeMillis   1000   30,,,,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,maxEvictableIdleTimeMillis   1000   30,,,,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.00,10,59,1,,,validationQueryTimeout   0    JdbcConstants SQL SERVER equals dbType ,,equals ,JdbcConstantsSQLSERVER ,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,1,0,0,0.00,10,57,1,,,clazz    null,,newInstance ,clazz ,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,57,1,,,inited,,,,,,DruidAbstractDataSource,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,6,0,0,0,0,0.00,10,61,1,,,,void,,,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,10,61,1,,,inited,,,,,,DruidAbstractDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,10,55,1,,,JdbcConstants ORACLE DRIVER2 equalsIgnoreCase driverClass ,,equalsIgnoreCase ,JdbcConstantsORACLEDRIVER2 ,,,DruidAbstractDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,1,0,9,0,1,0,0,0.00,10,58,1,,,clazz    null,,newInstance ,clazz ,,,DruidAbstractDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,10,0,1,1,1,0.00,10,62,1,,,     lastPacketReceivedTimeMs   0    mysqlIdleMillis    timeBetweenEvictionRunsMillis,,discardConnection , ,String ,errorMsg ,DruidAbstractDataSource,com alibaba druid pool,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,38,2,UnsupportedOperationException,,,,,,,,DruidConnectionHolder,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.01,2,38,2,SQLFeatureNotSupportedException,,,,,,,,DruidConnectionHolder,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,2,1,0,0.02,2,41,2,SQLException,,,,getMessage equals ,e Method not supported ,,,DruidConnectionHolder,com alibaba druid pool,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,SQLException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,49,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,NumberFormatException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,getID info ,this LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,info ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,info ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,inited    LOG isInfoEnabled  ,,info ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1,,,inited    LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,1,0,4,0,0,0,0,0.00,76,50,1,SQLException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,4,0,0,0,0,0.00,76,50,1,RuntimeException,,,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,0,0,0,0.00,76,50,1,Error,,,,,,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,3,1,1,0.00,76,50,1,,,init    LOG isInfoEnabled  ,,getID isEmpty info ,this thisname LOG ,String ,msg ,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,12,1,3,0,1,0.00,76,50,1,,,init    LOG isInfoEnabled  ,,isInfoEnabled getID isEmpty ,LOG this thisname ,String ,msg ,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,1,1,0,0.00,76,50,1,SQLException,,,,sleep ,Thread ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,3,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,getClass getName info ,filter getClass LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,1,19,0,7,4,2,0.01,76,49,1,,,,void,startsWith parseConfig getRawDriverClassName getRawUrl getName addFilter getFilters ,jdbcUrl DruidDriver config config config  config ,DataSourceProxyConfig Filter ,config filter ,DruidDataSource,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,29,0,1,0,1,0.01,76,50,1,,,,void,length ,thisvalidationQuery ,String ,errorMessage ,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,,,removeAbandoned,,,,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,76,49,1,,,  SQLSelectQueryBlock  query  getFrom      null,,getFrom ,SQLSelectQueryBlock query ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.00,76,49,1,,,  SQLSelectQueryBlock  query  getFrom      null,,getFrom ,SQLSelectQueryBlock query ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isWarnEnabled  ,,warn ,LOG ,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isWarnEnabled  ,,isWarnEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,debug ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,debug ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,debug ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,55,0,19,9,5,0.02,76,50,1,,,,void,isTraceEnable lock unlock isTraceEnable remove setTraceEnable currentTimeMillis length substring lock unlock isClosed isDisable setDiscard disable close getConnection discardConnection setDiscard ,conn activeConnectionLock activeConnectionLock conn activeConnections conn System sql sql lock lock conn conn holder conn JdbcUtils holder this holder ,DruidConnectionHolder long boolean ReentrantLock Statement ,holder lastErrorTimeMillis requireDiscard lock stmt ,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,76,50,1,,,holder    null,,,,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,2,0,0,0.00,76,50,1,,,     logDifferentThread           isAsyncCloseConnectionEnable            pooledConnection ownerThread    Thread currentThread  ,,isAsyncCloseConnectionEnable currentThread , Thread ,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1,,,LOG isWarnEnabled  ,,size warn ,activeConnections LOG ,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,49,1,,,LOG isWarnEnabled  ,,isWarnEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,11,0,3,2,0,0.00,76,50,1,Throwable,,,,clearStatementCache discardConnection incrementAndGet ,holder this recycleErrorCountUpdater ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,1,1,0,0.00,76,50,1,,, result,,close ,JdbcUtils ,,,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,Exception,,,,,,,,DruidDataSource,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,2,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,getID info ,this LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,12,0,2,0,0,0.00,76,50,1,SQLException,,,,lock unlock ,lock lock ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,76,50,1,OutOfMemoryError,,,,setFailContinuous lock unlock signalAll lock unlock schedule , lock lock notEmpty lock lock createScheduler ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,35,0,7,4,0,0.01,76,50,1,SQLException,,,,setFailContinuous lock unlock signalAll lock unlock schedule , lock lock notEmpty lock lock createScheduler ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,1,1,0,0.00,76,50,1,RuntimeException,,,,setFailContinuous , ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,12,0,3,1,0,0.00,76,50,1,Error,,,,lock unlock setFailContinuous ,lock lock  ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.00,76,50,1,Throwable,,,,,,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.00,76,50,1,,, result,,getPhysicalConnection close ,physicalConnection JdbcUtils ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,,, closing,,,,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,28,0,6,2,0,0.01,76,49,1,SQLException,,,,getSQLState setFailContinuous lock unlock signalAll sleep ,e  lock lock notEmpty Thread ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,76,50,1,RuntimeException,,,,setFailContinuous , ,,,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.00,76,50,1,Error,,,,setFailContinuous , ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,2,1,0,0.00,76,50,1,,, result,,getPhysicalConnection close ,connection JdbcUtils ,,,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,Exception,,,,,,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,26,0,23,12,4,0.01,76,50,1,,,isLogAbandoned  ,,isLogAbandoned append getOwnerThread getName append append getConnectedTimeMillis append append getConnectStackTrace append toString append append getOwnerThread getState append getOwnerThread getStackTrace append toString append append , buf pooledConnection getOwnerThread buf buf pooledConnection buf buf pooledConnection buf tracei buf buf pooledConnection getOwnerThread buf pooledConnection getOwnerThread buf tracei buf buf ,StringBuilder StackTraceElement int int ,buf trace i i ,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,2,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,debug ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,11,0,6,5,2,0.00,76,50,1,,,transactionThresholdMillis   0    transactionMillis   transactionThresholdMillis,,append append append append append getSqlList ,buf buf buf buf buf info ,StringBuilder String ,buf sql ,DruidDataSource,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,5,0,1,1,0,0.00,76,50,1,SQLException,,,,incrementAndGet ,connectErrorCountUpdater ,,,DruidDataSource,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,3,2,0,0.00,76,50,1,,, this isFillable toCount ,,isFillable getConnection close ,this holder JdbcUtils ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,info ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,76,50,1,,,LOG isInfoEnabled  ,,isInfoEnabled ,LOG ,,,DruidDataSource,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,76,50,1,Exception,,,,,,,,DruidDataSource,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,54,1,NumberFormatException,,,,error error ,LOG LOG ,,,DruidDataSourceFactory,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,58,1,NumberFormatException,,,,error error ,LOG LOG ,,,DruidDataSourceFactory,com alibaba druid pool,warn
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,6,2,2,2,0,0.02,2,61,1,NumberFormatException,,,,error error ,LOG LOG ,,,DruidDataSourceFactory,com alibaba druid pool,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,3,0,0,0,0,0.01,1,18,1,,,,boolean,,,,,DruidDataSourceStatLoggerImpl,com alibaba druid pool,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,22,0,,,,void,,,,,DruidDataSourceStatLoggerImpl,com alibaba druid pool,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,8,0,3,2,0,0.01,3,22,1,SQLException,,,,handleException getConnection isClosed ,this rawStatement getConnection ,,,DruidPooledConnection,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1,,,dupCloseLogEnable,,,,,,DruidPooledConnection,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1,,,dupCloseLogEnable,,,,,,DruidPooledConnection,com alibaba druid pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,3,27,1,,,dupCloseLogEnable,,,,,,DruidPooledConnection,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,SQLException,,,,,,,,DruidPooledPreparedStatement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,SQLException,,,,,,,,DruidPooledPreparedStatement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,SQLException,,,,,,,,DruidPooledPreparedStatement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,33,2,SQLException,,,,,,,,DruidPooledPreparedStatement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,35,2,SQLException,,,,,,,,DruidPooledPreparedStatement,com alibaba druid pool,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,Exception,,,,,,,,DruidPooledStatement,com alibaba druid pool,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,1,0,0.00,4,31,1,,,LOG isDebugEnabled  ,,debug ,LOG ,,,DruidPooledStatement,com alibaba druid pool,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.00,4,27,1,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,DruidPooledStatement,com alibaba druid pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,27,1,SQLException,,,,,,,,DruidPooledStatement,com alibaba druid pool,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,28,0,8,1,7,0.03,4,31,1,,,errorClassName endsWith   CommunicationsException      conn holder    null    conn holder dataSource testWhileIdle,,endsWith currentTimeMillis getVersionNumber getPoolingCount getClass getName getClass getName ,errorClassName System VERSION dataSource dataSourcedriver getClass dataSourceexceptionSorter getClass ,DruidConnectionHolder DruidAbstractDataSource long long long long String ,holder dataSource currentTimeMillis lastActiveTimeMillis idleMillis lastValidIdleMillis errorMsg ,DruidPooledStatement,com alibaba druid pool,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,1,2,0.08,4,25,1,,,LOG isDebugEnabled  ,,getConnectionProxy getId getId getConnectionProxy getId getId debug ,stmtProxy getConnectionProxy stmtProxy stmtProxy getConnectionProxy stmtProxy LOG ,String PreparedStatementProxy ,message stmtProxy ,PreparedStatementPool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,0,2,0.08,4,26,0,,,LOG isDebugEnabled  ,,isDebugEnabled getConnectionProxy getId getId getConnectionProxy getId getId ,LOG stmtProxy getConnectionProxy stmtProxy stmtProxy getConnectionProxy stmtProxy ,String PreparedStatementProxy ,message stmtProxy ,PreparedStatementPool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,1,2,0.08,4,25,1,,,LOG isDebugEnabled  ,,getConnectionProxy getId getId getConnectionProxy getId getId debug ,stmtProxy getConnectionProxy stmtProxy stmtProxy getConnectionProxy stmtProxy LOG ,String PreparedStatementProxy ,message stmtProxy ,PreparedStatementPool,com alibaba druid pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,1,17,1,7,0,2,0.08,4,26,0,,,LOG isDebugEnabled  ,,isDebugEnabled getConnectionProxy getId getId getConnectionProxy getId getId ,LOG stmtProxy getConnectionProxy stmtProxy stmtProxy getConnectionProxy stmtProxy ,String PreparedStatementProxy ,message stmtProxy ,PreparedStatementPool,com alibaba druid pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,4,19,0,Exception,,,,,,,,PreparedStatementPool,com alibaba druid pool,error
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,1,0,0,0.02,7,56,1,,,nameList    null || nameList isEmpty  ,,isEmpty ,nameList ,,,DataSourceCreator,com alibaba druid pool ha,error
+LoopCheck,ForBlock,warn,0,0,0,0,0,0,0,8,0,5,10,5,0.05,7,51,1,,nameList,,,getProperty getProperty getProperty create put ,properties properties properties  map ,String String String DruidDataSource String ,url username password dataSource n ,DataSourceCreator,com alibaba druid pool ha,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,1,0,0,19,2,8,12,6,0.11,7,55,1,,,,Map String  DataSource ,isEmpty error getProperty getProperty getProperty info create put ,nameList LOG properties properties properties LOG  map ,Map<String DataSource> String String String DruidDataSource String ,map url username password dataSource n ,DataSourceCreator,com alibaba druid pool ha,info
+Exception,CatchBlock,warn,0,0,0,1,0,0,0,8,1,2,3,0,0.05,7,55,1,FileNotFoundException,,,,warn getResourceAsStream ,LOG DataSourceCreatorclass ,,,DataSourceCreator,com alibaba druid pool ha,debug
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,56,1,Exception,,,,,,,,DataSourceCreator,com alibaba druid pool ha,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,11,2,3,4,0,0.06,7,54,1,,,,,debug warn getResourceAsStream ,LOG LOG DataSourceCreatorclass ,,,DataSourceCreator,com alibaba druid pool ha,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,18,1,3,3,0,0.11,7,56,1,,,is    null,,error close load ,LOG is properties ,,,DataSourceCreator,com alibaba druid pool ha,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,7,55,1,Exception,,,,,,,,DataSourceCreator,com alibaba druid pool ha,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,1,0,0,0.01,1,51,1,,,dataSourceMap    null || dataSourceMap isEmpty  ,,isEmpty ,dataSourceMap ,,,HighAvailableDataSource,com alibaba druid pool ha,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,1,80,1,,,dataSource    null,,,,,,HighAvailableDataSource,com alibaba druid pool ha,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,10,0,5,1,1,0.11,2,78,1,,,selector    null    selector getBlacklist      null     selector getBlacklist   isEmpty  ,,getBlacklist getBlacklist isEmpty tryOneDataSource getBlacklist ,selector selector getBlacklist  selector ,DataSource ,dataSource ,RandomDataSourceRecoverThread,com alibaba druid pool ha selector,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,7,0,2,1,0,0.08,2,61,1,Exception,,,,getMessage discardConnection ,e dataSource ,,,RandomDataSourceRecoverThread,com alibaba druid pool ha selector,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,14,1,8,5,0,0.16,2,86,1,,,,,getName getMessage warn discardConnection close getConnection validateConnection removeBlacklist ,dataSource e LOG dataSource JdbcUtils dataSource dataSource selector ,,,RandomDataSourceRecoverThread,com alibaba druid pool ha selector,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,4,0,0,0,0,0,0,,, highAvailableDataSource isTestOnBorrow       highAvailableDataSource isTestOnReturn  ,,isTestOnBorrow isTestOnReturn start start ,highAvailableDataSource highAvailableDataSource Thread Thread ,,,RandomDataSourceSelector,com alibaba druid pool ha selector,info
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,4,0,4,2,0,0.03,2,109,1,,,e getValue      blacklistThreshold,,getValue getKey get addBlacklist ,e e dataSourceMap selector ,,,RandomDataSourceValidateThread,com alibaba druid pool ha selector,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,2,1,0,0.04,2,61,1,SQLException,,,,getProperty getMessage ,info e ,,,RandomDataSourceValidateThread,com alibaba druid pool ha selector,warn
+Exception,TryBlock,warn,0,0,0,1,0,0,0,11,1,6,6,0,0.08,2,99,1,,,,,getProperty getMessage warn close connect validateConnection ,info e LOG JdbcUtils driver dataSource ,,,RandomDataSourceValidateThread,com alibaba druid pool ha selector,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,,,,MySqlValidConnectionChecker,com alibaba druid pool vendor,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,NumberFormatException,,,,,,,,OracleExceptionSorter,com alibaba druid pool vendor,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,XAException,,,,,,,,DruidXADataSource,com alibaba druid pool xa,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,31,2,Exception,,,,,,,,JtdsXAResource,com alibaba druid pool xa,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,38,2,Exception,,,,,,,,JtdsXAResource,com alibaba druid pool xa,error
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,1,1,0,0.02,1,49,2,Exception,,,,getLog ,LogFactory ,,,DruidDriver,com alibaba druid proxy,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,1,1,0,0.02,1,36,2,Throwable,,,,getLog ,LogFactory ,,,DruidDriver,com alibaba druid proxy,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,28,2,ClassCastException,,,,,,,,SQLUtils,com alibaba druid sql,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.00,1,48,2,ParserException,,,,,,,,SQLUtils,com alibaba druid sql,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,,,entries size     5,,size ,entries ,,,SQLSelectListCache,com alibaba druid sql parser,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,table    null,,,,,,SchemaRepository,com alibaba druid sql repository,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,JMException,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,JMException,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,8,40,1,Throwable,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.01,8,40,1,Throwable,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.01,8,34,2,,,objectName    null,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,Throwable,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,40,1,Throwable,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,Exception,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,8,41,1,Exception,,,,,,,,DruidDataSourceStatManager,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,39,2,JMException,,,,,,,,DruidStatService,com alibaba druid stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,37,2,JMException,,,,,,,,DruidStatService,com alibaba druid stat,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,NumberFormatException,,,,,,,,JdbcDataSourceStat,com alibaba druid stat,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,2,0,0.01,1,43,2,,,LOG isErrorEnabled  ,,error ,LOG ,,,AbstractWebStatImpl,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0,,,LOG isErrorEnabled  ,,isErrorEnabled ,LOG ,,,AbstractWebStatImpl,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.01,1,17,2,Exception,,,,getInitParameter , ,String ,msg ,ResourceServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.01,1,17,2,Exception,,,,getInitParameter , ,String ,msg ,ResourceServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,1,1,0.02,5,33,2,Exception,,,,getInitParameter , ,String ,msg ,StatViewServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,28,2,IOException,,,,,,,,StatViewServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,0,0,1,0.02,5,33,2,Exception,,,,,,String ,msg ,StatViewServlet,com alibaba druid support http,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,29,2,Exception,,,,getMessage returnJSONResult ,e DruidStatService ,,,StatViewServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,28,2,IOException,,,,getMessage returnJSONResult ,e DruidStatService ,,,StatViewServlet,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,5,0,2,2,0,0.03,5,29,2,Exception,,,,getMessage returnJSONResult ,e DruidStatService ,,,StatViewServlet,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,89,1,,, false  equals param ,,equals ,false ,,,WebStatFilter,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,5,0,1,1,0,0.01,2,91,1,,, false  equals param ,,equals ,false ,,,WebStatFilter,com alibaba druid support http,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,87,1,NumberFormatException,,,,,,,,WebStatFilter,com alibaba druid support http,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,35,1,,,fullCount    0,,,,,,WebAppStat,com alibaba druid support http stat,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,43,1,,,fullCount    0,,,,,,WebAppStat,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,37,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,35,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,5,36,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,5,38,2,Exception,,,,,,,,WebAppStatUtils,com alibaba druid support http stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,29,2,Throwable,,,,,,,,IbatisUtils,com alibaba druid support ibatis,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,2,34,2,Exception,,,,,,,,IbatisUtils,com alibaba druid support ibatis,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,2,35,2,Exception,,,,,,,,IbatisUtils,com alibaba druid support ibatis,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,4,0,0,0,0,0,Throwable,,,,createProxy ,super ,,,SpringIbatisBeanNameAutoProxyCreator,com alibaba druid support ibatis,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,4,0,0,0,0,0,Throwable,,,,createProxy ,super ,,,SpringIbatisBeanTypeAutoProxyCreator,com alibaba druid support ibatis,error
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,67,1,27,31,4,0.35,3,28,1,,,url    null,,getTime setAutoscrolls createTitledBorder setBorder setLayout getWidth getHeight setBounds add createTitledBorder setBorder add add getHeight getWidth setBounds getWidth getHeight setBounds getHeight getWidth setBounds addComponentListener debug getData parseData tableDataProcess ,Date scrollPane BorderFactory scrollPane    scrollPane this BorderFactory copyrightPanel copyrightPanel this   copyrightPanel   scrollPane   copyrightPanel this LOG TableDataProcessor TableDataProcessor  ,boolean long JLabel ArrayList<LinkedHashMap<String Object>> ,needRefresh timeNow authorInfo data ,DruidPanel,com alibaba druid support jconsole,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,8,0,3,4,1,0.04,3,24,1,,,needRefresh,,getData parseData tableDataProcess ,TableDataProcessor TableDataProcessor  ,ArrayList<LinkedHashMap<String Object>> ,data ,DruidPanel,com alibaba druid support jconsole,debug
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.02,3,21,1,,,conn    null,,,,,,DruidPanel,com alibaba druid support jconsole,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.02,3,29,1,Exception,,,,,,,,DruidPanel,com alibaba druid support jconsole,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,21,1,Exception,,,,,,,,DruidSqlDetailFrame,com alibaba druid support jconsole,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,40,0,29,23,14,0.10,1,22,2,,,data    null,,get remove remove size size size size next getKey getValue get equals get equals get equals get equals put put put put hasNext entrySet iterator add add add add ,data contentEle contentEle PARESETITLELIST LASTSLOWTITLELIST LASTERRORTITLELIST OTHERERRORTITLELIST it entry entry PARESETITLELIST key LASTSLOWTITLELIST key LASTERRORTITLELIST key OTHERERRORTITLELIST key otherDataEle errDataEle slowDataEle parseDataEle it contentEle entrySet parseData lastSlowData lastErrorData otherData ,LinkedHashMap<String Object> int int int int LinkedHashMap<String Object> LinkedHashMap<String Object> LinkedHashMap<String Object> LinkedHashMap<String Object> Entry<String Object> String Object int Iterator<Entry<String Object>> ,contentEle parseLen slowLen errLen otherLen parseDataEle slowDataEle errDataEle otherDataEle entry key value i it ,DruidSqlDetailFrame,com alibaba druid support jconsole,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,1,23,1,,,LOG isDebugEnabled  ,,toString debug ,o LOG ,,,TableDataProcessor,com alibaba druid support jconsole util,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,20,0,,,LOG isDebugEnabled  ,,isDebugEnabled ,LOG ,,,TableDataProcessor,com alibaba druid support jconsole util,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,3,0,0,0,0,0.02,10,15,1,,,,boolean,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1,,,,boolean,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,15,0,,,,void,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1,,,,boolean,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,15,1,,,,boolean,,,,,JakartaCommonsLoggingImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,4,0,0,0,0,0.03,4,62,2,,,,void,,,,,Jdk14LoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,62,2,,,,void,,,,,Jdk14LoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,80,3,,,,boolean,,,,,Jdk14LoggingImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,4,63,2,,,,void,,,,,Jdk14LoggingImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,4,79,3,,,,boolean,,,,,Jdk14LoggingImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1,,,,boolean,,,,,Log4j2Impl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,0,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1,,,,boolean,,,,,Log4j2Impl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,9,15,1,,,,void,,,,,Log4j2Impl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,9,14,1,,,,boolean,,,,,Log4j2Impl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4,,,,boolean,,,,,SLF4JImpl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,1,20,0,,,,boolean,,,,,Log4jImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4,,,,boolean,,,,,SLF4JImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,debug
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4,,,,boolean,,,,,SLF4JImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.03,10,55,4,,,,boolean,,,,,SLF4JImpl,com alibaba druid support logging,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,5,0,0,0,0,0.04,10,50,3,,,,void,,,,,SLF4JImpl,com alibaba druid support logging,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,Exception,,,,,,,,MonitorClient,com alibaba druid support monitor,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,1,32,2,Exception,,,,,,,,MonitorClient,com alibaba druid support monitor,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,33,2,Exception,,,,,,,,MonitorDaoJdbcImpl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,4,34,2,ParseException,,,,,,,,MonitorDaoJdbcImpl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,SQLException,,,,,,,,MonitorDaoJdbcImpl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,32,2,SQLException,,,,,,,,MonitorDaoJdbcImpl,com alibaba druid support monitor dao,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.00,4,34,2,SQLException,,,,,,,,MonitorDaoJdbcImpl,com alibaba druid support monitor dao,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,SQLException,,,,,,,,DruidDataSourceConverter,com alibaba druid support simplejndi,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Exception,,,,,,,,DruidStatInterceptor,com alibaba druid support spring stat,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,2,35,2,Exception,,,,,,,,SpringStatUtils,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,2,35,2,Exception,,,,,,,,SpringStatUtils,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.04,2,43,2,Exception,,,,,,,,SpringStatUtils,com alibaba druid support spring stat,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,36,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,35,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,info
+Exception,CatchBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.02,11,34,2,Exception,,,,,,,,DruidDataSourceUtils,com alibaba druid util,trace
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,27,1,IOException,,,,,,,,HttpClientUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,25,1,IOException,,,,,,,,HttpClientUtils,com alibaba druid util,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.03,4,25,1,IOException,,,,,,,,HttpClientUtils,com alibaba druid util,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,6,3,1,0.10,4,26,1,,,LOG isDebugEnabled  ,,getInputStream append append readLine toString debug ,conn responseBuilder append reader responseBuilder LOG ,String ,line ,HttpClientUtils,com alibaba druid util,debug
+LogicBranch,IfBlock,error,0,0,0,1,0,0,1,9,1,5,2,1,0.10,4,22,1,,,LOG isDebugEnabled  ,,isDebugEnabled getInputStream append append readLine ,LOG conn responseBuilder append reader ,String ,line ,HttpClientUtils,com alibaba druid util,debug
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,Exception,,,,,,,,JdbcSqlStatUtils,com alibaba druid util,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,32,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,34,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.00,6,36,2,Exception,,,,,,,,JdbcUtils,com alibaba druid util,debug
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,unwrapped    null,,,,,,OracleUtils,com alibaba druid util,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,NumberFormatException,,,,,,,,StringUtils,com alibaba druid util,warn
+LogicBranch,IfBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.00,2,69,1,,,null    dataSource,,,,,,WallFilter,com alibaba druid wall,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,49,1,,,isLogViolation  ,,isLogViolation , ,,,WallFilter,com alibaba druid wall,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,0,0,0.00,2,62,1,,,isLogViolation  ,,isLogViolation , ,,,WallFilter,com alibaba druid wall,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,1,0,0,3,0,0,0,0,0.04,1,18,1,,,,boolean,,,,,WallProviderStatLoggerImpl,com alibaba druid wall,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,22,0,,,,void,,,,,WallProviderStatLoggerImpl,com alibaba druid wall,info
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,IOException,,,,,,,,WallVisitorUtils,com alibaba druid wall spi,error
+CriticalMethodCheck,MethodBlock, ,1,0,0,0,0,0,0,5,0,1,2,1,0,0,0,0,,,,void,get ,session ,Sample ,sample ,HibernateCRUDTest,com alibaba druid bvt hibernate,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2,,,,void,getDeclaredField setAccessible get resetStat getConnection close getErrorCount assertEquals ,DruidDataSourceclass field field LOG dataSource conn LOG Assert ,Field Log Connection ,field LOG conn ,ConfigErrorTest,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2,,,,void,getDeclaredField setAccessible get resetStat getErrorCount assertEquals getConnection close ,DruidDataSourceclass field field LOG LOG Assert dataSource conn ,Field Log Connection ,field LOG conn ,ConfigErrorTest,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2,,,,void,getDeclaredField setAccessible get resetStat getConnection close getErrorCount assertEquals ,DruidDataSourceclass field field LOG dataSource conn LOG Assert ,Field Log Connection ,field LOG conn ,ConfigErrorTest2,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,14,2,8,5,3,0.23,1,43,2,,,,void,getDeclaredField setAccessible get resetStat getErrorCount assertEquals getConnection close ,DruidDataSourceclass field field LOG LOG Assert dataSource conn ,Field Log Connection ,field LOG conn ,ConfigErrorTest2,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,11,2,7,5,2,0.18,1,43,2,,,,void,getDeclaredField setAccessible get resetStat init getErrorCount assertEquals ,DruidDataSourceclass field field LOG dataSource LOG Assert ,Field Log ,field LOG ,ConfigErrorTest3,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,1,11,2,7,5,2,0.18,1,43,2,,,,void,getDeclaredField setAccessible get resetStat getErrorCount assertEquals init ,DruidDataSourceclass field field LOG LOG Assert dataSource ,Field Log ,field LOG ,ConfigErrorTest3,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,14,2,9,7,2,0.19,3,42,2,,,,void,setTestWhileIdle getDeclaredField setValidationQuery setAccessible get resetStat init getWarnCount assertEquals ,dataSource DruidDataSourceclass dataSource field field LOG dataSource LOG Assert ,Field Log ,field LOG ,ConfigErrorTestMysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,14,2,9,7,2,0.19,3,42,2,,,,void,setTestWhileIdle getDeclaredField setValidationQuery setAccessible get resetStat getWarnCount assertEquals init ,dataSource DruidDataSourceclass dataSource field field LOG LOG Assert dataSource ,Field Log ,field LOG ,ConfigErrorTestMysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,13,2,8,6,2,0.18,3,42,2,,,,void,setTestWhileIdle getDeclaredField setAccessible get resetStat init getWarnCount assertEquals ,dataSource DruidDataSourceclass field field LOG dataSource LOG Assert ,Field Log ,field LOG ,ConfigErrorTestMysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock,warn,0,0,0,1,0,0,1,13,2,8,6,2,0.18,3,42,2,,,,void,setTestWhileIdle getDeclaredField setAccessible get resetStat getWarnCount assertEquals init ,dataSource DruidDataSourceclass field field LOG LOG Assert dataSource ,Field Log ,field LOG ,ConfigErrorTestMysql,com alibaba druid bvt pool,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,1,13,0,6,3,3,0,0,0,0,,,,void,getDeclaredField setAccessible get resetStat getConnection close ,DruidDataSourceclass field field log dataSource conn ,Field Log Connection ,field log conn ,ValidationQueryLogDB2Test,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,1,12,0,6,3,3,0,0,0,0,,,,void,getDeclaredField setAccessible get resetStat getConnection close ,DruidDataSourceclass field field log dataSource conn ,Field Log Connection ,field log conn ,ValidationQueryLogTest,com alibaba druid bvt pool,error
+CriticalMethodCheck,MethodBlock,info,0,0,0,0,0,0,0,18,0,10,7,1,0.17,2,52,2,,,,void,setUp getDeclaredField setAccessible get resetStat setUrl setTestOnBorrow setConnectionProperties setFilters init ,super DruidDataSourceclass logField logField dataSourceLog dataSource dataSource dataSource dataSource dataSource ,Field ,logField ,ConnectPropertiesChangeTest,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,42,2,55,47,2,0.41,2,52,2,,,,void,getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnection close setConnectionProperties setConnectionProperties getInfoCount assertEquals getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals unwrap assertNotNull isMergeSql assertFalse setConnectionProperties isMergeSql assertTrue getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals setConnectionProperties isMergeSql assertFalse getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals ,dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource conn dataSource dataSource dataSourceLog Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource Assert filter Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert ,Connection StatFilter ,conn filter ,ConnectPropertiesChangeTest,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock,info,0,0,0,1,0,0,0,42,2,55,47,2,0.41,2,52,2,,,,void,getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnection close setConnectionProperties getInfoCount assertEquals setConnectionProperties getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals unwrap assertNotNull isMergeSql assertFalse setConnectionProperties isMergeSql assertTrue getConnectProperties size assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals setConnectionProperties isMergeSql assertFalse getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals getConnectProperties getProperty assertEquals ,dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource conn dataSource dataSourceLog Assert dataSource dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource Assert filter Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource filter Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert dataSource getConnectProperties Assert ,Connection StatFilter ,conn filter ,ConnectPropertiesChangeTest,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,17,0,9,6,1,0,0,0,0,,,,void,setUp getDeclaredField setAccessible get resetStat setUrl setTestOnBorrow setConnectionProperties init ,super DruidDataSourceclass logField logField dataSourceLog dataSource dataSource dataSource dataSource ,Field ,logField ,ConnectPropertiesChangeTest1,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,16,0,8,5,1,0,0,0,0,,,,void,setUp getDeclaredField setAccessible get resetStat setUrl setTestOnBorrow init ,super DruidDataSourceclass logField logField dataSourceLog dataSource dataSource dataSource ,Field ,logField ,PoolPreparedStatementsChangeTest,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,17,0,9,6,1,0,0,0,0,,,,void,setUp getDeclaredField setAccessible get resetStat setUrl setTestOnBorrow setFilters init ,super DruidDataSourceclass logField logField dataSourceLog dataSource dataSource dataSource dataSource ,Field ,logField ,SqlSkipCountTest,com alibaba druid bvt pool dynamic,info
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,CommonsLogFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,CommonsLogFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,29,2,23,23,0,0.10,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,CommonsLogFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4j2FilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4j2FilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.02,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4j2FilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4jFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4jFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.11,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,Log4jFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,,,void,setDataSourceLogEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,LogFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetLogErrorEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,LogFilterTest,com alibaba druid bvt proxy,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,28,2,22,22,0,0.08,2,45,1,,,,void,setDataSourceLogEnabled setConnectionLogErrorEnabled setConnectionRollbackAfterLogEnabled setConnectionConnectBeforeLogEnabled setConnectionConnectAfterLogEnabled setConnectionCommitAfterLogEnabled setConnectionCloseAfterLogEnabled setStatementLogEnabled setStatementLogErrorEnabled setStatementCreateAfterLogEnabled setStatementExecuteAfterLogEnabled setStatementExecuteBatchAfterLogEnabled setStatementExecuteQueryAfterLogEnabled setStatementExecuteUpdateAfterLogEnabled setStatementPrepareCallAfterLogEnabled setStatementPrepareAfterLogEnabled setStatementCloseAfterLogEnabled setStatementParameterSetLogEnabled setResultSetLogEnabled setResultSetOpenAfterLogEnabled setResultSetNextAfterLogEnabled setResultSetCloseAfterLogEnabled ,logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter logFilter ,,,LogFilterTest,com alibaba druid bvt proxy,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,4,0,1,0,0,0.02,2,37,2,Exception,,,,printStackTrace ,ex ,,,ParseUtil,com alibaba druid bvt sql mysql param,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,38,1,Exception,,,,,,,,ParseUtil,com alibaba druid bvt sql mysql param,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.01,2,40,1,Exception,,,,,,,,ParseUtil,com alibaba druid bvt sql mysql param,error
+LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,5,6,0.30,1,46,3,,sqls,,,parseStatement accept getParameters toString info size assertTrue ,parser parseStatement visitor out LOG plist Assert ,StringBuilder ExportParameterVisitor SQLStatementParser SQLStatement List<Object> String ,out visitor parser parseStatement plist sql ,ExportParameterDotNumberTest,com alibaba druid bvt sql oracle visitor,info
+LoopCheck,ForBlock,info,0,0,0,1,0,0,0,14,1,7,4,6,0.30,1,28,2,,sqls,,,parseStatement accept getParameters info toString size assertTrue ,parser parseStatement visitor LOG out plist Assert ,StringBuilder ExportParameterVisitor SQLStatementParser SQLStatement List<Object> String ,out visitor parser parseStatement plist sql ,ExportParameterDotNumberTest,com alibaba druid bvt sql oracle visitor,info
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.03,1,35,1,,,dataSourceLog instanceof NoLoggingImpl,,,,,,AsyncCloseTest1,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1,,,noLoggingImpl    null,,,,,,AsyncCloseTest1,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,1,35,1,,,dataSourceLog instanceof NoLoggingImpl,,,,,,AsyncCloseTest2,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1,,,noLoggingImpl    null,,,,,,AsyncCloseTest2,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,1,35,1,,,dataSourceLog instanceof NoLoggingImpl,,,,,,AsyncCloseTest3,com alibaba druid pvt pool,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,0,0,0,0.02,1,36,1,,,noLoggingImpl    null,,,,,,AsyncCloseTest3,com alibaba druid pvt pool,error

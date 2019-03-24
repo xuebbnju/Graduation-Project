@@ -15,43 +15,39 @@ import scala.io.Source
 
 object FileParser {
   private val regex = "^[\\^\\w]+\\s*(.*)\\s*\\((.*)\\s+\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} .\\d{4}\\s+(\\d+)\\) (.*)$".r
-  private val nameMap: mutable.HashMap[Int, String] = mutable.HashMap()
-  private var fileAuthorSet = mutable.Set[String]()
-  private var fileInfoMap = mutable.LinkedHashMap[String, mutable.HashMap[String, String]]()
+
   def parseFile(file: File,fileInfo: mutable.LinkedHashMap[String, mutable.HashMap[String, String]]): mutable.LinkedHashMap[String, mutable.HashMap[String, String]] = {
 //   println("............fileStart.......")
 
 
 
     //println(file.getAbsolutePath)
-    val parentPath = file.getParent
-    val len = file.getName.size
-    val blamePath = parentPath + "\\" + file.getName.substring(0,len-5) + ".blame"
-    //println(blamePath)
-    val sourceBlame = Source.fromFile(new File(blamePath))
-    sourceBlame.getLines.foreach(f => regex.findAllIn(f).matchData.foreach(p => {
-      nameMap += (p.group(3).toInt -> p.group(2).trim)// order and author
+    val nameMap: mutable.HashMap[Int, String] = mutable.HashMap()
+    var fileAuthorSet = mutable.Set[String]()
+    var fileInfoMap = mutable.LinkedHashMap[String, mutable.HashMap[String, String]]()
+//    val parentPath = file.getParent
+//    val len = file.getName.size
+//    val blamePath = parentPath + "\\" + file.getName.substring(0,len-5) + ".blame"
+//    //println(blamePath)
+//    val sourceBlame = Source.fromFile(new File(blamePath))
 
-//      if(p.group(4) == "package ${package};"){
-//         code +=   "\n"
-//      }else{
-//        code += p.group(4) + "\n"//code contnent
-//      }
-//      fileLines = fileLines+1
-    }))
-    sourceBlame.close()
+//    sourceBlame.close()
     val source = Source.fromFile(file)
     var code: String = ""
     var fileLines = 0
-    source.getLines.foreach(f => {
-      if(f == "package ${package};"){
+    source.getLines.foreach(f => regex.findAllIn(f).matchData.foreach(p => {
+      nameMap += (p.group(3).toInt -> p.group(2).trim)// order and author
+      if(p.group(4) == "package ${package};"){
         code +=   "\n"
       }else{
-        code += f + "\n"
+        code += p.group(4) + "\n"//code contnent
       }
 
       fileLines = fileLines+1
-    })
+    }))
+//    source.getLines.foreach(f => {
+
+//    })
     source.close()
 //    val infoMap = mutable.LinkedHashMap[String, mutable.HashMap[String, String]]()
 
@@ -59,13 +55,14 @@ object FileParser {
 
 
     if (infoMap.size != 0) {
-      addFilesMetrics(infoMap, fileLines, file.getName)
+      addFilesMetrics(infoMap, fileLines, file.getAbsolutePath,nameMap,fileAuthorSet,fileInfoMap)
       val fileMap: mutable.HashMap[String, String] = mutable.HashMap()
       val logdensity = ((infoMap.size.toDouble) / fileLines.toDouble).formatted("%.3f")
       fileMap += ("Logdensity" -> logdensity)
       fileMap += ("SLOC" -> fileLines.toString)
       fileMap += ("Authors" -> fileAuthorSet.mkString(";"))
-      fileInfo += (file.getName -> fileMap)
+      //println(fileMap("Authors"))
+      fileInfo += (file.getAbsolutePath -> fileMap)
     }
 //    }else{
 //      println(fileInfoMap)
@@ -78,7 +75,7 @@ object FileParser {
       return  fileInfoMap
 
   }
-  def addFilesMetrics (infoMap: mutable.LinkedHashMap[Int, mutable.HashMap[String, String]], fileLines: Int, fileName: String): Unit = {
+  def addFilesMetrics (infoMap: mutable.LinkedHashMap[Int, mutable.HashMap[String, String]], fileLines: Int, fileName: String,nameMap: mutable.HashMap[Int, String],fileAuthorSet: mutable.Set[String],fileInfoMap:mutable.LinkedHashMap[String, mutable.HashMap[String, String]]): Unit = {
     val logNumber = infoMap.size-1
     val logLengthSum = getSum(infoMap,"LogLength")
     val logParameterSum = getSum(infoMap,"LogParameterCount")

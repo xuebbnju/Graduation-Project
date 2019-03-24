@@ -1,49 +1,73 @@
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,0,0,0,0.02,3,55,2,Throwable,,,,,info
-Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,112,2,Throwable,,,,,error
-Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,84,3,SecurityException,,,,,info
-Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,88,2,Exception,,,,,warn
-CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,warn
-Exception,CatchBlock,info,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,103,2,Throwable,,,,,info
-Exception,CatchBlock,info,0,0,0,0,0,0,0,6,0,0,0,0,0.03,3,99,2,Throwable,,,,,info
-Exception,CatchBlock,info,0,0,0,0,1,0,0,7,0,0,0,0,0.03,3,87,3,Throwable,,,,,info
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,63,3,Throwable,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,1,1,0,0.00,1,68,3,Throwable,setException ,loadingValueReference ,,,warn
-Exception,CatchBlock,error,0,0,0,0,0,0,0,7,0,1,4,0,0.03,1,53,3,Throwable,format ,String ,,,error
-LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.01,1,115,3,,isLoggable ,logger ,,,error
-LogicBranch,IfBlock, ,0,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,,,,,,warn
-CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,0,0,1,0,5,0,0,0,0,0.07,1,71,3,,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,76,3,IOException,,,,,error
-Exception,CatchBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.01,3,54,1,SecurityException,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.01,3,54,1,MalformedURLException,,,,,warn
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,51,1,MalformedURLException,,,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.01,3,54,1,,,,,,warn
-Exception,CatchBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Exception,,,,,warn
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,5,1,1,3,0,0.00,2,103,3,,log ,log ,,,error
-LogicBranch,IfBlock,error,0,0,0,1,0,0,0,5,1,1,3,0,0.00,2,93,3,,log ,log ,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,RuntimeException,,,,,error
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,,,,String ,message ,error
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,error
-CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,,,,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,RuntimeException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,1,0,12,0,0,0,0,0.05,1,96,3,RuntimeException,,,,,error
-Exception,CatchBlock,error,0,0,0,0,0,0,0,7,0,0,0,0,0.03,1,100,3,RuntimeException,,,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,RuntimeException,,,,,error
-LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,9,0,2,1,0,0.01,5,80,3,,isEmpty of ,copy ImmutableList ,,,warn
-Exception,CatchBlock,debug,0,0,0,0,0,0,0,7,0,0,0,0,0.01,5,97,3,IllegalStateException,,,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,5,93,3,,,,,,debug
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,5,100,3,,,,,,debug
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,88,3,,,,,,debug
-LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,90,3,,,,,,error
-Exception,TryBlock, ,0,0,0,0,0,0,0,12,0,6,6,0,0,0,0,0,,getMessage println getMessage println exit format ,e Systemerr errorInLogging Systemerr runtime String ,,,error
-Exception,CatchBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,NoClassDefFoundError,,,,,error
-Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0,InvocationTargetException,arbitraryConstantInstanceOrNull , ,,,warn
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Throwable,,,,,info
-LogicBranch,IfBlock, ,0,0,0,0,0,0,0,5,0,1,1,0,0,0,0,0,,add ,exceptions ,,,info
-CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,,,info
-LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,,delete ,file ,,,warn
-LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,2,0,0,0.00,1,79,3,,get delete ,fileThreadLocal get ,,,warn
-Exception,CatchBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,RuntimeException,,,,,error
-Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,65,1,IOException,,,,,warn
-Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,IOException,,,,,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,7,0,0,0,0,0.02,3,55,2,Throwable,,,,,,,,FinalizableReferenceQueue,com google common base,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,81,2,Throwable,,,,,,,,FinalizableReferenceQueue,com google common base,error
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,84,3,SecurityException,,,,,,,,FinalizableReferenceQueue,com google common base,info
+Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,88,2,Exception,,,,,,,,FinalizableReferenceQueue,com google common base,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,void,,,,,Platform,com google common base,warn
+Exception,CatchBlock,info,0,0,0,0,0,0,0,4,0,0,0,0,0.02,3,103,2,Throwable,,,,,,,,Finalizer,com google common base internal,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,6,0,0,0,0,0.03,3,99,2,Throwable,,,,,,,,Finalizer,com google common base internal,info
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,112,2,Throwable,,,,,,,,Finalizer,com google common base internal,error
+Exception,CatchBlock,info,0,0,0,0,1,0,0,7,0,0,0,0,0.03,3,87,3,Throwable,,,,,,,,Finalizer,com google common base internal,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,maximumWeight    UNSET INT,,,,,,CacheBuilder,com google common cache,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,63,3,Throwable,,,,,,,,LocalCache,com google common cache,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,1,1,0,0.00,1,68,3,Throwable,,,,setException ,loadingValueReference ,,,LocalCache,com google common cache,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,7,0,1,4,0,0.03,1,53,3,Throwable,,,,format ,String ,,,EventBus,com google common eventbus,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,3,0,1,1,0,0.01,1,115,3,,,logger isLoggable Level SEVERE ,,isLoggable ,logger ,,,EventBus,com google common eventbus,error
+LogicBranch,IfBlock, ,0,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,,,swallowIOException,,,,,,Closeables,com google common io,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,,,,void,,,,,Closer,com google common io,warn
+LogicBranch,IfBlock,error,0,0,0,0,0,1,0,5,0,0,0,0,0.07,1,71,3,,,swallowIOException,,,,,,Flushables,com google common io,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.04,1,76,3,IOException,,,,,,,,Flushables,com google common io,error
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.01,3,54,1,SecurityException,,,,,,,,ClassPath,com google common reflect,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.01,3,54,1,MalformedURLException,,,,,,,,ClassPath,com google common reflect,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,51,1,MalformedURLException,,,,,,,,ClassPath,com google common reflect,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.01,3,54,1,,,files    null,,,,,,ClassPath,com google common reflect,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,Exception,,,,,,,,AbstractExecutionThreadService,com google common util concurrent,warn
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,5,1,1,3,0,0.00,2,103,3,,,thrownAtomicReferenceFieldUpdaterFailure    null,,log ,log ,,,AbstractFuture,com google common util concurrent,error
+LogicBranch,IfBlock,error,0,0,0,1,0,0,0,5,1,1,3,0,0.00,2,93,3,,,thrownAtomicReferenceFieldUpdaterFailure    null,,log ,log ,,,AbstractFuture,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,0,0,0,0.01,2,84,3,RuntimeException,,,,,,,,AbstractFuture,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Exception,,,,,,,,AbstractScheduledService,com google common util concurrent,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,,,throwable instanceof Error |  allMustSucceed    completedWithFailure   firstTimeSeeingThisException ,,,,String ,message ,AggregateFuture,com google common util concurrent,error
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,thrownReflectionFailure    null,,,,,,AggregateFutureState,com google common util concurrent,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,,,,void,,,,,CycleDetectingLockFactory,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,RuntimeException,,,,,,,,ExecutionList,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,RuntimeException,,,,,,,,ImmediateFuture,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,1,0,12,0,0,0,0,0.05,1,96,3,RuntimeException,,,,,,,,ListenerCallQueue,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,7,0,0,0,0,0.03,1,100,3,RuntimeException,,,,,,,,ListenerCallQueue,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,RuntimeException,,,,,,,,SequentialExecutor,com google common util concurrent,error
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,9,0,2,1,0,0.01,5,80,3,,,copy isEmpty  ,,isEmpty of ,copy ImmutableList ,,,ServiceManager,com google common util concurrent,warn
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,7,0,0,0,0,0.01,5,97,3,IllegalStateException,,,,,,,,ServiceManager,com google common util concurrent,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,5,93,3,,,  service instanceof NoOpService ,,,,,,ServiceManager,com google common util concurrent,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,5,100,3,,,  service instanceof NoOpService ,,,,,,ServiceManager,com google common util concurrent,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,88,3,,,  service instanceof NoOpService ,,,,,,ServiceManager,com google common util concurrent,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,90,3,,,log,,,,,,ServiceManager,com google common util concurrent,error
+Exception,TryBlock, ,0,0,0,0,0,0,0,12,0,6,6,0,0,0,0,0,,,,,getMessage println getMessage println exit format ,e Systemerr errorInLogging Systemerr runtime String ,,,UncaughtExceptionHandlers,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,NoClassDefFoundError,,,,,,,,AbstractPackageSanityTests,com google common testing,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0,InvocationTargetException,,,,arbitraryConstantInstanceOrNull , ,,,ArbitraryInstances,com google common testing,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Throwable,,,,,,,,SloppyTearDown,com google common testing,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,5,0,1,1,0,0,0,0,0,,,suppressThrows,,add ,exceptions ,,,TearDownStack,com google common testing,info
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,void,,,,,TestLogHandlerTest,com google common testing,info
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,0,0,0,0.01,3,112,3,RuntimeException,,,,,,,,ExecutionListBenchmark,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,0,0,0,0.01,3,112,3,RuntimeException,,,,,,,,ExecutionListBenchmark,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,6,0,0,0,0,0.01,3,112,3,RuntimeException,,,,,,,,ExecutionListBenchmark,com google common util concurrent,error
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,0,0,0,0.01,3,112,3,RuntimeException,,,,,,,,ExecutionListBenchmark,com google common util concurrent,error
+LogicBranch,IfBlock, ,0,0,0,0,1,0,0,4,0,1,0,0,0,0,0,0,,, file delete  ,,delete ,file ,,,IoTestCase,com google common io,warn
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,2,0,0,0,0,0,0,,, fileThreadLocal get   delete  ,,get delete ,fileThreadLocal get ,,,SourceSinkFactories,com google common io,warn
+Exception,CatchBlock,warn,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,84,3,SecurityException,,,,,,,,FinalizableReferenceQueue,com google common base,info
+Exception,CatchBlock,info,0,0,0,0,1,0,0,4,0,0,0,0,0.01,3,88,2,Exception,,,,,,,,FinalizableReferenceQueue,com google common base,warn
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,,void,,,,,Platform,com google common base,warn
+Exception,CatchBlock,info,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,112,2,Throwable,,,,,,,,Finalizer,com google common base internal,error
+Exception,CatchBlock,info,0,0,0,0,1,0,0,7,0,0,0,0,0.03,3,87,3,Throwable,,,,,,,,Finalizer,com google common base internal,info
+LogicBranch,IfBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,,,maximumWeight    UNSET INT,,,,,,CacheBuilder,com google common cache,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,63,3,Throwable,,,,,,,,LocalCache,com google common cache,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,4,0,1,1,0,0.00,1,68,3,Throwable,,,,setException ,loadingValueReference ,,,LocalCache,com google common cache,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,5,0,0,0,0,0.01,3,54,1,MalformedURLException,,,,,,,,ClassPath,com google common reflect,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,51,1,MalformedURLException,,,,,,,,ClassPath,com google common reflect,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,0,0,0,0.01,3,54,1,,,files    null,,,,,,ClassPath,com google common reflect,warn
+Exception,CatchBlock,error,0,0,0,0,0,0,0,9,0,0,0,0,0.01,2,84,3,RuntimeException,,,,,,,,AbstractFuture,com google common util concurrent,error
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,5,100,3,,,  service instanceof NoOpService ,,,,,,ServiceManager,com google common util concurrent,debug
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,88,3,,,  service instanceof NoOpService ,,,,,,ServiceManager,com google common util concurrent,debug
+LogicBranch,IfBlock,debug,0,0,0,0,0,0,0,6,0,0,0,0,0.01,5,90,3,,,log,,,,,,ServiceManager,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,RuntimeException,,,,,,,,AbstractFuture,com google common util concurrent,error
+Exception,CatchBlock, ,0,0,0,0,1,0,0,4,0,1,1,0,0,0,0,0,InvocationTargetException,,,,arbitraryConstantInstanceOrNull , ,,,ArbitraryInstances,com google common testing,warn
+LogicBranch,IfBlock,warn,0,0,0,0,0,0,0,3,0,2,0,0,0.00,1,79,3,,, fileThreadLocal get   delete  ,,get delete ,fileThreadLocal get ,,,SourceSinkFactories,com google common io,warn
+Exception,CatchBlock,warn,0,0,0,0,0,0,0,3,0,0,0,0,0.00,1,65,1,IOException,,,,,,,,SourceSinkFactories,com google common io,warn
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,IOException,,,,,,,,ClassPathTest,com google common reflect,warn

@@ -3,10 +3,10 @@ import com.github.javaparser.ast.CompilationUnit
 import com.github.javaparser.ast.stmt._
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter
 import com.github.javaparser.ast.PackageDeclaration
-import com.github.javaparser.ast.body.ClassOrInterfaceDeclaration
+import com.github.javaparser.ast.body.{ClassOrInterfaceDeclaration,MethodDeclaration}
 import com.github.javaparser.ast.Node
-import com.github.javaparser.ast.expr.{MethodCallExpr, NameExpr}
-import com.github.javaparser.ast.stmt.{ForeachStmt,ForStmt,WhileStmt}
+import com.github.javaparser.ast.expr.{MethodCallExpr, NameExpr,ObjectCreationExpr}
+import com.github.javaparser.ast.stmt.{ForeachStmt,ForStmt,WhileStmt,DoStmt,SwitchEntryStmt,IfStmt}
 import scala.collection.mutable
 
 /**
@@ -108,52 +108,92 @@ object ASTParser {
       textualMap += ("VariableDeclarationType" -> "")
       textualMap += ("VariableDeclarationName" -> "")
       textualMap += ("LoopCondition" -> "")
+      textualMap += ("LogicBranchCondition" -> "")
+      textualMap += ("MthodBlockType" -> "")
+      textualMap += ("ExceptionType" -> "")
       textualMap += ("logLine" -> exp.getBegin.get.line.toString)
     }
     def getBlockType (exp: com.github.javaparser.ast.Node,textualMap: mutable.HashMap[String, String],numericalMap: mutable.HashMap[String, Int],booleanMap:mutable.HashMap[String, Boolean]):  String = {
-      val parentNode = exp.getParentNode.get
+      val parentNode = exp.getParentNode.get.removeComment()
       val typeName = parentNode.getMetaModel.getTypeName.toLowerCase
       val classReg = "class|field|constructor|initializer|compilationunit".r
       var blockName = ""
-      val  deleReg = "\\>|\\<|\\.|\\=|\\&&|\\(|\\)|!|\\|"
+      //println(typeName)
       typeName match {
         case typeName if(typeName.contains("for")) => {
           blockName ="ForBlock"
-          //println(typeName)
+//          println(typeName)
+//          println(parentNode)
           var loopCondition = ""
           if(typeName == "foreachstmt"){
-            loopCondition = parentNode.asInstanceOf[ForeachStmt].getIterable().toString
+            loopCondition = parentNode.asInstanceOf[ForeachStmt].getIterable().removeComment().toString
           }else if(typeName == "forstmt"){
-            loopCondition = parentNode.asInstanceOf[ForStmt].	getCompare().get().toString
+            if(parentNode.asInstanceOf[ForStmt].getCompare.isPresent){
+              loopCondition = parentNode.asInstanceOf[ForStmt].getCompare.toString
+            }
           }
           //println(loopCondition)
-          loopCondition = loopCondition.replaceAll(deleReg, ";").replaceAll(";", " ")
-          //(loopCondition)
-          textualMap.update("LoopCondition",loopCondition)
+          addCondition(loopCondition,textualMap,"LoopCondition")
+
         }
         case typeName if(typeName.contains("switch")) => {
           blockName ="SwitchBlock"
+          //println(typeName)
+          //println(parentNode)
+          var loopCondition = parentNode.asInstanceOf[SwitchEntryStmt].getLabel.toString
+          //println(loopCondition)
+          addCondition(loopCondition,textualMap,"LogicBranchCondition")
         }
-        case typeName if(typeName.contains("catch")) => blockName ="CatchBlock"
-        case typeName if(typeName.contains("try")) => blockName ="TryBlock"
+        case typeName if(typeName.contains("catch")) => {
+          blockName ="CatchBlock"
+          var exceptiontype =  parentNode.asInstanceOf[CatchClause].getParameter.getChildNodes.get(0).toString()
+          addCondition(exceptiontype,textualMap,"ExceptionType")
+        }
+        case typeName if(typeName.contains("try")) => {
+          blockName ="TryBlock"
+//          var exceptiontype =  parentNode.asInstanceOf[TryStmt].getCatchClauses.asInstanceOf[CatchClause].getParameter.getChildNodes.get(0).toString()
+//          addCondition(exceptiontype,textualMap,"ExceptionType")
+        }
         case typeName if(typeName.contains("do")) => {
           blockName ="DoBlock"
+          //println(typeName)
+          var loopCondition = parentNode.asInstanceOf[DoStmt].getCondition.toString
+          //println(loopCondition)
+          addCondition(loopCondition,textualMap,"LoopCondition")
         }
         case typeName if(typeName.contains("method")||typeName.contains("objectcreation")) => {
           blockName ="MethodBlock"
+          //println(typeName)
+          //println(parentNode)
+          var loopCondition = ""
+          if(typeName == "methoddeclaration"){
+            loopCondition = parentNode.asInstanceOf[MethodDeclaration].getType().removeComment().toString
+          }else if(typeName == "objectcreation"){
+            loopCondition = parentNode.asInstanceOf[ObjectCreationExpr].getType().removeComment().toString
+          }
+          //println(loopCondition)
+          addCondition(loopCondition,textualMap,"MthodBlockType")
         }
         case typeName if(typeName.contains("if")) => {
           blockName ="IfBlock"
+         // println(typeName)
+          //println(parentNode)
+
+//          val str:  mutable.HashMap[String, String] = new mutable.HashMap[String, String]()
+//          str += ("Content" -> "")
+//          parentNode.asInstanceOf[IfStmt].getCondition.removeComment().accept(new ExpressPart,str)
+//          println(str)
+          var loopCondition = parentNode.asInstanceOf[IfStmt].getCondition.removeComment().removeComment().toString
+          //println(loopCondition)
+          addCondition(loopCondition,textualMap,"LogicBranchCondition")
+          //println(textualMap("LogicBranchCondition"))
         }
         case typeName if(typeName.contains("while")) => {
           blockName ="WhileBlock"
-          println(typeName)
-          var loopCondition = ""
-          loopCondition = parentNode.asInstanceOf[WhileStmt].getCondition.toString
-          println(loopCondition)
-          loopCondition = loopCondition.replaceAll(deleReg, ";").replaceAll(";", " ")
-          println(loopCondition)
-          textualMap.update("LoopCondition",loopCondition)
+          //println(typeName)
+          var loopCondition = parentNode.asInstanceOf[WhileStmt].getCondition.toString
+          //println(loopCondition)
+          addCondition(loopCondition,textualMap,"LoopCondition")
 
         }
         case typeName if(typeName.contains("synchronized")) => blockName ="SynchronizedBlock"
@@ -166,13 +206,7 @@ object ASTParser {
         parentNode.accept(new BooleanCollector,booleanMap)
         parentNode.accept(new NumericalCollector,numericalMap)
         parentNode.accept(new TextualCollector,textualMap)
-        var exceptiontype= ""
         textualMap += ("BlockType" -> blockName)
-        if(typeName.equals("catchclause")){
-          val n = parentNode.asInstanceOf[CatchClause]
-          exceptiontype = n.getParameter.getChildNodes.get(0).toString()
-        }
-        textualMap += ("ExceptionType" -> exceptiontype)
         val checkType = getCheckType(blockName, numericalMap)
         textualMap += ("CheckType" -> checkType)
         numericalMap += ("BlockSLOC" -> (parentNode.getEnd.get.line - parentNode.getBegin.get.line + 1))
@@ -180,8 +214,14 @@ object ASTParser {
 
       return blockName
     }
-    def getBlockCondition(exp: com.github.javaparser.ast.Node,typeN:String,caseN:Int): String = {
-
+    def addCondition(inputS:String,textualMap: mutable.HashMap[String, String],keyName:String): Unit = {
+      var loopCondition = ""
+      val  deleReg = "\\p{P}|\\r|\\n|\\>|\\<|\\.|\\=|\\&|\\(|\\)|!|\\|\\//"
+      loopCondition = inputS.replaceAll(deleReg, ";").replaceAll(";", " ")
+//      if(keyName =="LogicBranchCondition" || keyName =="MthodBlockType"){
+//
+//      }
+      textualMap.update(keyName,loopCondition)
     }
     def canUpdate(newLine: Int, oldLine: Int, logLine:Int): Boolean = {
       var res = false
@@ -228,10 +268,11 @@ object ASTParser {
       arg += ("PackageName" -> n.getNameAsString().replaceAll("\\."," "))
     }
   }
-  class NamePart extends VoidVisitorAdapter[mutable.HashMap[String, String]]{
-    override def visit(n: NameExpr ,arg: mutable.HashMap[String, String]): Unit = {
+  class ExpressPart extends VoidVisitorAdapter[mutable.HashMap[String, String]]{
+    override def visit(n: ExpressionStmt ,arg: mutable.HashMap[String, String]): Unit = {
       super.visit(n,arg)
       println(n)
+      arg.update("Content", arg("Content")+" "+n.toString())
     }
   }
 }

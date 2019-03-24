@@ -1,0 +1,183 @@
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.03,1,64,1, , ,log debug enabl, ,id hit ratio debug,log, , ,log cach,org apach ibati cach decor,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,20,0, , ,log debug enabl, ,debug enabl,log, , ,log cach,org apach ibati cach decor,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,except, , , , , , , ,transact cach,org apach ibati cach decor,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,31,52,0, , ,log debug enabl, ,debug,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,49,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,51,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,31,52,0, , ,log debug enabl, ,debug,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,11,0,0,0,0,0.02,31,51,0,except, , , , , , , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,51,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,49,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,31,52,0, , ,log debug enabl, ,debug,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,31,52,0, , ,log debug enabl, ,debug,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code messag debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+Exception,CatchBlock,debug,0,0,0,1,0,0,0,12,2,6,1,0,0.02,31,50,0,except, , , ,real connect close debug enabl real hash code messag debug,conn real connect log conn log, , ,pool data sourc,org apach ibati datasourc pool,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code messag debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,50,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,51,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,31,52,0, , ,log debug enabl, ,real hash code debug,conn log, , ,pool data sourc,org apach ibati datasourc pool,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,31,51,0, , ,log debug enabl, ,debug enabl,log, , ,pool data sourc,org apach ibati datasourc pool,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.01,1,29,0,except, , , , , , , ,base executor,org apach ibati executor,warn
+LogicBranch,IfBlock,warn,0,0,0,0,1,0,0,5,0,1,3,0,0.01,1,69,1, , ,statement log debug enabl, ,instanc,connect logger, , ,base executor,org apach ibati executor,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,6,1,3,1,0,0.02,1,215,1, , ,log debug enabl, ,origin object class debug,meta result object origin object log, , ,result loader map,org apach ibati executor loader,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,6,1,3,0,0,0.02,1,20,0, , ,log debug enabl, ,debug enabl origin object class,log meta result object origin object, , ,result loader map,org apach ibati executor loader,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,1,111,1, , ,log holder log debug enabl, ,debug,log holderlog, , ,javassist proxi factori,org apach ibati executor loader javassist,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,1,30,0, , ,log holder log debug enabl, ,debug enabl,log holderlog, , ,javassist proxi factori,org apach ibati executor loader javassist,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,32,28,0, , ,log debug enabl, ,absolut path debug,file log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,28,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,28,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,28,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,32,28,0, , ,log debug enabl, ,name debug,entri log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,28,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,32,27,0,malform except, , , , , , , ,default,org apach ibati io,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,1,0,0.01,32,28,0, , ,log debug enabl, ,absolut path debug,file log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,32,28,0, , ,log debug enabl, ,debug,log, , ,default,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,32,27,0, , ,log debug enabl, ,debug enabl,log, , ,default,org apach ibati io,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,extern resourc,org apach ibati io,error
+Exception,CatchBlock,error,0,0,0,0,1,0,0,5,0,0,0,0,0.03,2,126,1,except, , , , , , , ,boss6,org apach ibati io,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,6,0,6,1,0,0.03,2,81,1, , ,method null expect assign method return type, ,return type assign name return type name set invalid,method expect expect method return type, , ,boss6,org apach ibati io,error
+LogicBranch,IfBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.02,2,141,1, , ,boss6 valid boolean, , , , , ,boss6,org apach ibati io,debug
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,3,0,0,0,0,0.01,3,78,0,except, , , , , , , ,resolv util,org apach ibati io,error
+Exception,CatchBlock,debug,0,0,0,0,0,0,0,4,0,3,0,0,0.01,3,55,1,throwabl, , , ,class name messag,class, , ,resolv util,org apach ibati io,warn
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,3,1,1,1,0,0.01,3,90,1, , ,log debug enabl, ,debug,log, , ,resolv util,org apach ibati io,debug
+LogicBranch,IfBlock,warn,0,0,0,1,0,0,0,3,1,1,0,0,0.01,3,67,1, , ,log debug enabl, ,debug enabl,log, , ,resolv util,org apach ibati io,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,9,56,0,instanti except, , , , , , , ,,org apach ibati io,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,9,56,0,illeg access except, , , , , , , ,,org apach ibati io,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,4,1,2,1,0,0.02,9,58,1, , ,log debug enabl, ,name debug,impl log, , ,,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,4,1,1,0,0,0.02,9,51,0, , ,log debug enabl, ,debug enabl,log, , ,,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,3,1,0,0.01,9,58,1, , ,log debug enabl, ,class name debug,vf class log, , ,,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,9,54,0, , ,log debug enabl, ,debug enabl,log, , ,,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.01,9,58,1, , ,log debug enabl, ,debug,log, , ,,org apach ibati io,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.01,9,56,0, , ,log debug enabl, ,debug enabl,log, , ,,org apach ibati io,debug
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,9,49,0,secur except, , , , , , , ,,org apach ibati io,error
+Exception,CatchBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.02,9,49,0,method except, , , , , , , ,,org apach ibati io,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.03,1,67,1, , ,log debug enabl, ,debug,log, , ,log factori,org apach ibati log,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,1,20,0, , ,log debug enabl, ,debug enabl,log, , ,log factori,org apach ibati log,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.06,6,13,1, , , ,boolean, , , , ,slf4j logger impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.06,6,13,1, , , ,boolean, , , , ,slf4j logger impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,14,0, , , ,void, , , , ,slf4j logger impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0, , , ,void, , , , ,slf4j logger impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0, , , ,void, , , , ,slf4j logger impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0, , , ,void, , , , ,slf4j logger impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,15,0, , , ,void, , , , ,slf4j logger impl,org apach ibati log slf4j,warn
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,1,0,0,3,0,0,0,0,0.02,5,33,0, , , ,boolean, , , , ,base jdbc logger,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,3,0,0,0,0,0.02,5,33,0, , , ,boolean, , , , ,base jdbc logger,org apach ibati log jdbc,trace
+LogicBranch,IfBlock,trace,0,0,0,1,0,0,0,3,1,2,2,0,0.02,5,33,0, , ,statement log debug enabl, ,prefix debug,statement log, , ,base jdbc logger,org apach ibati log jdbc,debug
+LogicBranch,IfBlock,trace,0,0,0,1,0,0,0,3,1,1,0,0,0.02,5,31,0, , ,statement log debug enabl, ,debug enabl,statement log, , ,base jdbc logger,org apach ibati log jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,2,2,0,0.02,5,33,0, , ,statement log trace enabl, ,prefix trace,statement log, , ,base jdbc logger,org apach ibati log jdbc,trace
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,5,31,0, , ,statement log trace enabl, ,trace enabl,statement log, , ,base jdbc logger,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,23,2, , , ,void, , , , ,jdk14 log impl,org apach ibati log jdk14,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2, , , ,void, , , , ,jdk14 log impl,org apach ibati log jdk14,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2, , , ,void, , , , ,jdk14 log impl,org apach ibati log jdk14,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2, , , ,void, , , , ,jdk14 log impl,org apach ibati log jdk14,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,4,24,2, , , ,void, , , , ,jdk14 log impl,org apach ibati log jdk14,warn
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,1,0,0,4,0,0,0,0,0.06,1,20,0, , , ,boolean, , , , ,log4j impl,org apach ibati log log4j,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.06,1,20,0, , , ,boolean, , , , ,log4j impl,org apach ibati log log4j,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,20,0, , , ,boolean, , , , ,log4j2 abstract logger impl,org apach ibati log log4j2,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,1,0,0,4,0,0,0,0,0.05,1,20,0, , , ,boolean, , , , ,log4j2 abstract logger impl,org apach ibati log log4j2,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,13,1, , , ,boolean, , , , ,log4j2 impl,org apach ibati log log4j2,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,13,1, , , ,boolean, , , , ,log4j2 impl,org apach ibati log log4j2,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,14,0, , , ,void, , , , ,log4j2 impl,org apach ibati log log4j2,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,log4j2 impl,org apach ibati log log4j2,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,log4j2 impl,org apach ibati log log4j2,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,log4j2 impl,org apach ibati log log4j2,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,log4j2 impl,org apach ibati log log4j2,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.06,6,20,1, , , ,boolean, , , , ,log4j2 logger impl,org apach ibati log log4j2,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.06,6,20,1, , , ,boolean, , , , ,log4j2 logger impl,org apach ibati log log4j2,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,19,1, , , ,void, , , , ,log4j2 logger impl,org apach ibati log log4j2,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1, , , ,void, , , , ,log4j2 logger impl,org apach ibati log log4j2,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1, , , ,void, , , , ,log4j2 logger impl,org apach ibati log log4j2,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1, , , ,void, , , , ,log4j2 logger impl,org apach ibati log log4j2,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.06,6,20,1, , , ,void, , , , ,log4j2 logger impl,org apach ibati log log4j2,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,13,1, , , ,boolean, , , , ,slf4j impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,13,1, , , ,boolean, , , , ,slf4j impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,14,0, , , ,void, , , , ,slf4j impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,slf4j impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,slf4j impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,slf4j impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,15,0, , , ,void, , , , ,slf4j impl,org apach ibati log slf4j,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,61,5, , , ,boolean, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,1,0,0,4,0,0,0,0,0.05,6,61,5, , , ,boolean, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,54,4, , , ,void, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4, , , ,void, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,error
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4, , , ,void, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4, , , ,void, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,trace
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,4,0,0,0,0,0.05,6,53,4, , , ,void, , , , ,slf4j locat awar logger impl,org apach ibati log slf4j,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,4,2,0,0.03,1,280,1, , ,log debug enabl, ,name name debug,constructor arg name specifi type actual type log, , ,result map,org apach ibati map,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,7,1,4,1,0,0.03,1,20,0, , ,log debug enabl, ,debug enabl name name,log constructor arg name specifi type actual type, , ,result map,org apach ibati map,debug
+Exception,CatchBlock, ,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,except, , , , , , , ,vendor databas id provid,org apach ibati map,error
+CriticalMethodCheck,MethodBlock, ,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0, , , ,void, , , , ,log holder,org apach ibati session,warn
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.02,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,44,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.03,3,39,0, , ,log debug enabl, ,debug,log, , ,manag transact,org apach ibati transact manag,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,43,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.02,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,44,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.02,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,40,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,4,1,1,1,0,0.03,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,4,1,1,0,0,0.03,13,41,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,error
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.02,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,42,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.02,13,47,0, , ,log debug enabl, ,debug,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.02,13,45,0, , ,log debug enabl, ,debug enabl,log, , ,jdbc transact,org apach ibati transact jdbc,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,3,25,0, , ,log debug enabl, ,debug enabl,log, , ,manag transact,org apach ibati transact manag,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,1,0,0.03,3,39,0, , ,log debug enabl, ,debug,log, , ,manag transact,org apach ibati transact manag,debug
+LogicBranch,IfBlock,debug,0,0,0,1,0,0,0,3,1,1,0,0,0.03,3,34,0, , ,log debug enabl, ,debug enabl,log, , ,manag transact,org apach ibati transact manag,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,0,0,0,0,10,0,7,5,2,0.09,4,37,1, , , ,void,resourc reader build log class name name assert equal,resourc sql session factori builder log factori log class log implclass,reader log,reader log,log factori test,org apach ibati log,debug
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,3,3,4,0,0.06,4,37,1, , , ,void,debug error error,log log log, , ,log factori test,org apach ibati log,warn
+CriticalMethodCheck,MethodBlock,error,0,0,0,1,0,0,0,6,3,3,4,0,0.06,4,37,1, , , ,void,warn error error,log log log, , ,log factori test,org apach ibati log,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,6,3,3,4,0,0.06,4,37,1, , , ,void,warn debug error,log log log, , ,log factori test,org apach ibati log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,1,0,0,0,6,3,3,3,0,0.06,4,27,1, , , ,void,warn debug error,log log log, , ,log factori test,org apach ibati log,error
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,6,0,5,6,0,0.08,2,41,1, , , ,void,string execut return instanc,statement statement logger, , ,statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,1,0,0.07,2,50,1, , , ,void,prepar statement,conn, , ,connect logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,5,0,1,1,0,0.07,2,46,1, , , ,void,prepar call,conn, , ,connect logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,8,0,9,9,0,0.09,3,47,1, , , ,void,string execut queri return string execut return instanc,prepar statement prepar statement prepar statement logger, , ,prepar statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,9,0,4,6,1,0.10,3,43,1, , , ,void,set int execut queri assert null assert,ps ps assert assert,result set,rs,prepar statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,8,0,3,4,1,0.09,3,46,1, , , ,void,set null execut assert true,ps ps assert,boolean,result,prepar statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,7,0,4,2,0,0.08,3,48,1, , , ,void,updat count return updat count,prepar statement ps, , ,prepar statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,trace,0,0,0,0,0,0,0,11,0,20,18,1,0.15,4,45,1, , , ,void,return meta data return column count return column type return column label return string return instanc,rs rs meta data meta data meta data rs result set logger result set,result set,result set,result set logger test,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,4,44,1, , , ,void,setup verifi trace,verifi, , ,result set logger test,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,4,44,1, , , ,void,setup verifi trace,verifi, , ,result set logger test,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,4,44,1, , , ,void,setup verifi trace,verifi, , ,result set logger test,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,trace,0,0,0,1,0,0,0,6,1,3,3,0,0.08,4,45,1, , , ,void,setup verifi trace,verifi, , ,result set logger test,org apach ibati log jdbc,trace
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,6,0,1,1,0,0.08,2,37,1, , , ,void,execut queri,st, , ,statement logger test,org apach ibati log jdbc,debug
+CriticalMethodCheck,MethodBlock,debug,0,0,0,0,0,0,0,8,0,2,2,2,0.11,2,46,1, , , ,void,execut assert true,st assert,string boolean,sql execut,statement logger test,org apach ibati log jdbc,debug

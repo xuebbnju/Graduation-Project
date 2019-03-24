@@ -49,12 +49,12 @@ def fileProcess(loadpath):
     count_vec = CountVectorizer()
     transformer = TfidfVectorizer()
     data = pd.read_csv(loadpath)
-    textF = ["ExceptionType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName"]
+    textF = ["ExceptionType","LoopCondition","LogicBranchCondition","MthodBlockType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName"]
     levelArr = ['info', 'error', 'trace', 'debug', 'warn', 'fatal']
-    data.columns = ["CheckType","BlockType","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount","ExceptionType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName","LogLevel"]
+    data.columns = ["CheckType","BlockType","MaxLogLevel","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount","ExceptionType","LoopCondition","LogicBranchCondition","MthodBlockType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName","LogLevel"]
     data = data.sample(frac=1)
     data = data.fillna(" ")
-    otherData = data.drop(["ExceptionType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName", "LogLevel"],
+    otherData = data.drop(["ExceptionType","LoopCondition","LogicBranchCondition","MthodBlockType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName", "LogLevel"],
                           axis=1).values
     tageData = data["LogLevel"].values
     for f in textF:
@@ -116,7 +116,7 @@ def checkResult(result,tage,levelArr):
 if __name__ == '__main__':
     loadpath = "E:\\graduate-design\\gittest\\bazel.csv"
     path = "E:\graduate-design\git-testdata"
-    outpath = 'resultData.csv'
+    outpath = 'resultDataTest1.csv'
     list_name = []
     resultData = []
     flag = 1

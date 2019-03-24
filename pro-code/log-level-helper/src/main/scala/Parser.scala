@@ -15,13 +15,13 @@ object Parser {
   val root = "E:\\graduate-design\\"
  val name = "git-project" //"git-project\storm\storm-core\src\jvm"
   val featureArr = Array("CheckType","BlockType","MaxLogLevel","AssertInBlock","ThreadInBlock","JDBCInBlock","LogInBlock","ReturnInBlock","ThrowInBlock","SettingFlag","BlockSLOC","LogInBlockCount","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber","AverageLogLength" ,"AverageeLogParameterCount")
-  val namet = "git-project\\hadoop"
+  val namet = "git-project\\elasticsearch"
   var logInfo: Vector[String] = Vector()
  //val featureArr = Array("CheckType","BlockType","ExceptionRatio","ReturnInBlock","ThrowInBlock","SettingFlag","MethodCallCount","MethodParameterCount","VariableDeclarationCount","Logdensity","LogNumber")
   def main(args: Array[String]): Unit = {
-    val flag = 0
-    val outFile = root+"git-out"
-    val outputPath = root + "gitout"
+    val flag = 1
+    val outFile = root+"git-outshao"
+    val outputPath = root + "git-outshao"
     if(flag == 0){
       val projectPath = root + namet
       val source = new File(projectPath)
@@ -40,7 +40,7 @@ object Parser {
         }
 
       })
-      generate(logInfo,root+"git\\summary.txt")
+      generate(logInfo,root+"git\\summaryshan.txt")
     }
 
 
@@ -49,19 +49,15 @@ object Parser {
 
   def getJavaFiles(file: File): Array[File] = {
     val files = file.listFiles
-    files.filter(_.isFile).filter(_.toString.endsWith(".java")) ++ files.filter(_.isDirectory).flatMap(getJavaFiles)
+    files.filter(_.isFile).filter(_.toString.endsWith(".blame")) ++ files.filter(_.isDirectory).flatMap(getJavaFiles)
   }
 
   def parseProject(files: Vector[File],proName: String): Vector[String] = {
-    val textList = Array("ExceptionType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName")
+    val textList = Array("ExceptionType","LoopCondition","LogicBranchCondition","MthodBlockType","MethodCallName","MethodCallerName","VariableDeclarationType","VariableDeclarationName","ClassName","PackageName")
     val fileInfo:mutable.LinkedHashMap[String, mutable.HashMap[String, String]] = mutable.LinkedHashMap()
     //val finalInfo:mutable.LinkedHashMap[String, mutable.HashMap[String, String]] = mutable.LinkedHashMap()
       var infoMap = files.map(file =>FileParser.parseFile(file,fileInfo)).reduce(_++_)
       // Use and close file
-    println("infoMap:")
-    println(infoMap)
-
-
     //val featureInfo: mutable.LinkedHashMap[String, mutable.LinkedHashMap[String, String]] = mutable.LinkedHashMap()
     var result: Vector[String] = Vector()
     var textResult: Vector[String] = Vector()
@@ -74,14 +70,14 @@ object Parser {
     val mediaSloc = SLOCInfo("MediaSloc")
     val sumSLOC = SLOCInfo("SumSloc")
     val headAuthor = getHeadAuthors(proName)
-    val fileNumThreshold = fileInfo.size * 0.1
+    val fileNumThreshold = fileInfo.size * 0.01
     val logDensityThreshold = 0.01
-    val largeFileThreshold = mediaSloc * 3
+    val largeFileThreshold = mediaSloc * 4
     println("fileInfo:")
     println(fileInfo)
-    println("headAuthor:"+headAuthor)
-    println("fileNumThreshold:"+fileNumThreshold)
-    println("largeFileThreshold:"+largeFileThreshold)
+//    println("headAuthor:"+headAuthor)
+//    println("fileNumThreshold:"+fileNumThreshold)
+//    println("largeFileThreshold:"+largeFileThreshold)
 
     fileInfo.foreach{case (index, list) =>{
       val authorArr = list("Authors").split(";")
@@ -132,13 +128,25 @@ object Parser {
             // Use and close file
           } catch {
             case ex: NoSuchElementException => {
+              println(ex)
               println(fileName)
               println(list)
-              println(infoMap)}
+              //println(infoMap)
+              }
           }
           val fileLogDesnity = fileInfo(fileName)("Logdensity").toDouble
           val fileSLOC = fileInfo(fileName)("SLOC").toInt
-
+          try {
+            fileOwnership(author)
+            // Use and close file
+          } catch {
+            case ex: NoSuchElementException => {
+              println(ex)
+              println(author)
+              println(list)
+              //println(infoMap)
+            }
+          }
           if(fileOwnership(author)<fileNumThreshold || (fileSLOC > largeFileThreshold && fileLogDesnity < logDensityThreshold)){
             list += ("Flag"->"false")
             logDele=logDele+1
@@ -179,18 +187,22 @@ object Parser {
           featureStr += list.get(c).get+","
         }
         for(c <- textList){
+          try {
+            featureStr += list.get(c).get.replaceAll("\\r|\\n|\\p{P}|\\n|\\+||\\=|,|\\<|\\>\\|", "")+","
+            // Use and close file
+          } catch {
+            case ex: NoSuchElementException => {
+              println(ex)
+              println(c)
+              println(list)
+              //println(infoMap)
+            }
+          }
 
-          featureStr += list.get(c).get.replaceAll("\\p{P}|\\n|\\+||\\=|,|\\<|\\>\\|", "")+","
         }
         featureStr += list.get("LogLevel").get
         result = result :+ featureStr
       }
-
-
-//      var textListStr = ""
-
-//      textResult = textResult :+ textListStr
-
     }}
     println("总数SLOC数目："+sumSLOC)
     println("删除前日质数目："+infoMap.size)
